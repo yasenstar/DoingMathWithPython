@@ -1,6 +1,6 @@
-# Doing Math with Python (2015)
+# Doing Math with Python
 
-Learning book "Doing Math with Python" by practicing
+Learning book "Doing Math with Python (2015)" by practicing
 
 ![bookstructure](img/DoingMathwithPython.jpg)
 
