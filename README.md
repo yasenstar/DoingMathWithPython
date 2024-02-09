@@ -2,6 +2,12 @@
 
 Learning book "Doing Math with Python (2015)" by practicing
 
+![bookcover](/img/DMwP_cover.png)
+
+---
+
+## Chapter Structure
+
 ![bookstructure](img/DoingMathwithPython.jpg)
 
 ---
