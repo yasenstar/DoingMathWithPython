@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -94,7 +94,7 @@
 <node TEXT="01-04-01 Handling Exceptions and Invalid Input" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761"/>
 <node TEXT="01-04-02 Fractions and Complex Numbers as Input" ID="ID_567272299" CREATED="1707336285911" MODIFIED="1707336296094"/>
 </node>
-<node TEXT="01-05 Writing Programs that Do the Math for you" FOLDED="true" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
+<node TEXT="01-05 Writing Programs that Do the Math for you" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
 <node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463"/>
 <node TEXT="01-05-02 Generating Multiplication Tables" ID="ID_1345673355" CREATED="1707336345644" MODIFIED="1707336354417"/>
 <node TEXT="01-05-03 Converting Units of Measurement" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296"/>
@@ -185,7 +185,7 @@
 <node TEXT="4. Solving Single-Variable Inequalities" ID="ID_134911866" CREATED="1707337504667" MODIFIED="1707337512757"/>
 </node>
 </node>
-<node TEXT="05 Playing with Sets and Probability" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1707337523426">
+<node TEXT="05 Playing with Sets and Probability" FOLDED="true" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1707337523426">
 <node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1707337569245">
 <node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712"/>
 <node TEXT="05-01-02 Subsets, Supersets, and Power Sets" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1707337584917"/>
@@ -205,7 +205,7 @@
 <node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929"/>
 </node>
 </node>
-<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1707342334099">
+<node TEXT="06 Drawing Geometric Shapes and Fractals" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1707342334099">
 <node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943"/>
 <node TEXT="06-01-02 Creating Animated Figures" ID="ID_1913552530" CREATED="1707342357104" MODIFIED="1707342365862"/>
@@ -222,7 +222,7 @@
 <node TEXT="4. Drawing the Mandelbrot Set" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1707342457694"/>
 </node>
 </node>
-<node TEXT="07 Solving Claculus Problems" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1707342490040">
+<node TEXT="07 Solving Claculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1707342490040">
 <node TEXT="07-01 What is a Function?" ID="ID_1649014144" CREATED="1707342490040" MODIFIED="1707342497084">
 <node TEXT="07-01-01 Domain and Range of a Function" ID="ID_806465946" CREATED="1707342497088" MODIFIED="1707342507013"/>
 <node TEXT="07-01-02 An Overview of Common Mathematical Functions" ID="ID_562852895" CREATED="1707342509650" MODIFIED="1707342523479"/>
