@@ -12,4 +12,10 @@ Learning book "[Doing Math with Python (2015)](https://nostarch.com/doingmathwit
 
 ---
 
+## Videos Link
+
+- [YouTube Video List](https://www.youtube.com/playlist?list=PL6DEHvciXKeXor3p_FvkJaxzMDUgG5UJd)
+
+---
+
 Welcome to hear from your comments and suggestions, drop me [mail here](mailto:xiaoqizhao@outlook.com).
