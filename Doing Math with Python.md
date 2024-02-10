@@ -6,13 +6,57 @@
 
 ## 01-01 Basic Mathematical Operations
 
+### addition (+)
+
+### subtraction (-)
+
+### multiplication (*)
+
+### division (/)
+
+#### floor division (//)
+
+#### modulo (%)
+
+### exponential (**)
+
+#### square root: x ** (1/2)
+
+#### cube root: x ** (1/3)
+
+### Python will evaluate the expression following the standard PEMDAS rule for the order of calculations
+
+#### PEMDAS: Parentheses, Exponents, Multiplications, division, addition, subtraction
+
 ## 01-02 Labels: Attaching Names to Numbers
 
 ## 01-03 Different Kinds of Numbers
 
+### Data Type
+
+#### Use type() to check the kind of number (or variable)
+
+#### int(), float(), etc.. used to convert the data type
+
 ### 01-03-01 Working with Fractions
 
+#### from fractions import Fraction
+
+#### <class 'fractions.Fraction'>
+
+#### Fraction(a,b) or Fraction(a/b) ==>
+Fraction(numerator, denominator)
+
 ### 01-03-02 Complex Numbers
+
+#### <class 'complex'>: a+bj
+
+#### .real and .imag: get real and imaginary part separately
+
+#### .conjugate(): same real part but an imaginary part with an equal magnitude and an opposite sign
+
+#### magnitude of a complex number:
+(z.real ** 2 + z.imag ** 2) ** 0.5  <--> abs(z)
 
 ## 01-04 Getting User Input
 

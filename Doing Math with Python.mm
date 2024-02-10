@@ -82,13 +82,50 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="00 Introduction" POSITION="bottom_or_right" ID="ID_905542766" CREATED="1707336182778" MODIFIED="1707336193477"/>
-<node TEXT="01 Working with Numbers" FOLDED="true" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707336199601">
-<node TEXT="01-01 Basic Mathematical Operations" ID="ID_930758566" CREATED="1707336199601" MODIFIED="1707336219258"/>
+<node TEXT="00 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_905542766" CREATED="1707336182778" MODIFIED="1707336193477">
+<node TEXT="Tip: how to clear screen" ID="ID_918470336" CREATED="1707602436728" MODIFIED="1707602667593">
+<node TEXT="Terminal in VS Code" POSITION="bottom_or_right" ID="ID_1708340710" CREATED="1707602650265" MODIFIED="1707602663187">
+<node TEXT="import os&#xa;# Clearing the Screen&#xa;os.system(&apos;cls&apos;)" POSITION="bottom_or_right" ID="ID_1651241604" CREATED="1707602447308" MODIFIED="1707602467858"/>
+</node>
+<node TEXT="Python IDLE (tricky way)" POSITION="bottom_or_right" ID="ID_1315256248" CREATED="1707602890291" MODIFIED="1707602905561">
+<node TEXT="def cls(): print(&quot;\n&quot; * 40)&#xa;cls()" ID="ID_1460553694" CREATED="1707602906526" MODIFIED="1707602923938"/>
+</node>
+</node>
+</node>
+<node TEXT="01 Working with Numbers" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707336199601">
+<node TEXT="01-01 Basic Mathematical Operations" FOLDED="true" ID="ID_930758566" CREATED="1707336199601" MODIFIED="1707336219258">
+<node TEXT="addition (+)" ID="ID_379538316" CREATED="1707596305926" MODIFIED="1707596317110"/>
+<node TEXT="subtraction (-)" ID="ID_498886239" CREATED="1707596317485" MODIFIED="1707596322492"/>
+<node TEXT="multiplication (*)" ID="ID_27765515" CREATED="1707596322822" MODIFIED="1707596328821"/>
+<node TEXT="division (/)" ID="ID_810819201" CREATED="1707596329106" MODIFIED="1707596334207">
+<node TEXT="floor division (//)" POSITION="bottom_or_right" ID="ID_745430257" CREATED="1707596334894" MODIFIED="1707596344024"/>
+<node TEXT="modulo (%)" POSITION="bottom_or_right" ID="ID_1169768515" CREATED="1707596353323" MODIFIED="1707596358596"/>
+</node>
+<node TEXT="exponential (**)" ID="ID_212918791" CREATED="1707596361226" MODIFIED="1707596378619">
+<node TEXT="square root: x ** (1/2)" ID="ID_1975290374" CREATED="1707596378621" MODIFIED="1707596398357"/>
+<node TEXT="cube root: x ** (1/3)" ID="ID_108866145" CREATED="1707596398651" MODIFIED="1707596409741"/>
+</node>
+<node TEXT="Python will evaluate the expression following the standard PEMDAS rule for the order of calculations" ID="ID_432917205" CREATED="1707596415029" MODIFIED="1707596466302">
+<node TEXT="PEMDAS: Parentheses, Exponents, Multiplications, division, addition, subtraction" ID="ID_791532138" CREATED="1707596466305" MODIFIED="1707596501446"/>
+</node>
+</node>
 <node TEXT="01-02 Labels: Attaching Names to Numbers" ID="ID_1335949076" CREATED="1707336219461" MODIFIED="1707336233077"/>
 <node TEXT="01-03 Different Kinds of Numbers" ID="ID_72662976" CREATED="1707336233576" MODIFIED="1707336245721">
-<node TEXT="01-03-01 Working with Fractions" ID="ID_618668977" CREATED="1707336245721" MODIFIED="1707336255694"/>
-<node TEXT="01-03-02 Complex Numbers" ID="ID_937952688" CREATED="1707336255870" MODIFIED="1707336262431"/>
+<node TEXT="Data Type" FOLDED="true" ID="ID_775314086" CREATED="1707602080726" MODIFIED="1707602086390">
+<node TEXT="Use type() to check the kind of number (or variable)" POSITION="bottom_or_right" ID="ID_239472846" CREATED="1707596753053" MODIFIED="1707596771934"/>
+<node TEXT="int(), float(), etc.. used to convert the data type" POSITION="bottom_or_right" ID="ID_1315116643" CREATED="1707602056783" MODIFIED="1707602074712"/>
+</node>
+<node TEXT="01-03-01 Working with Fractions" FOLDED="true" ID="ID_618668977" CREATED="1707336245721" MODIFIED="1707336255694">
+<node TEXT="from fractions import Fraction" ID="ID_1331241877" CREATED="1707602096352" MODIFIED="1707602107720"/>
+<node TEXT="&lt;class &apos;fractions.Fraction&apos;&gt;" ID="ID_610916967" CREATED="1707602342546" MODIFIED="1707602355201"/>
+<node TEXT="Fraction(a,b) or Fraction(a/b) ==&gt;&#xa;Fraction(numerator, denominator)" ID="ID_1476696440" CREATED="1707602109392" MODIFIED="1707602145363"/>
+</node>
+<node TEXT="01-03-02 Complex Numbers" FOLDED="true" ID="ID_937952688" CREATED="1707336255870" MODIFIED="1707336262431">
+<node TEXT="&lt;class &apos;complex&apos;&gt;: a+bj" ID="ID_1382137399" CREATED="1707602155552" MODIFIED="1707602172440"/>
+<node TEXT=".real and .imag: get real and imaginary part separately" ID="ID_44512956" CREATED="1707602187858" MODIFIED="1707602216711"/>
+<node TEXT=".conjugate(): same real part but an imaginary part with an equal magnitude and an opposite sign" ID="ID_793947020" CREATED="1707602217465" MODIFIED="1707602254086"/>
+<node TEXT="magnitude of a complex number:&#xa;(z.real ** 2 + z.imag ** 2) ** 0.5  &lt;--&gt; abs(z)" ID="ID_870476741" CREATED="1707602254978" MODIFIED="1707602301505"/>
+</node>
 </node>
 <node TEXT="01-04 Getting User Input" ID="ID_151003079" CREATED="1707336263271" MODIFIED="1707336269984">
 <node TEXT="01-04-01 Handling Exceptions and Invalid Input" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761"/>
