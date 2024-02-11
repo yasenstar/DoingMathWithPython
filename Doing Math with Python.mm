@@ -138,7 +138,7 @@
 </node>
 </node>
 <node TEXT="01-05 Writing Programs that Do the Math for you" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
-<node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
+<node TEXT="01-05-01 Calculating the Factors of an Integer" FOLDED="true" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
 <node TEXT="01-01_is_factor_checking.py" ID="ID_1872858839" CREATED="1707661957952" MODIFIED="1707662009613">
 <icon BUILTIN="launch"/>
 </node>
