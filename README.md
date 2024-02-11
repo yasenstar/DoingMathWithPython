@@ -10,6 +10,8 @@ Learning book "[Doing Math with Python (2015)](https://nostarch.com/doingmathwit
 
 ![bookstructure](img/DoingMathwithPython.jpg)
 
+Look at Mindmap detail in [Markdown format](/Doing%20Math%20with%20Python.md)
+
 ---
 
 ## Videos Link
