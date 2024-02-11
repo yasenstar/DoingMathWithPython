@@ -138,7 +138,14 @@
 </node>
 </node>
 <node TEXT="01-05 Writing Programs that Do the Math for you" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
-<node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463"/>
+<node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
+<node TEXT="01-01_is_factor_checking.py" ID="ID_1872858839" CREATED="1707661957952" MODIFIED="1707662009613">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="01-02_factors-finder.py" ID="ID_89328825" CREATED="1707662010717" MODIFIED="1707662039643">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="01-05-02 Generating Multiplication Tables" ID="ID_1345673355" CREATED="1707336345644" MODIFIED="1707336354417"/>
 <node TEXT="01-05-03 Converting Units of Measurement" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296"/>
 <node TEXT="01-05-04 Finding the Roots of a Quadratic Equation" ID="ID_820964161" CREATED="1707336368471" MODIFIED="1707336380328"/>
