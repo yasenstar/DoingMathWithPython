@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707336129855">
+<node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707615613877">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
@@ -82,6 +82,7 @@
 </stylenode>
 </map_styles>
 </hook>
+<hook URI="img/DMwP_cover.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="00 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_905542766" CREATED="1707336182778" MODIFIED="1707336193477">
 <node TEXT="Tip: how to clear screen" ID="ID_918470336" CREATED="1707602436728" MODIFIED="1707602667593">
 <node TEXT="Terminal in VS Code" POSITION="bottom_or_right" ID="ID_1708340710" CREATED="1707602650265" MODIFIED="1707602663187">
@@ -127,8 +128,8 @@
 <node TEXT="magnitude of a complex number:&#xa;(z.real ** 2 + z.imag ** 2) ** 0.5  &lt;--&gt; abs(z)" ID="ID_870476741" CREATED="1707602254978" MODIFIED="1707602301505"/>
 </node>
 </node>
-<node TEXT="01-04 Getting User Input" ID="ID_151003079" CREATED="1707336263271" MODIFIED="1707336269984">
-<node TEXT="01-04-01 Handling Exceptions and Invalid Input" FOLDED="true" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761">
+<node TEXT="01-04 Getting User Input" FOLDED="true" ID="ID_151003079" CREATED="1707336263271" MODIFIED="1707336269984">
+<node TEXT="01-04-01 Handling Exceptions and Invalid Input" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761">
 <node TEXT="try:&#xa;    STATEMENT&#xa;except ErrorType:&#xa;    print(&quot;customized error message&quot;)" ID="ID_462103465" CREATED="1707613380897" MODIFIED="1707613442393"/>
 </node>
 <node TEXT="01-04-02 Fractions and Complex Numbers as Input" ID="ID_567272299" CREATED="1707336285911" MODIFIED="1707336296094">
