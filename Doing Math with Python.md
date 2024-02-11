@@ -90,6 +90,10 @@ except ErrorType:
 
 ### 01-05-01 Calculating the Factors of an Integer
 
+#### 01-01_is_factor_checking.py
+
+#### 01-02_factors-finder.py
+
 ### 01-05-02 Generating Multiplication Tables
 
 ### 01-05-03 Converting Units of Measurement
