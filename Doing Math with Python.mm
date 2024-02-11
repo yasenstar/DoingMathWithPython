@@ -110,7 +110,7 @@
 </node>
 </node>
 <node TEXT="01-02 Labels: Attaching Names to Numbers" ID="ID_1335949076" CREATED="1707336219461" MODIFIED="1707336233077"/>
-<node TEXT="01-03 Different Kinds of Numbers" ID="ID_72662976" CREATED="1707336233576" MODIFIED="1707336245721">
+<node TEXT="01-03 Different Kinds of Numbers" FOLDED="true" ID="ID_72662976" CREATED="1707336233576" MODIFIED="1707336245721">
 <node TEXT="Data Type" FOLDED="true" ID="ID_775314086" CREATED="1707602080726" MODIFIED="1707602086390">
 <node TEXT="Use type() to check the kind of number (or variable)" POSITION="bottom_or_right" ID="ID_239472846" CREATED="1707596753053" MODIFIED="1707596771934"/>
 <node TEXT="int(), float(), etc.. used to convert the data type" POSITION="bottom_or_right" ID="ID_1315116643" CREATED="1707602056783" MODIFIED="1707602074712"/>
@@ -128,8 +128,13 @@
 </node>
 </node>
 <node TEXT="01-04 Getting User Input" ID="ID_151003079" CREATED="1707336263271" MODIFIED="1707336269984">
-<node TEXT="01-04-01 Handling Exceptions and Invalid Input" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761"/>
-<node TEXT="01-04-02 Fractions and Complex Numbers as Input" ID="ID_567272299" CREATED="1707336285911" MODIFIED="1707336296094"/>
+<node TEXT="01-04-01 Handling Exceptions and Invalid Input" FOLDED="true" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761">
+<node TEXT="try:&#xa;    STATEMENT&#xa;except ErrorType:&#xa;    print(&quot;customized error message&quot;)" ID="ID_462103465" CREATED="1707613380897" MODIFIED="1707613442393"/>
+</node>
+<node TEXT="01-04-02 Fractions and Complex Numbers as Input" ID="ID_567272299" CREATED="1707336285911" MODIFIED="1707336296094">
+<node TEXT="a = Fraction(input(&apos;Enter a fraction: &apos;))" ID="ID_4658245" CREATED="1707613453709" MODIFIED="1707613471289"/>
+<node TEXT="z = complex(input(&apos;Enter a complex number: &apos;))" ID="ID_20608529" CREATED="1707613472185" MODIFIED="1707613488194"/>
+</node>
 </node>
 <node TEXT="01-05 Writing Programs that Do the Math for you" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
 <node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463"/>
@@ -137,7 +142,7 @@
 <node TEXT="01-05-03 Converting Units of Measurement" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296"/>
 <node TEXT="01-05-04 Finding the Roots of a Quadratic Equation" ID="ID_820964161" CREATED="1707336368471" MODIFIED="1707336380328"/>
 </node>
-<node TEXT="01-06 Programming Challenges" ID="ID_1181182759" CREATED="1707336400736" MODIFIED="1707336409411">
+<node TEXT="01-06 Programming Challenges" FOLDED="true" ID="ID_1181182759" CREATED="1707336400736" MODIFIED="1707336409411">
 <node TEXT="1. Even-Odd Vending Machine" ID="ID_1251139531" CREATED="1707336409411" MODIFIED="1707336421956"/>
 <node TEXT="2. Enhanced Multiplication Table Generator" ID="ID_1968985922" CREATED="1707336422164" MODIFIED="1707336436461"/>
 <node TEXT="3. Enhanced Unit Converter" ID="ID_124503213" CREATED="1707336436603" MODIFIED="1707336444615"/>

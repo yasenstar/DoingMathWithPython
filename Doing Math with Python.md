@@ -2,6 +2,19 @@
 
 # 00 Introduction
 
+## Tip: how to clear screen
+
+### Terminal in VS Code
+
+#### import os
+# Clearing the Screen
+os.system('cls')
+
+### Python IDLE (tricky way)
+
+#### def cls(): print("\n" * 40)
+cls()
+
 # 01 Working with Numbers
 
 ## 01-01 Basic Mathematical Operations
@@ -62,7 +75,16 @@ Fraction(numerator, denominator)
 
 ### 01-04-01 Handling Exceptions and Invalid Input
 
+#### try:
+    STATEMENT
+except ErrorType:
+    print("customized error message")
+
 ### 01-04-02 Fractions and Complex Numbers as Input
+
+#### a = Fraction(input('Enter a fraction: '))
+
+#### z = complex(input('Enter a complex number: '))
 
 ## 01-05 Writing Programs that Do the Math for you
 
