@@ -93,7 +93,26 @@
 </node>
 </node>
 </node>
-<node TEXT="01 Working with Numbers" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707336199601">
+<node TEXT="01 Working with Numbers" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707678638952"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Within this chapter:
+    </p>
+    <ul>
+      <li>
+        you learn to write programs that recognize integers, floating point numbers, fractional numbers (expressed as a fraction or a floating point number), and complex numbers.
+      </li>
+      <li>
+        you write programs that generate multiplication tables, perform unit conversions, and find the roots of a quadratic equation
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 <node TEXT="01-01 Basic Mathematical Operations" FOLDED="true" ID="ID_930758566" CREATED="1707336199601" MODIFIED="1707336219258">
 <node TEXT="addition (+)" ID="ID_379538316" CREATED="1707596305926" MODIFIED="1707596317110"/>
 <node TEXT="subtraction (-)" ID="ID_498886239" CREATED="1707596317485" MODIFIED="1707596322492"/>
@@ -146,7 +165,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="01-05-02 Generating Multiplication Tables" FOLDED="true" ID="ID_1345673355" CREATED="1707336345644" MODIFIED="1707336354417">
+<node TEXT="01-05-02 Generating Multiplication Tables" ID="ID_1345673355" CREATED="1707336345644" MODIFIED="1707336354417">
 <node TEXT="01-03_linear-multiplication-table.py" ID="ID_561268642" CREATED="1707665406647" MODIFIED="1707665426260">
 <icon BUILTIN="launch"/>
 </node>
@@ -157,7 +176,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="01-05-03 Converting Units of Measurement" FOLDED="true" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296">
+<node TEXT="01-05-03 Converting Units of Measurement" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296">
 <node TEXT="01-06_mile-km-converter.py" ID="ID_1063303185" CREATED="1707674510096" MODIFIED="1707674538040">
 <icon BUILTIN="launch"/>
 </node>
@@ -165,9 +184,13 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="01-05-04 Finding the Roots of a Quadratic Equation" ID="ID_820964161" CREATED="1707336368471" MODIFIED="1707336380328"/>
+<node TEXT="01-05-04 Finding the Roots of a Quadratic Equation" ID="ID_820964161" CREATED="1707336368471" MODIFIED="1707336380328">
+<node TEXT="01-08_quadratic-equation-roots-calculator.py" ID="ID_696395785" CREATED="1707679870587" MODIFIED="1707679878555">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="01-06 Programming Challenges" FOLDED="true" ID="ID_1181182759" CREATED="1707336400736" MODIFIED="1707336409411">
+</node>
+</node>
+<node TEXT="01-06 Programming Challenges" ID="ID_1181182759" CREATED="1707336400736" MODIFIED="1707336409411">
 <node TEXT="1. Even-Odd Vending Machine" ID="ID_1251139531" CREATED="1707336409411" MODIFIED="1707336421956"/>
 <node TEXT="2. Enhanced Multiplication Table Generator" ID="ID_1968985922" CREATED="1707336422164" MODIFIED="1707336436461"/>
 <node TEXT="3. Enhanced Unit Converter" ID="ID_124503213" CREATED="1707336436603" MODIFIED="1707336444615"/>
