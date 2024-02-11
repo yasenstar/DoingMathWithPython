@@ -21,6 +21,11 @@ Learning book "[Doing Math with Python (2015)](https://nostarch.com/doingmathwit
 ## Chapters Link
 
 - [01 Workign with Numbers](/ch01/)
-- 
+- [02 Visualizing Data with Graphs](/ch02/)
+- [03 Describing Data with Statistics](/ch03/)
+- [04 Algebra and Symbolic Math with SymPy](/ch04/)
+- [05 Playing with Sets and Probability](/ch05/)
+- [06 Drawing Geometric Shapes and Fractals](/ch06/)
+- [07 Solving Calculus Problems](/ch07/)
 
 Welcome to hear from your comments and suggestions, drop me [mail here](mailto:xiaoqizhao@outlook.com).
