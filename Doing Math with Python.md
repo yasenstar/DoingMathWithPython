@@ -100,6 +100,8 @@ except ErrorType:
 
 #### 01-04_Chinese-multiplication-table.py
 
+#### 01-05_Chinese-multiplication-table-new.py
+
 ### 01-05-03 Converting Units of Measurement
 
 ### 01-05-04 Finding the Roots of a Quadratic Equation

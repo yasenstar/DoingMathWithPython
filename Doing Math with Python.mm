@@ -153,6 +153,9 @@
 <node TEXT="01-04_Chinese-multiplication-table.py" ID="ID_1015663010" CREATED="1707665415876" MODIFIED="1707665426258">
 <icon BUILTIN="launch"/>
 </node>
+<node TEXT="01-05_Chinese-multiplication-table-new.py" ID="ID_563398092" CREATED="1707665625072" MODIFIED="1707665652030" LINK="https://www.runoob.com/python3/python3-99-table.html">
+<icon BUILTIN="launch"/>
+</node>
 </node>
 <node TEXT="01-05-03 Converting Units of Measurement" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296"/>
 <node TEXT="01-05-04 Finding the Roots of a Quadratic Equation" ID="ID_820964161" CREATED="1707336368471" MODIFIED="1707336380328"/>
