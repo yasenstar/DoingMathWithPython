@@ -138,7 +138,7 @@
 </node>
 </node>
 <node TEXT="01-05 Writing Programs that Do the Math for you" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
-<node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
+<node TEXT="01-05-01 Calculating the Factors of an Integer" FOLDED="true" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
 <node TEXT="01-01_is_factor_checking.py" ID="ID_1872858839" CREATED="1707661957952" MODIFIED="1707662009613">
 <icon BUILTIN="launch"/>
 </node>
@@ -146,7 +146,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="01-05-02 Generating Multiplication Tables" ID="ID_1345673355" CREATED="1707336345644" MODIFIED="1707336354417">
+<node TEXT="01-05-02 Generating Multiplication Tables" FOLDED="true" ID="ID_1345673355" CREATED="1707336345644" MODIFIED="1707336354417">
 <node TEXT="01-03_linear-multiplication-table.py" ID="ID_561268642" CREATED="1707665406647" MODIFIED="1707665426260">
 <icon BUILTIN="launch"/>
 </node>
@@ -157,7 +157,14 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="01-05-03 Converting Units of Measurement" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296"/>
+<node TEXT="01-05-03 Converting Units of Measurement" FOLDED="true" ID="ID_1972281571" CREATED="1707336354578" MODIFIED="1707336368296">
+<node TEXT="01-06_mile-km-converter.py" ID="ID_1063303185" CREATED="1707674510096" MODIFIED="1707674538040">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="01-07_temperature-converter.py" ID="ID_1921692616" CREATED="1707674517660" MODIFIED="1707674538040">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="01-05-04 Finding the Roots of a Quadratic Equation" ID="ID_820964161" CREATED="1707336368471" MODIFIED="1707336380328"/>
 </node>
 <node TEXT="01-06 Programming Challenges" FOLDED="true" ID="ID_1181182759" CREATED="1707336400736" MODIFIED="1707336409411">

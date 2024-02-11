@@ -104,6 +104,10 @@ except ErrorType:
 
 ### 01-05-03 Converting Units of Measurement
 
+#### 01-06_mile-km-converter.py
+
+#### 01-07_temperature-converter.py
+
 ### 01-05-04 Finding the Roots of a Quadratic Equation
 
 ## 01-06 Programming Challenges
