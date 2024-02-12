@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707615613877">
+<node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707691642411">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
@@ -83,6 +83,18 @@
 </map_styles>
 </hook>
 <hook URI="img/DMwP_cover.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sample solutions of program challenges: <a>https://nostarch.com/doingmathwithpython</a>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="00 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_905542766" CREATED="1707336182778" MODIFIED="1707336193477">
 <node TEXT="Tip: how to clear screen" ID="ID_918470336" CREATED="1707602436728" MODIFIED="1707602667593">
 <node TEXT="Terminal in VS Code" POSITION="bottom_or_right" ID="ID_1708340710" CREATED="1707602650265" MODIFIED="1707602663187">
