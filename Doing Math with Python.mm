@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Doing Math&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707747224612">
+<node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
@@ -142,7 +142,7 @@
 </node>
 </node>
 <node TEXT="01-02 Labels: Attaching Names to Numbers" ID="ID_1335949076" CREATED="1707336219461" MODIFIED="1707336233077"/>
-<node TEXT="01-03 Different Kinds of Numbers" FOLDED="true" ID="ID_72662976" CREATED="1707336233576" MODIFIED="1707336245721">
+<node TEXT="01-03 Different Kinds of Numbers" ID="ID_72662976" CREATED="1707336233576" MODIFIED="1707336245721">
 <node TEXT="Data Type" FOLDED="true" ID="ID_775314086" CREATED="1707602080726" MODIFIED="1707602086390">
 <node TEXT="Use type() to check the kind of number (or variable)" POSITION="bottom_or_right" ID="ID_239472846" CREATED="1707596753053" MODIFIED="1707596771934"/>
 <node TEXT="int(), float(), etc.. used to convert the data type" POSITION="bottom_or_right" ID="ID_1315116643" CREATED="1707602056783" MODIFIED="1707602074712"/>
@@ -159,7 +159,7 @@
 <node TEXT="magnitude of a complex number:&#xa;(z.real ** 2 + z.imag ** 2) ** 0.5  &lt;--&gt; abs(z)" ID="ID_870476741" CREATED="1707602254978" MODIFIED="1707602301505"/>
 </node>
 </node>
-<node TEXT="01-04 Getting User Input" FOLDED="true" ID="ID_151003079" CREATED="1707336263271" MODIFIED="1707336269984">
+<node TEXT="01-04 Getting User Input" ID="ID_151003079" CREATED="1707336263271" MODIFIED="1707336269984">
 <node TEXT="01-04-01 Handling Exceptions and Invalid Input" ID="ID_1093681160" CREATED="1707336269994" MODIFIED="1707336285761">
 <node TEXT="try:&#xa;    STATEMENT&#xa;except ErrorType:&#xa;    print(&quot;customized error message&quot;)" ID="ID_462103465" CREATED="1707613380897" MODIFIED="1707613442393"/>
 </node>
@@ -169,7 +169,7 @@
 </node>
 </node>
 <node TEXT="01-05 Writing Programs that Do the Math for you" ID="ID_33747130" CREATED="1707336297040" MODIFIED="1707336311644">
-<node TEXT="01-05-01 Calculating the Factors of an Integer" FOLDED="true" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
+<node TEXT="01-05-01 Calculating the Factors of an Integer" ID="ID_1569083901" CREATED="1707336311644" MODIFIED="1707336345463">
 <node TEXT="01-01_is_factor_checking.py" ID="ID_1872858839" CREATED="1707661957952" MODIFIED="1707662009613">
 <icon BUILTIN="launch"/>
 </node>
@@ -209,20 +209,35 @@
 </node>
 </node>
 <node TEXT="2. Enhanced Multiplication Table Generator" ID="ID_1968985922" CREATED="1707336422164" MODIFIED="1707336436461">
-<node TEXT="01-10_enhanced-multiplication-table.py" ID="ID_556903563" CREATED="1707764159189" MODIFIED="1707764177306">
+<node TEXT="01-10_enhanced-multiplication-table.py" ID="ID_556903563" CREATED="1707764159189" MODIFIED="1707770862399">
 <icon BUILTIN="launch"/>
+<arrowlink DESTINATION="ID_1345673355"/>
 </node>
 </node>
 <node TEXT="3. Enhanced Unit Converter" ID="ID_124503213" CREATED="1707336436603" MODIFIED="1707336444615">
-<node TEXT="01-11_enhanced-unit-converter.py" ID="ID_1622978237" CREATED="1707764167770" MODIFIED="1707764177305">
+<node TEXT="01-11_enhanced-unit-converter.py" ID="ID_1622978237" CREATED="1707764167770" MODIFIED="1707770852843">
+<icon BUILTIN="launch"/>
+<arrowlink DESTINATION="ID_1972281571"/>
+</node>
+</node>
+<node TEXT="4. Fraction Calculator" ID="ID_1631955754" CREATED="1707336444778" MODIFIED="1707336451111">
+<node TEXT="01-12_fraction-calculator.py" ID="ID_1989990152" CREATED="1707770775216" MODIFIED="1707770824992">
+<icon BUILTIN="launch"/>
+<arrowlink DESTINATION="ID_618668977"/>
+</node>
+</node>
+<node TEXT="5. Give Exit Power to the User" ID="ID_1622120193" CREATED="1707336451294" MODIFIED="1707336457878">
+<node TEXT="01-13_run-until-exit.py" ID="ID_428269839" CREATED="1707770790000" MODIFIED="1707770806749">
 <icon BUILTIN="launch"/>
 </node>
+<node TEXT="01-14_enhanced-unit-converter-with-exit.py" ID="ID_1303823943" CREATED="1707770797211" MODIFIED="1707770810501">
+<icon BUILTIN="launch"/>
+<arrowlink DESTINATION="ID_124503213"/>
 </node>
-<node TEXT="4. Fraction Calculator" ID="ID_1631955754" CREATED="1707336444778" MODIFIED="1707336451111"/>
-<node TEXT="5. Give Exit Power to the User" ID="ID_1622120193" CREATED="1707336451294" MODIFIED="1707336457878"/>
 </node>
 </node>
-<node TEXT="02 Visualizing Data with Graphs" FOLDED="true" POSITION="bottom_or_right" ID="ID_1501004479" CREATED="1707336459094" MODIFIED="1707336466578">
+</node>
+<node TEXT="02 Visualizing Data with Graphs" POSITION="bottom_or_right" ID="ID_1501004479" CREATED="1707336459094" MODIFIED="1707336466578">
 <node TEXT="02-01 Understanding the Cartesian Coordinate Plane" ID="ID_787215279" CREATED="1707336472032" MODIFIED="1707336658495"/>
 <node TEXT="02-02 Working with Lists and Tuples" ID="ID_983198374" CREATED="1707336659785" MODIFIED="1707336669444">
 <node TEXT="02-02-01 Iterating over a List or Tuple" ID="ID_801661832" CREATED="1707336669444" MODIFIED="1707336680678"/>

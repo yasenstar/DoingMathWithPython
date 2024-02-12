@@ -130,15 +130,21 @@ except ErrorType:
 ### 2. Enhanced Multiplication Table Generator
 
 #### 01-10_enhanced-multiplication-table.py
-
+ (see:01-05-02 Generating Multiplication Tables)
 ### 3. Enhanced Unit Converter
 
 #### 01-11_enhanced-unit-converter.py
-
+ (see:01-05-03 Converting Units of Measurement)
 ### 4. Fraction Calculator
 
+#### 01-12_fraction-calculator.py
+ (see:01-03-01 Working with Fractions)
 ### 5. Give Exit Power to the User
 
+#### 01-13_run-until-exit.py
+
+#### 01-14_enhanced-unit-converter-with-exit.py
+ (see:3. Enhanced Unit Converter)
 # 02 Visualizing Data with Graphs
 
 ## 02-01 Understanding the Cartesian Coordinate Plane
