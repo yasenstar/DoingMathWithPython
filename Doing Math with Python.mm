@@ -105,7 +105,7 @@
 </node>
 </node>
 </node>
-<node TEXT="01 Working with Numbers" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707678638952"><richcontent TYPE="NOTE">
+<node TEXT="01 Working with Numbers" FOLDED="true" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707678638952"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -221,7 +221,7 @@
 </node>
 </node>
 <node TEXT="4. Fraction Calculator" ID="ID_1631955754" CREATED="1707336444778" MODIFIED="1707336451111">
-<node TEXT="01-12_fraction-calculator.py" ID="ID_1989990152" CREATED="1707770775216" MODIFIED="1707770824992">
+<node TEXT="01-12_fraction-calculator.py" ID="ID_1989990152" CREATED="1707770775216" MODIFIED="1707772190756">
 <icon BUILTIN="launch"/>
 <arrowlink DESTINATION="ID_618668977"/>
 </node>
@@ -237,8 +237,35 @@
 </node>
 </node>
 </node>
-<node TEXT="02 Visualizing Data with Graphs" POSITION="bottom_or_right" ID="ID_1501004479" CREATED="1707336459094" MODIFIED="1707336466578">
-<node TEXT="02-01 Understanding the Cartesian Coordinate Plane" ID="ID_787215279" CREATED="1707336472032" MODIFIED="1707336658495"/>
+<node TEXT="02 Visualizing Data with Graphs" POSITION="bottom_or_right" ID="ID_1501004479" CREATED="1707336459094" MODIFIED="1707771136765"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In this chapter, you'll learn a powerful way to present numerical data: by drawing graphs with Python.
+    </p>
+    <ul>
+      <li>
+        We'll start by discussing the number line and the Cartesian plane.
+      </li>
+      <li>
+        Next, we'll learn about the powerful plotting library <span style="font-style: italic;">matplotlib</span>&#xa0;and how we can use it to create graphs.
+      </li>
+      <li>
+        We'll then explore how to make graphs that present data clearly and intuitively.
+      </li>
+      <li>
+        Finally, we'll use graphs to explore Newton's Law of Universal Gravitation and projectile motion.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="02-01 Understanding the Cartesian Coordinate Plane" ID="ID_787215279" CREATED="1707336472032" MODIFIED="1707772281171">
+<arrowlink DESTINATION="ID_144141483"/>
+</node>
 <node TEXT="02-02 Working with Lists and Tuples" ID="ID_983198374" CREATED="1707336659785" MODIFIED="1707336669444">
 <node TEXT="02-02-01 Iterating over a List or Tuple" ID="ID_801661832" CREATED="1707336669444" MODIFIED="1707336680678"/>
 </node>
@@ -314,7 +341,7 @@
 <node TEXT="4. Solving Single-Variable Inequalities" ID="ID_134911866" CREATED="1707337504667" MODIFIED="1707337512757"/>
 </node>
 </node>
-<node TEXT="05 Playing with Sets and Probability" FOLDED="true" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1707337523426">
+<node TEXT="05 Playing with Sets and Probability" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1707337523426">
 <node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1707337569245">
 <node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712"/>
 <node TEXT="05-01-02 Subsets, Supersets, and Power Sets" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1707337584917"/>

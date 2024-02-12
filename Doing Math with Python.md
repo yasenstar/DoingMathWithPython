@@ -147,8 +147,16 @@ except ErrorType:
  (see:3. Enhanced Unit Converter)
 # 02 Visualizing Data with Graphs
 
-## 02-01 Understanding the Cartesian Coordinate Plane
+In this chapter, you'll learn a powerful way to present numerical data: by drawing graphs with Python.
 
+- We'll start by discussing the number line and the Cartesian plane.
+- Next, we'll learn about the powerful plotting librarymatplotlib and how we can use it to create graphs.
+- We'll then explore how to make graphs that present data clearly and intuitively.
+- Finally, we'll use graphs to explore Newton's Law of Universal Gravitation and projectile motion.
+
+
+## 02-01 Understanding the Cartesian Coordinate Plane
+ (see:05-01 What's a Set?)
 ## 02-02 Working with Lists and Tuples
 
 ### 02-02-01 Iterating over a List or Tuple
