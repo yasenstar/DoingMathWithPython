@@ -29,4 +29,6 @@ Look at Mindmap detail in [Markdown format](/Doing%20Math%20with%20Python.md)
 - [06 Drawing Geometric Shapes and Fractals](/ch06/README.md)
 - [07 Solving Calculus Problems](/ch07/README.md)
 
+---
+
 Welcome to hear from your comments and suggestions, drop me [mail here](mailto:xiaoqizhao@outlook.com).
