@@ -1,8 +1,7 @@
 # Doing Math with Python
 
-Learning book "[Doing Math with Python (2015)](https://nostarch.com/doingmathwithpython)" (author: [Amit Saha](https://www.linkedin.com/in/echorand/)) by practicing
-
-![bookcover](/img/DMwP_cover.png)
+| Learning book "[Doing Math with Python (2015)](https://nostarch.com/doingmathwithpython)" (author: [Amit Saha](https://www.linkedin.com/in/echorand/)) by practicing | ![bookcover](/img/DMwP_cover.png) |
+| --- | --- |
 
 ---
 
