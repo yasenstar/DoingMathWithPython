@@ -1,5 +1,8 @@
  Doing Math with Python
 
+Sample solutions of program challenges:https://nostarch.com/doingmathwithpython
+
+
 # 00 Introduction
 
 ## Tip: how to clear screen
@@ -16,6 +19,12 @@ os.system('cls')
 cls()
 
 # 01 Working with Numbers
+
+Within this chapter:
+
+- you learn to write programs that recognize integers, floating point numbers, fractional numbers (expressed as a fraction or a floating point number), and complex numbers.
+- you write programs that generate multiplication tables, perform unit conversions, and find the roots of a quadratic equation
+
 
 ## 01-01 Basic Mathematical Operations
 
@@ -110,13 +119,21 @@ except ErrorType:
 
 ### 01-05-04 Finding the Roots of a Quadratic Equation
 
+#### 01-08_quadratic-equation-roots-calculator.py
+
 ## 01-06 Programming Challenges
 
 ### 1. Even-Odd Vending Machine
 
+#### 01-09_even-odd-vending-machine.py
+
 ### 2. Enhanced Multiplication Table Generator
 
+#### 01-10_enhanced-multiplication-table.py
+
 ### 3. Enhanced Unit Converter
+
+#### 01-11_enhanced-unit-converter.py
 
 ### 4. Fraction Calculator
 

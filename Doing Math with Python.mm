@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707691642411">
+<node TEXT="Doing Math&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707747224612">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
@@ -203,9 +203,21 @@
 </node>
 </node>
 <node TEXT="01-06 Programming Challenges" ID="ID_1181182759" CREATED="1707336400736" MODIFIED="1707336409411">
-<node TEXT="1. Even-Odd Vending Machine" ID="ID_1251139531" CREATED="1707336409411" MODIFIED="1707336421956"/>
-<node TEXT="2. Enhanced Multiplication Table Generator" ID="ID_1968985922" CREATED="1707336422164" MODIFIED="1707336436461"/>
-<node TEXT="3. Enhanced Unit Converter" ID="ID_124503213" CREATED="1707336436603" MODIFIED="1707336444615"/>
+<node TEXT="1. Even-Odd Vending Machine" ID="ID_1251139531" CREATED="1707336409411" MODIFIED="1707336421956">
+<node TEXT="01-09_even-odd-vending-machine.py" ID="ID_1278742115" CREATED="1707764149269" MODIFIED="1707764177306">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="2. Enhanced Multiplication Table Generator" ID="ID_1968985922" CREATED="1707336422164" MODIFIED="1707336436461">
+<node TEXT="01-10_enhanced-multiplication-table.py" ID="ID_556903563" CREATED="1707764159189" MODIFIED="1707764177306">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="3. Enhanced Unit Converter" ID="ID_124503213" CREATED="1707336436603" MODIFIED="1707336444615">
+<node TEXT="01-11_enhanced-unit-converter.py" ID="ID_1622978237" CREATED="1707764167770" MODIFIED="1707764177305">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="4. Fraction Calculator" ID="ID_1631955754" CREATED="1707336444778" MODIFIED="1707336451111"/>
 <node TEXT="5. Give Exit Power to the User" ID="ID_1622120193" CREATED="1707336451294" MODIFIED="1707336457878"/>
 </node>
