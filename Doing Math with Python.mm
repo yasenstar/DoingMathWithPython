@@ -267,7 +267,18 @@
 <arrowlink DESTINATION="ID_144141483"/>
 </node>
 <node TEXT="02-02 Working with Lists and Tuples" ID="ID_983198374" CREATED="1707336659785" MODIFIED="1707336669444">
-<node TEXT="02-02-01 Iterating over a List or Tuple" ID="ID_801661832" CREATED="1707336669444" MODIFIED="1707336680678"/>
+<node TEXT="List vs Tuple" ID="ID_1699942417" CREATED="1707786054373" MODIFIED="1707786066417">
+<node TEXT="List" ID="ID_1937517043" CREATED="1707786230340" MODIFIED="1707786232294">
+<node TEXT="After you create a list, it&apos;s possible to add values to it and to change the order of the values" POSITION="bottom_or_right" ID="ID_1036371873" CREATED="1707786066420" MODIFIED="1707786098328"/>
+<node TEXT="A list is the best choice for storing data if you don&apos;t know beforehand how many numbers or strings you may need to store" POSITION="bottom_or_right" ID="ID_1106018545" CREATED="1707786242071" MODIFIED="1707786279081"/>
+</node>
+<node TEXT="Tuple" ID="ID_1362978667" CREATED="1707786234109" MODIFIED="1707786235750">
+<node TEXT="The values in a tuple are immediately fixed and can&apos;t be changed" POSITION="bottom_or_right" ID="ID_1103889939" CREATED="1707786099877" MODIFIED="1707786115356"/>
+</node>
+</node>
+<node TEXT="02-02-01 Iterating over a List or Tuple" ID="ID_801661832" CREATED="1707336669444" MODIFIED="1707336680678">
+<node TEXT="for index, item in enumerate(l):" ID="ID_200698448" CREATED="1707787108402" MODIFIED="1707787120883"/>
+</node>
 </node>
 <node TEXT="02-03 Creating Graphs with Matplotlib" ID="ID_1239881767" CREATED="1707336681563" MODIFIED="1707336694933">
 <node TEXT="02-03-01 Marking Points on Your Graph" ID="ID_1866491076" CREATED="1707336694933" MODIFIED="1707336706022"/>
