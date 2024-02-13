@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -266,7 +266,7 @@
 <node TEXT="02-01 Understanding the Cartesian Coordinate Plane" ID="ID_787215279" CREATED="1707336472032" MODIFIED="1707772281171">
 <arrowlink DESTINATION="ID_144141483"/>
 </node>
-<node TEXT="02-02 Working with Lists and Tuples" ID="ID_983198374" CREATED="1707336659785" MODIFIED="1707336669444">
+<node TEXT="02-02 Working with Lists and Tuples" FOLDED="true" ID="ID_983198374" CREATED="1707336659785" MODIFIED="1707336669444">
 <node TEXT="List vs Tuple" ID="ID_1699942417" CREATED="1707786054373" MODIFIED="1707786066417">
 <node TEXT="List" ID="ID_1937517043" CREATED="1707786230340" MODIFIED="1707786232294">
 <node TEXT="After you create a list, it&apos;s possible to add values to it and to change the order of the values" POSITION="bottom_or_right" ID="ID_1036371873" CREATED="1707786066420" MODIFIED="1707786098328"/>
