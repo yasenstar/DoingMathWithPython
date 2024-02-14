@@ -159,7 +159,21 @@ In this chapter, you'll learn a powerful way to present numerical data: by drawi
  (see:05-01 What's a Set?)
 ## 02-02 Working with Lists and Tuples
 
+### List vs Tuple
+
+#### List
+
+##### After you create a list, it's possible to add values to it and to change the order of the values
+
+##### A list is the best choice for storing data if you don't know beforehand how many numbers or strings you may need to store
+
+#### Tuple
+
+##### The values in a tuple are immediately fixed and can't be changed
+
 ### 02-02-01 Iterating over a List or Tuple
+
+#### for index, item in enumerate(l):
 
 ## 02-03 Creating Graphs with Matplotlib
 
@@ -170,6 +184,12 @@ In this chapter, you'll learn a powerful way to present numerical data: by drawi
 ### 02-03-03 Comparing the Monthly Temperature Trends
 
 ### 02-03-04 Customizing Graphs
+
+#### Adding a Title and Labels
+
+#### Customizing the Axes
+
+#### Plotting Using pyplot
 
 ### 02-03-05 Saving the Plots
 
