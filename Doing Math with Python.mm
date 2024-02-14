@@ -332,12 +332,24 @@
 </node>
 </node>
 <node TEXT="02-04-02 Projectile Motion" ID="ID_772187037" CREATED="1707336863997" MODIFIED="1707336870112">
-<node TEXT="Generating Equally Spaced Floating Point Numbers" ID="ID_71612417" CREATED="1707877861979" MODIFIED="1707877872461"/>
-<node TEXT="Drawing the Trajectory" ID="ID_943945925" CREATED="1707877876547" MODIFIED="1707877881599"/>
-<node TEXT="Comparing the Trajectory at Different Initial Velocities" ID="ID_737841104" CREATED="1707877892304" MODIFIED="1707877904071"/>
+<node TEXT="Generating Equally Spaced Floating Point Numbers" ID="ID_71612417" CREATED="1707877861979" MODIFIED="1707877872461">
+<node TEXT="02-04_02-1-Drawing-Trajectory.py" ID="ID_1225311186" CREATED="1707921613434" MODIFIED="1707921631668">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="02-05 Programming Challenges" FOLDED="true" ID="ID_30705394" CREATED="1707336872399" MODIFIED="1707336882948">
+<node TEXT="Drawing the Trajectory" ID="ID_943945925" CREATED="1707877876547" MODIFIED="1707877881599">
+<node TEXT="02-04_02-1-Drawing-Trajectory.py" ID="ID_156145436" CREATED="1707921617410" MODIFIED="1707921631668">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="Comparing the Trajectory at Different Initial Velocities" ID="ID_737841104" CREATED="1707877892304" MODIFIED="1707877904071">
+<node TEXT="02-04_02-2-Comparing-Trajectory.py" ID="ID_1612414354" CREATED="1707921623335" MODIFIED="1707921631668">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="02-05 Programming Challenges" ID="ID_30705394" CREATED="1707336872399" MODIFIED="1707336882948">
 <node TEXT="1. How Does the Temperature Vary" ID="ID_1890022037" CREATED="1707336882948" MODIFIED="1707336893333"/>
 <node TEXT="2. Explorting a Quadratic Function Visually" ID="ID_96467070" CREATED="1707336893561" MODIFIED="1707336902994"/>
 <node TEXT="3. Enhanced Projectile Trajectory Comparison" ID="ID_421929628" CREATED="1707336903136" MODIFIED="1707336916114"/>
