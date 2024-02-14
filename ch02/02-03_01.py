@@ -9,7 +9,7 @@ from pylab import plot, show, legend
 # # Basic Plotting with marker as 'o'
 # x_numbers = [1,2,3]
 # y_numbers = [2,4,6]
-# plot(x_numbers, y_numbers, marker='o')
+# plot(x_numbers, y_numbers, marker='D')
 # show()
 
 # # Basic Plotting with marker only as 'o', no line
@@ -47,6 +47,6 @@ from pylab import plot, show, legend
 # months = range(1, 13)
 # plot(months, nyc_temp_2000, months, nyc_temp_2006, months, nyc_temp_2012)
 # # need import legend for showing Legend, legend() need after plot()
-# legend([2000, 2006, 2012])
-# # legend([2000, 2006, 2012], loc="lower center") # use loc= to set location, by default is 'top right'
+# legend(["Year 2000", "Year 2006", "Year 2012"])
+# # legend([2000, 2006, 2012], loc="best") # use loc= to set location, by default is 'top right'
 # show()
