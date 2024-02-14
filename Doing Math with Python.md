@@ -213,15 +213,37 @@ In this chapter, you'll learn a powerful way to present numerical data: by drawi
 
 ### 02-04-01 Newton's Law of Universal Gravitation
 
+#### 02-04_01-univeral-gravitation.py
+
+#### 02-04_01-univeral-gravitation-adjustable.py
+
 ### 02-04-02 Projectile Motion
+
+#### Generating Equally Spaced Floating Point Numbers
+
+##### 02-04_02-1-Drawing-Trajectory.py
+
+#### Drawing the Trajectory
+
+##### 02-04_02-1-Drawing-Trajectory.py
+
+#### Comparing the Trajectory at Different Initial Velocities
+
+##### 02-04_02-2-Comparing-Trajectory.py
 
 ## 02-05 Programming Challenges
 
 ### 1. How Does the Temperature Vary
 
+#### 02-05_1_Temperature-of-a-Day.py
+
 ### 2. Explorting a Quadratic Function Visually
 
+#### 02-05_2_visaulize-quadratic-function.py
+
 ### 3. Enhanced Projectile Trajectory Comparison
+
+#### 02-05_3_Comparing-Trajectory_Enhanced
 
 ### 4. Visualizing Your Expenses
 

@@ -322,8 +322,8 @@
 </node>
 </node>
 </node>
-<node TEXT="02-04 Plotting with Formulas" ID="ID_1918203954" CREATED="1707336756569" MODIFIED="1707336852895">
-<node TEXT="02-04-01 Newton&apos;s Law of Universal Gravitation" ID="ID_9695137" CREATED="1707336852905" MODIFIED="1707336863847">
+<node TEXT="02-04 Plotting with Formulas" FOLDED="true" ID="ID_1918203954" CREATED="1707336756569" MODIFIED="1707336852895">
+<node TEXT="02-04-01 Newton&apos;s Law of Universal Gravitation" FOLDED="true" ID="ID_9695137" CREATED="1707336852905" MODIFIED="1707336863847">
 <node TEXT="02-04_01-univeral-gravitation.py" ID="ID_828222021" CREATED="1707883379819" MODIFIED="1707883401767">
 <icon BUILTIN="launch"/>
 </node>
@@ -350,9 +350,21 @@
 </node>
 </node>
 <node TEXT="02-05 Programming Challenges" ID="ID_30705394" CREATED="1707336872399" MODIFIED="1707336882948">
-<node TEXT="1. How Does the Temperature Vary" ID="ID_1890022037" CREATED="1707336882948" MODIFIED="1707336893333"/>
-<node TEXT="2. Explorting a Quadratic Function Visually" ID="ID_96467070" CREATED="1707336893561" MODIFIED="1707336902994"/>
-<node TEXT="3. Enhanced Projectile Trajectory Comparison" ID="ID_421929628" CREATED="1707336903136" MODIFIED="1707336916114"/>
+<node TEXT="1. How Does the Temperature Vary" ID="ID_1890022037" CREATED="1707336882948" MODIFIED="1707336893333">
+<node TEXT="02-05_1_Temperature-of-a-Day.py" ID="ID_1521140169" CREATED="1707939673972" MODIFIED="1707939713691">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="2. Explorting a Quadratic Function Visually" ID="ID_96467070" CREATED="1707336893561" MODIFIED="1707336902994">
+<node TEXT="02-05_2_visaulize-quadratic-function.py" ID="ID_1600366449" CREATED="1707939688892" MODIFIED="1707939713691">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="3. Enhanced Projectile Trajectory Comparison" ID="ID_421929628" CREATED="1707336903136" MODIFIED="1707336916114">
+<node TEXT="02-05_3_Comparing-Trajectory_Enhanced" ID="ID_1676801940" CREATED="1707939697340" MODIFIED="1707939713690">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="4. Visualizing Your Expenses" ID="ID_1621647270" CREATED="1707336916509" MODIFIED="1707336921896"/>
 <node TEXT="5. Exploring the Relationship" ID="ID_996896814" CREATED="1707336922033" MODIFIED="1707336928822"/>
 </node>

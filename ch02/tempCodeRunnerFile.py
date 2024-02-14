@@ -1,1 +1,2 @@
-axis(ymin=30)
+aw_trajectory(u, theta)
+        # plt.
