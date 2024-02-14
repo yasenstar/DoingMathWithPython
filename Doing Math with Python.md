@@ -179,19 +179,35 @@ In this chapter, you'll learn a powerful way to present numerical data: by drawi
 
 ### 02-03-01 Marking Points on Your Graph
 
+#### 02-03_01.py
+
 ### 02-03-02 Graphing the Average Annual Temperature
 
+#### 02-03_01.py
+
 ### 02-03-03 Comparing the Monthly Temperature Trends
+
+#### 02-03_01.py
 
 ### 02-03-04 Customizing Graphs
 
 #### Adding a Title and Labels
 
+##### 02-03_02.py
+
 #### Customizing the Axes
+
+##### 02-03_02.py
 
 #### Plotting Using pyplot
 
+##### 02-03_03.py
+
+##### 02-03_04.py
+
 ### 02-03-05 Saving the Plots
+
+#### 02-03_05.py
 
 ## 02-04 Plotting with Formulas
 
