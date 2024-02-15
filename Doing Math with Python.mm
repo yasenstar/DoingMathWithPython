@@ -440,8 +440,9 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-03 Finding the Mode and Creating a Frequency Table" FOLDED="true" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
+<node TEXT="03-03 Finding the Mode and Creating a Frequency Table" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
 <node TEXT="03-03-01 Finding the Most Common Elements" ID="ID_870890770" CREATED="1707336967016" MODIFIED="1707336974988">
+<node TEXT="Count how many times each unique number occurs and find the one that occurs the most." ID="ID_1424086983" CREATED="1708019334570" MODIFIED="1708019356823"/>
 <node TEXT="from collections import Counter&#xa;Counter(list).most_common()&#xa;mode = Counter(list).most_common(1)" ID="ID_836641001" CREATED="1708011297001" MODIFIED="1708011349775"/>
 </node>
 <node TEXT="03-03-02 Finding the Mode" ID="ID_904968097" CREATED="1707336975179" MODIFIED="1707336984012"/>
