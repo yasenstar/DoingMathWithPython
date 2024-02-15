@@ -247,7 +247,15 @@ In this chapter, you'll learn a powerful way to present numerical data: by drawi
 
 ### 4. Visualizing Your Expenses
 
-### 5. Exploring the Relationship
+#### 02-05_4-1_daily-steps.py
+
+#### 02-05_4-2_personal-expense.py
+
+### 5. Exploring the Relationship Between the Fibonacci Sequence and the Golden Ratio
+
+#### 02-05_5-1_Fibonacci-and-Golden-Ratio.py
+
+#### 02-05_5-2_Fibonacci-and-Golden-Ratio.py
 
 # 03 Describing Data with Statistics
 

@@ -350,12 +350,12 @@
 </node>
 </node>
 <node TEXT="02-05 Programming Challenges" ID="ID_30705394" CREATED="1707336872399" MODIFIED="1707336882948">
-<node TEXT="1. How Does the Temperature Vary" ID="ID_1890022037" CREATED="1707336882948" MODIFIED="1707336893333">
+<node TEXT="1. How Does the Temperature Vary" FOLDED="true" ID="ID_1890022037" CREATED="1707336882948" MODIFIED="1707336893333">
 <node TEXT="02-05_1_Temperature-of-a-Day.py" ID="ID_1521140169" CREATED="1707939673972" MODIFIED="1707939713691">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="2. Explorting a Quadratic Function Visually" ID="ID_96467070" CREATED="1707336893561" MODIFIED="1707336902994">
+<node TEXT="2. Explorting a Quadratic Function Visually" FOLDED="true" ID="ID_96467070" CREATED="1707336893561" MODIFIED="1707336902994">
 <node TEXT="02-05_2_visaulize-quadratic-function.py" ID="ID_1600366449" CREATED="1707939688892" MODIFIED="1707939713691">
 <icon BUILTIN="launch"/>
 </node>
@@ -365,11 +365,25 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="4. Visualizing Your Expenses" ID="ID_1621647270" CREATED="1707336916509" MODIFIED="1707336921896"/>
-<node TEXT="5. Exploring the Relationship" ID="ID_996896814" CREATED="1707336922033" MODIFIED="1707336928822"/>
+<node TEXT="4. Visualizing Your Expenses" ID="ID_1621647270" CREATED="1707336916509" MODIFIED="1707336921896">
+<node TEXT="02-05_4-1_daily-steps.py" ID="ID_1037488635" CREATED="1707964488165" MODIFIED="1707964509085">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="02-05_4-2_personal-expense.py" ID="ID_1069086571" CREATED="1707964494074" MODIFIED="1707964509085">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03 Describing Data with Statistics" FOLDED="true" POSITION="bottom_or_right" ID="ID_1940174178" CREATED="1707336933126" MODIFIED="1707336941684">
+<node TEXT="5. Exploring the Relationship Between the Fibonacci Sequence and the Golden Ratio" ID="ID_996896814" CREATED="1707336922033" MODIFIED="1707962721703">
+<node TEXT="02-05_5-1_Fibonacci-and-Golden-Ratio.py" ID="ID_955772369" CREATED="1707964469474" MODIFIED="1707964509085">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="02-05_5-2_Fibonacci-and-Golden-Ratio.py" ID="ID_463674060" CREATED="1707964475747" MODIFIED="1707964509085">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="03 Describing Data with Statistics" POSITION="bottom_or_right" ID="ID_1940174178" CREATED="1707336933126" MODIFIED="1707336941684">
 <node TEXT="03-01 Finding the Mean" ID="ID_1020492818" CREATED="1707336941684" MODIFIED="1707336946195"/>
 <node TEXT="03-02 Finding the Median" ID="ID_1322153370" CREATED="1707336946397" MODIFIED="1707336953104"/>
 <node TEXT="03-03 Finding the Mode and Creating a Frequency Table" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
