@@ -412,7 +412,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="03-01 Finding the Mean" ID="ID_1020492818" CREATED="1707336941684" MODIFIED="1707336946195">
+<node TEXT="03-01 Finding the Mean" FOLDED="true" ID="ID_1020492818" CREATED="1707336941684" MODIFIED="1707336946195">
 <node TEXT="The &quot;average&quot; number; found by adding all data points and dividing by the number of data points" ID="ID_1481107867" CREATED="1708009795306" MODIFIED="1708009822360"/>
 <node ID="ID_1194190343" CREATED="1708009898705" MODIFIED="1708009925594"><richcontent TYPE="NODE">
 
@@ -433,7 +433,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-02 Finding the Median" ID="ID_1322153370" CREATED="1707336946397" MODIFIED="1707336953104">
+<node TEXT="03-02 Finding the Median" FOLDED="true" ID="ID_1322153370" CREATED="1707336946397" MODIFIED="1707336953104">
 <node TEXT="The middle number; found by ordering all data points and picking out the one in the middle (or if there are two middle numbers, taking the mean of those two numbers)" POSITION="bottom_or_right" ID="ID_870462104" CREATED="1708009822927" MODIFIED="1708009865098"/>
 <node TEXT="It&apos;s best to use the median when the distribution is either skewed or there are outliers present" POSITION="bottom_or_right" ID="ID_1823658851" CREATED="1708009972462" MODIFIED="1708010021569"/>
 <node TEXT="03-02_finding-median.py" POSITION="bottom_or_right" ID="ID_1002262758" CREATED="1708014792989" MODIFIED="1708014803202">
@@ -444,9 +444,16 @@
 <node TEXT="03-03-01 Finding the Most Common Elements" ID="ID_870890770" CREATED="1707336967016" MODIFIED="1707336974988">
 <node TEXT="Count how many times each unique number occurs and find the one that occurs the most." ID="ID_1424086983" CREATED="1708019334570" MODIFIED="1708019356823"/>
 <node TEXT="from collections import Counter&#xa;Counter(list).most_common()&#xa;mode = Counter(list).most_common(1)" ID="ID_836641001" CREATED="1708011297001" MODIFIED="1708011349775"/>
+<node TEXT="03-03_1_fining-most-common-elements.py" ID="ID_93553275" CREATED="1708034744769" MODIFIED="1708034748012"/>
 </node>
-<node TEXT="03-03-02 Finding the Mode" ID="ID_904968097" CREATED="1707336975179" MODIFIED="1707336984012"/>
-<node TEXT="03-03-03 Creating a Frequency Table" ID="ID_1267328349" CREATED="1707336984200" MODIFIED="1707336991408"/>
+<node TEXT="03-03-02 Finding the Mode" ID="ID_904968097" CREATED="1707336975179" MODIFIED="1707336984012">
+<node TEXT="03-03_2_fining-mode.py" ID="ID_463762658" CREATED="1708034757460" MODIFIED="1708034762302"/>
+<node TEXT="03-03_3_fining-multiple-modes.py" ID="ID_1303129851" CREATED="1708034758228" MODIFIED="1708034771678"/>
+</node>
+<node TEXT="03-03-03 Creating a Frequency Table" ID="ID_1267328349" CREATED="1707336984200" MODIFIED="1707336991408">
+<node TEXT="03-03_4_frequency-table.py" ID="ID_5247372" CREATED="1708034779093" MODIFIED="1708034781937"/>
+<node TEXT="03-03_5_frequency-table-sorted.py" ID="ID_1690535208" CREATED="1708034788972" MODIFIED="1708034795272"/>
+</node>
 </node>
 <node TEXT="03-04 Measuring the Dispersion" FOLDED="true" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1707337004199">
 <node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604"/>
