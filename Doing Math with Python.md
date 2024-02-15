@@ -259,13 +259,39 @@ In this chapter, you'll learn a powerful way to present numerical data: by drawi
 
 # 03 Describing Data with Statistics
 
+In this chapter:
+
+- We'll use Python to explore statistics so we can study, describe, and better understand sets of data.
+- After looking at some basic statistical measures -- the mean, median, mode, and range -- we'll move on to some more advanced measures, such as variance and standard deviation
+- We'll see how to calculate the correlation coefficient, which allows you to quantify the relationship between two sets of data
+- We'll end the chapter by learning about scatter plots.
+- We'll learn more about the Python language and standard library modules.
+
+
 ## 03-01 Finding the Mean
 
+### The "average" number; found by adding all data points and dividing by the number of data points
+ 
+It's best to use themean  to describe the center of a dataset when the distribution is mostly symmetrical and there are no outliers
+
+
+### 03-01_finding-mean.py
+
 ## 03-02 Finding the Median
+
+### The middle number; found by ordering all data points and picking out the one in the middle (or if there are two middle numbers, taking the mean of those two numbers)
+
+### It's best to use the median when the distribution is either skewed or there are outliers present
+
+### 03-02_finding-median.py
 
 ## 03-03 Finding the Mode and Creating a Frequency Table
 
 ### 03-03-01 Finding the Most Common Elements
+
+#### from collections import Counter
+Counter(list).most_common()
+mode = Counter(list).most_common(1)
 
 ### 03-03-02 Finding the Mode
 
