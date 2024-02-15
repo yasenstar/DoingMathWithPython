@@ -237,7 +237,7 @@
 </node>
 </node>
 </node>
-<node TEXT="02 Visualizing Data with Graphs" POSITION="bottom_or_right" ID="ID_1501004479" CREATED="1707336459094" MODIFIED="1707771136765"><richcontent TYPE="NOTE">
+<node TEXT="02 Visualizing Data with Graphs" FOLDED="true" POSITION="bottom_or_right" ID="ID_1501004479" CREATED="1707336459094" MODIFIED="1707771136765"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -383,28 +383,78 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Describing Data with Statistics" POSITION="bottom_or_right" ID="ID_1940174178" CREATED="1707336933126" MODIFIED="1707336941684">
-<node TEXT="03-01 Finding the Mean" ID="ID_1020492818" CREATED="1707336941684" MODIFIED="1707336946195"/>
-<node TEXT="03-02 Finding the Median" ID="ID_1322153370" CREATED="1707336946397" MODIFIED="1707336953104"/>
-<node TEXT="03-03 Finding the Mode and Creating a Frequency Table" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
-<node TEXT="03-03-01 Finding the Most Common Elements" ID="ID_870890770" CREATED="1707336967016" MODIFIED="1707336974988"/>
+<node TEXT="03 Describing Data with Statistics" POSITION="bottom_or_right" ID="ID_1940174178" CREATED="1707336933126" MODIFIED="1708007906407"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In this chapter:
+    </p>
+    <ul>
+      <li>
+        We'll use Python to explore statistics so we can study, describe, and better understand sets of data.
+      </li>
+      <li>
+        After looking at some basic statistical measures -- the mean, median, mode, and range -- we'll move on to some more advanced measures, such as variance and standard deviation
+      </li>
+      <li>
+        We'll see how to calculate the correlation coefficient, which allows you to quantify the relationship between two sets of data
+      </li>
+      <li>
+        We'll end the chapter by learning about scatter plots.
+      </li>
+      <li>
+        We'll learn more about the Python language and standard library modules.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node TEXT="03-01 Finding the Mean" FOLDED="true" ID="ID_1020492818" CREATED="1707336941684" MODIFIED="1707336946195">
+<node TEXT="The &quot;average&quot; number; found by adding all data points and dividing by the number of data points" ID="ID_1481107867" CREATED="1708009795306" MODIFIED="1708009822360"/>
+<node ID="ID_1194190343" CREATED="1708009898705" MODIFIED="1708009925594"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      It's best to use the <span style="font-weight: bold;">mean</span><span style="font-weight: normal;">&#xa0;&#xa0;to describe the center of a dataset when the distribution is mostly symmetrical and there are no outliers</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="03-02 Finding the Median" FOLDED="true" ID="ID_1322153370" CREATED="1707336946397" MODIFIED="1707336953104">
+<node TEXT="The middle number; found by ordering all data points and picking out the one in the middle (or if there are two middle numbers, taking the mean of those two numbers)" POSITION="bottom_or_right" ID="ID_870462104" CREATED="1708009822927" MODIFIED="1708009865098"/>
+<node TEXT="It&apos;s best to use the median when the distribution is either skewed or there are outliers present" POSITION="bottom_or_right" ID="ID_1823658851" CREATED="1708009972462" MODIFIED="1708010021569"/>
+</node>
+<node TEXT="03-03 Finding the Mode and Creating a Frequency Table" FOLDED="true" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
+<node TEXT="03-03-01 Finding the Most Common Elements" ID="ID_870890770" CREATED="1707336967016" MODIFIED="1707336974988">
+<node TEXT="from collections import Counter&#xa;Counter(list).most_common()&#xa;mode = Counter(list).most_common(1)" ID="ID_836641001" CREATED="1708011297001" MODIFIED="1708011349775"/>
+</node>
 <node TEXT="03-03-02 Finding the Mode" ID="ID_904968097" CREATED="1707336975179" MODIFIED="1707336984012"/>
 <node TEXT="03-03-03 Creating a Frequency Table" ID="ID_1267328349" CREATED="1707336984200" MODIFIED="1707336991408"/>
 </node>
-<node TEXT="03-04 Measuring the Dispersion" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1707337004199">
+<node TEXT="03-04 Measuring the Dispersion" FOLDED="true" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1707337004199">
 <node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604"/>
 <node TEXT="03-04-20 Finding the Variance and Standard Deviation" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572"/>
 </node>
-<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1707337039000">
+<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" FOLDED="true" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1707337039000">
 <node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1707337051230"/>
 <node TEXT="03-05-02 High School Grades and Performance on College" ID="ID_69686681" CREATED="1707337054013" MODIFIED="1707337074549"/>
 </node>
 <node TEXT="03-06 Scatter Plots" ID="ID_1425592868" CREATED="1707337076432" MODIFIED="1707337088518"/>
-<node TEXT="03-07 Reading Data from Files" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
+<node TEXT="03-07 Reading Data from Files" FOLDED="true" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
 <node TEXT="03-07-01 Reading Data from a Text File" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1707337104562"/>
 <node TEXT="03-07-02 Reading Data from a CSV File" ID="ID_986924752" CREATED="1707337104714" MODIFIED="1707337112379"/>
 </node>
-<node TEXT="03-08 Programming Clallenges" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1707337122404">
+<node TEXT="03-08 Programming Clallenges" FOLDED="true" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1707337122404">
 <node TEXT="1. Better Correlation Coefficient" ID="ID_414955027" CREATED="1707337122419" MODIFIED="1707337136529"/>
 <node TEXT="2. Statistics Calculator" ID="ID_1277904679" CREATED="1707337136702" MODIFIED="1707337141862"/>
 <node TEXT="3. Experiment with other CSV Data" ID="ID_728041182" CREATED="1707337142012" MODIFIED="1707337151605"/>
