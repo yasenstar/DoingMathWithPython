@@ -467,7 +467,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604">
+<node TEXT="03-04-01 Finding the Range of a Set of Numbers" FOLDED="true" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604">
 <node ID="ID_247373761" CREATED="1708036957109" MODIFIED="1708037820448"><richcontent TYPE="NODE">
 
 <html>
@@ -483,10 +483,12 @@
 
 </richcontent>
 </node>
-<node TEXT="You could have two groups of numbers with the exact same mean but with vastly different ranges, so knowing the range fills in more information about a set of numbers" ID="ID_1698517418" CREATED="1708037826439" MODIFIED="1708037871321"/>
+<node TEXT="You could have two groups of numbers with the exact same mean but with vastly different ranges, so knowing the range fills in more information about a set of numbers" ID="ID_1698517418" CREATED="1708037826439" MODIFIED="1708046359004">
+<arrowlink DESTINATION="ID_1020492818"/>
 </node>
-<node TEXT="03-04-20 Finding the Variance and Standard Deviation" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572">
-<node ID="ID_1977725881" CREATED="1708037933359" MODIFIED="1708037972923"><richcontent TYPE="NODE">
+</node>
+<node TEXT="03-04-20 Finding the Variance and Standard Deviation" FOLDED="true" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572">
+<node FOLDED="true" ID="ID_1977725881" CREATED="1708037933359" MODIFIED="1708046430532"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -500,8 +502,29 @@
 </html>
 
 </richcontent>
+<arrowlink DESTINATION="ID_1031119856"/>
 <node TEXT="A high variance means that values are far from the mean." ID="ID_1417462437" CREATED="1708037988610" MODIFIED="1708038004036"/>
 <node TEXT="A low variance means that the values are clustered close to the mean." ID="ID_1476967760" CREATED="1708038004499" MODIFIED="1708038022260"/>
+</node>
+<node TEXT="Standard Deviation is the square root of the variance" FOLDED="true" ID="ID_1031119856" CREATED="1708045617494" MODIFIED="1708045632688">
+<node TEXT="Values that are within ONE standard deviation of the mean can be thought of as fairly typical." ID="ID_1111635709" CREATED="1708045655836" MODIFIED="1708045686634"/>
+<node ID="ID_120991868" CREATED="1708045687275" MODIFIED="1708046476892"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Values that are THREE or MORE standard deviations away from the mean can be considered much more atypical -- we call such values <span style="font-style: italic;">outliers</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink DESTINATION="ID_1823658851" MIDDLE_LABEL="Outliers" STARTINCLINATION="99 pt;0 pt;" ENDINCLINATION="99.75 pt;0 pt;"/>
+<arrowlink DESTINATION="ID_1194190343" MIDDLE_LABEL="Outliers"/>
+</node>
 </node>
 </node>
 </node>
