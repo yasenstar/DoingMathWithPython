@@ -440,7 +440,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-03 Finding the Mode and Creating a Frequency Table" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
+<node TEXT="03-03 Finding the Mode and Creating a Frequency Table" FOLDED="true" ID="ID_1292281148" CREATED="1707336953286" MODIFIED="1707336967014">
 <node TEXT="03-03-01 Finding the Most Common Elements" ID="ID_870890770" CREATED="1707336967016" MODIFIED="1707336974988">
 <node TEXT="Count how many times each unique number occurs and find the one that occurs the most." ID="ID_1424086983" CREATED="1708019334570" MODIFIED="1708019356823"/>
 <node TEXT="from collections import Counter&#xa;Counter(list).most_common()&#xa;mode = Counter(list).most_common(1)" ID="ID_836641001" CREATED="1708011297001" MODIFIED="1708011349775"/>
@@ -455,9 +455,55 @@
 <node TEXT="03-03_5_frequency-table-sorted.py" ID="ID_1690535208" CREATED="1708034788972" MODIFIED="1708034795272"/>
 </node>
 </node>
-<node TEXT="03-04 Measuring the Dispersion" FOLDED="true" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1707337004199">
-<node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604"/>
-<node TEXT="03-04-20 Finding the Variance and Standard Deviation" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572"/>
+<node TEXT="03-04 Measuring the Dispersion (分散)" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1708037915759"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-style: italic;">dispersion</span>&#xa0;tells us how far away the numbers int he set of data are from the mean of the data set.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604">
+<node ID="ID_247373761" CREATED="1708036957109" MODIFIED="1708037820448"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      For a list of numbers, the <span style="font-weight: bold;">range</span><span style="font-weight: normal;">&#xa0;&#xa0;is the difference between the highest number and the lowest number</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="You could have two groups of numbers with the exact same mean but with vastly different ranges, so knowing the range fills in more information about a set of numbers" ID="ID_1698517418" CREATED="1708037826439" MODIFIED="1708037871321"/>
+</node>
+<node TEXT="03-04-20 Finding the Variance and Standard Deviation" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572">
+<node ID="ID_1977725881" CREATED="1708037933359" MODIFIED="1708037972923"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-weight: bold;">variance</span><span style="font-weight: normal;">&#xa0;is the average of the squares of those differences of each of the numbers from the </span><span style="font-weight: bold;">mean</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="A high variance means that values are far from the mean." ID="ID_1417462437" CREATED="1708037988610" MODIFIED="1708038004036"/>
+<node TEXT="A low variance means that the values are clustered close to the mean." ID="ID_1476967760" CREATED="1708038004499" MODIFIED="1708038022260"/>
+</node>
+</node>
 </node>
 <node TEXT="03-05 Calculating the Correlation Between Two Data Sets" FOLDED="true" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1707337039000">
 <node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1707337051230"/>
