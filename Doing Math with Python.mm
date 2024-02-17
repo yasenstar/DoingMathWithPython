@@ -570,6 +570,7 @@
 </richcontent>
 <node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
 <hook URI="img/correlation.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="High School Grades and Performance on College Admission Tests --&gt; Scatter Plot" ID="ID_1746068685" CREATED="1708191548858" MODIFIED="1708191630082"/>
 </node>
 <node TEXT="03-05-02 High School Grades and Performance on College" ID="ID_69686681" CREATED="1707337054013" MODIFIED="1707337074549"/>
 </node>
