@@ -444,18 +444,28 @@
 <node TEXT="03-03-01 Finding the Most Common Elements" ID="ID_870890770" CREATED="1707336967016" MODIFIED="1707336974988">
 <node TEXT="Count how many times each unique number occurs and find the one that occurs the most." ID="ID_1424086983" CREATED="1708019334570" MODIFIED="1708019356823"/>
 <node TEXT="from collections import Counter&#xa;Counter(list).most_common()&#xa;mode = Counter(list).most_common(1)" ID="ID_836641001" CREATED="1708011297001" MODIFIED="1708011349775"/>
-<node TEXT="03-03_1_fining-most-common-elements.py" ID="ID_93553275" CREATED="1708034744769" MODIFIED="1708034748012"/>
+<node TEXT="03-03_1_fining-most-common-elements.py" ID="ID_93553275" CREATED="1708034744769" MODIFIED="1708190331726">
+<icon BUILTIN="launch"/>
+</node>
 </node>
 <node TEXT="03-03-02 Finding the Mode" ID="ID_904968097" CREATED="1707336975179" MODIFIED="1707336984012">
-<node TEXT="03-03_2_fining-mode.py" ID="ID_463762658" CREATED="1708034757460" MODIFIED="1708034762302"/>
-<node TEXT="03-03_3_fining-multiple-modes.py" ID="ID_1303129851" CREATED="1708034758228" MODIFIED="1708034771678"/>
+<node TEXT="03-03_2_fining-mode.py" ID="ID_463762658" CREATED="1708034757460" MODIFIED="1708190331727">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="03-03_3_fining-multiple-modes.py" ID="ID_1303129851" CREATED="1708034758228" MODIFIED="1708190331727">
+<icon BUILTIN="launch"/>
+</node>
 </node>
 <node TEXT="03-03-03 Creating a Frequency Table" ID="ID_1267328349" CREATED="1707336984200" MODIFIED="1707336991408">
-<node TEXT="03-03_4_frequency-table.py" ID="ID_5247372" CREATED="1708034779093" MODIFIED="1708034781937"/>
-<node TEXT="03-03_5_frequency-table-sorted.py" ID="ID_1690535208" CREATED="1708034788972" MODIFIED="1708034795272"/>
+<node TEXT="03-03_4_frequency-table.py" ID="ID_5247372" CREATED="1708034779093" MODIFIED="1708190331727">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="03-03_5_frequency-table-sorted.py" ID="ID_1690535208" CREATED="1708034788972" MODIFIED="1708190331727">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-04 Measuring the Dispersion (分散)" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1708037915759"><richcontent TYPE="NOTE">
+</node>
+<node TEXT="03-04 Measuring the Dispersion (分散)" FOLDED="true" ID="ID_1740515247" CREATED="1707336994394" MODIFIED="1708037915759"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -467,7 +477,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="03-04-01 Finding the Range of a Set of Numbers" FOLDED="true" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604">
+<node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604">
 <node ID="ID_247373761" CREATED="1708036957109" MODIFIED="1708037820448"><richcontent TYPE="NODE">
 
 <html>
@@ -486,8 +496,11 @@
 <node TEXT="You could have two groups of numbers with the exact same mean but with vastly different ranges, so knowing the range fills in more information about a set of numbers" ID="ID_1698517418" CREATED="1708037826439" MODIFIED="1708046359004">
 <arrowlink DESTINATION="ID_1020492818"/>
 </node>
+<node TEXT="03-04_1_finding-range.py" ID="ID_441707903" CREATED="1708190297884" MODIFIED="1708190317413">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="03-04-20 Finding the Variance and Standard Deviation" FOLDED="true" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572">
+</node>
+<node TEXT="03-04-20 Finding the Variance and Standard Deviation" ID="ID_1300499462" CREATED="1707337014838" MODIFIED="1707337024572">
 <node FOLDED="true" ID="ID_1977725881" CREATED="1708037933359" MODIFIED="1708046430532"><richcontent TYPE="NODE">
 
 <html>
@@ -526,10 +539,38 @@
 <arrowlink DESTINATION="ID_1194190343" MIDDLE_LABEL="Outliers"/>
 </node>
 </node>
+<node TEXT="03-04_2_finding-variance-sd.py" ID="ID_644479392" CREATED="1708190308992" MODIFIED="1708190317413">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" FOLDED="true" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1707337039000">
-<node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1707337051230"/>
+</node>
+<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1708190976405"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In this section, we'll learn how to calculate a statistical measure that tells us <span style="font-weight: bold;">the nature and strength of the relationship</span><span style="font-weight: normal;">&#xa0;between two sets of numbers: the </span><span style="font-weight: bold; font-style: italic;">Pearson Correlation Coefficient</span><span style="font-weight: normal;">. </span>
+    </p>
+    <p>
+      <span style="font-weight: normal;">This coefficient measures the strength of the </span><span style="font-weight: bold; font-style: italic; text-decoration: underline;">linear</span><span style="font-weight: normal; font-style: italic;">&#xa0;</span><span style="font-weight: normal;">relationship. </span>
+    </p>
+    <p>
+      <span style="font-weight: normal;">The coefficient can be either positive or negative, and its magnitude can range between -1 and 1 (inclusive). </span>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span style="font-weight: normal;">&quot;Correlation 相关性 doesn't imply causation 因果关系.&quot;</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
+<hook URI="img/correlation.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
 <node TEXT="03-05-02 High School Grades and Performance on College" ID="ID_69686681" CREATED="1707337054013" MODIFIED="1707337074549"/>
 </node>
 <node TEXT="03-06 Scatter Plots" ID="ID_1425592868" CREATED="1707337076432" MODIFIED="1707337088518"/>

@@ -289,21 +289,70 @@ It's best to use themean  to describe the center of a dataset when the distribut
 
 ### 03-03-01 Finding the Most Common Elements
 
+#### Count how many times each unique number occurs and find the one that occurs the most.
+
 #### from collections import Counter
 Counter(list).most_common()
 mode = Counter(list).most_common(1)
 
+#### 03-03_1_fining-most-common-elements.py
+
 ### 03-03-02 Finding the Mode
+
+#### 03-03_2_fining-mode.py
+
+#### 03-03_3_fining-multiple-modes.py
 
 ### 03-03-03 Creating a Frequency Table
 
-## 03-04 Measuring the Dispersion
+#### 03-03_4_frequency-table.py
+
+#### 03-03_5_frequency-table-sorted.py
+
+## 03-04 Measuring the Dispersion (分散)
+
+Thedispersion tells us how far away the numbers int he set of data are from the mean of the data set.
+
 
 ### 03-04-01 Finding the Range of a Set of Numbers
+ 
+For a list of numbers, therange  is the difference between the highest number and the lowest number
+
+
+#### You could have two groups of numbers with the exact same mean but with vastly different ranges, so knowing the range fills in more information about a set of numbers
+ (see:03-01 Finding the Mean)
+#### 03-04_1_finding-range.py
 
 ### 03-04-20 Finding the Variance and Standard Deviation
+ 
+Thevariance is the average of the squares of those differences of each of the numbers from themean.
+
+ (see:Standard Deviation is the square root of the variance)
+##### A high variance means that values are far from the mean.
+
+##### A low variance means that the values are clustered close to the mean.
+
+#### Standard Deviation is the square root of the variance
+
+##### Values that are within ONE standard deviation of the mean can be thought of as fairly typical.
+ 
+Values that are THREE or MORE standard deviations away from the mean can be considered much more atypical -- we call such valuesoutliers
+
+ (see:It's best to use the median when the distribution is either skewed or there are outliers present)
+#### 03-04_2_finding-variance-sd.py
 
 ## 03-05 Calculating the Correlation Between Two Data Sets
+
+In this section, we'll learn how to calculate a statistical measure that tells usthe nature and strength of the relationship between two sets of numbers: thePearson Correlation Coefficient.
+
+This coefficient measures the strength of thelinear relationship.
+
+The coefficient can be either positive or negative, and its magnitude can range between -1 and 1 (inclusive).
+
+
+
+"Correlation 相关性 doesn't imply causation 因果关系."
+
 
 ### 03-05-01 Calculating the Correlation Coefficient
 
