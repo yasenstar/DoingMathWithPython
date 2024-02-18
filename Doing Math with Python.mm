@@ -586,7 +586,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-07 Reading Data from Files" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
+<node TEXT="03-07 Reading Data from Files" FOLDED="true" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
 <node TEXT="03-07-01 Reading Data from a Text File" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1707337104562">
 <node TEXT="03-07_1_read-text-file-and-sum.py" ID="ID_162058650" CREATED="1708284120756" MODIFIED="1708284144613">
 <icon BUILTIN="launch"/>
@@ -602,7 +602,7 @@
 <node TEXT="03-07_4_read-csv-and-plot.py" ID="ID_1765839169" CREATED="1708291096023" MODIFIED="1708291110115">
 <icon BUILTIN="launch"/>
 </node>
-<node TEXT="03-07_5_read-trend-csv-and-plot.py" ID="ID_798282968" CREATED="1708291102459" MODIFIED="1708291110114">
+<node TEXT="03-07_5_read-trend-csv-and-plot.py" ID="ID_798282968" CREATED="1708291102459" MODIFIED="1708292266812" LINK="https://trends.google.com/trends?geo=&amp;hl=en-US">
 <icon BUILTIN="launch"/>
 </node>
 </node>
