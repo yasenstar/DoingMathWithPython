@@ -1,5 +1,5 @@
-'''
-Purpose: Fining the Mode step by step
-Author: Yasen Zhao
-Date: 2024/02/15
-'''
+plt.scatter(x2,y2)
+
+# plt.scatter(x3,y3)
+
+# plt.scatter(x4,y4)
