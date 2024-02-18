@@ -378,6 +378,10 @@ The coefficient can be either positive or negative, and its magnitude can range 
 
 ### 03-07-02 Reading Data from a CSV File
 
+#### 03-07_4_read-csv-and-plot.py
+
+#### 03-07_5_read-trend-csv-and-plot.py
+
 ## 03-08 Programming Clallenges
 
 ### 1. Better Correlation Coefficient
