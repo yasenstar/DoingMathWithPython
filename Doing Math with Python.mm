@@ -544,7 +544,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1708190976405"><richcontent TYPE="NOTE">
+<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" FOLDED="true" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1708190976405"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -570,12 +570,13 @@
 </richcontent>
 <node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
 <hook URI="img/correlation.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="High School Grades and Performance on College Admission Tests --&gt; Scatter Plot" ID="ID_1746068685" CREATED="1708191548858" MODIFIED="1708191630082"/>
 </node>
-<node TEXT="03-05-02 High School Grades and Performance on College" ID="ID_69686681" CREATED="1707337054013" MODIFIED="1707337074549"/>
+<node TEXT="03-05-02 High School Grades and Performance on College Admission Tests" ID="ID_69686681" CREATED="1707337054013" MODIFIED="1708220990799">
+<arrowlink DESTINATION="ID_1425592868"/>
+</node>
 </node>
 <node TEXT="03-06 Scatter Plots" ID="ID_1425592868" CREATED="1707337076432" MODIFIED="1707337088518"/>
-<node TEXT="03-07 Reading Data from Files" FOLDED="true" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
+<node TEXT="03-07 Reading Data from Files" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
 <node TEXT="03-07-01 Reading Data from a Text File" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1707337104562"/>
 <node TEXT="03-07-02 Reading Data from a CSV File" ID="ID_986924752" CREATED="1707337104714" MODIFIED="1707337112379"/>
 </node>
