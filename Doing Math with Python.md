@@ -356,13 +356,25 @@ The coefficient can be either positive or negative, and its magnitude can range 
 
 ### 03-05-01 Calculating the Correlation Coefficient
 
-### 03-05-02 High School Grades and Performance on College
+#### 03-05_1_finding-correlation.py
+
+### 03-05-02 High School Grades and Performance on College Admission Tests
+ (see:03-06 Scatter Plots)
+#### 03-05_2_correlation_analysis.py
 
 ## 03-06 Scatter Plots
+
+### 03-06_scatter-plot.py
 
 ## 03-07 Reading Data from Files
 
 ### 03-07-01 Reading Data from a Text File
+
+#### 03-07_1_read-text-file-and-sum.py
+
+#### 03-07_2_read-text-file-and-calc-in-list.py
+
+#### 03-07_3_read-text-file-by-inputname.py
 
 ### 03-07-02 Reading Data from a CSV File
 
@@ -519,3 +531,29 @@ The coefficient can be either positive or negative, and its magnitude can range 
 ### 3. Area Between Two Curves
 
 ### 4. Finding the Length of a Curve
+
+# Appendix B: Overview of Python Topics
+
+## B-01 if __name__ == '__main__'
+
+## B-02 List Comprehensions
+
+## B-03 Dictionary Data Structure
+
+## B-04 Multiple Return Values
+
+## B-05 Exception Handling
+
+### B-05-01 Specifying Multiple Exception Types
+
+### B-05-02 The ELSE Block
+
+## B-06 Reading Files in Python
+ (see:03-07 Reading Data from Files)
+### B-06-01 Reading All the Lines at Once
+
+### B-06-02 Specifying the Filename as Input
+
+### B-06-03 Handling Errors When Reading Files
+
+## Reusing Code

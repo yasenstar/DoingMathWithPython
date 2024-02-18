@@ -570,14 +570,34 @@
 </richcontent>
 <node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
 <hook URI="img/correlation.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="03-05_1_finding-correlation.py" ID="ID_1981066000" CREATED="1708284188800" MODIFIED="1708284198402">
+<icon BUILTIN="launch"/>
+</node>
 </node>
 <node TEXT="03-05-02 High School Grades and Performance on College Admission Tests" ID="ID_69686681" CREATED="1707337054013" MODIFIED="1708220990799">
 <arrowlink DESTINATION="ID_1425592868"/>
+<node TEXT="03-05_2_correlation_analysis.py" ID="ID_1389500692" CREATED="1708284179506" MODIFIED="1708284198402">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-06 Scatter Plots" ID="ID_1425592868" CREATED="1707337076432" MODIFIED="1707337088518"/>
+</node>
+<node TEXT="03-06 Scatter Plots" ID="ID_1425592868" CREATED="1707337076432" MODIFIED="1707337088518">
+<node TEXT="03-06_scatter-plot.py" ID="ID_1530876884" CREATED="1708284153730" MODIFIED="1708284163730">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="03-07 Reading Data from Files" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
-<node TEXT="03-07-01 Reading Data from a Text File" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1707337104562"/>
+<node TEXT="03-07-01 Reading Data from a Text File" FOLDED="true" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1707337104562">
+<node TEXT="03-07_1_read-text-file-and-sum.py" ID="ID_162058650" CREATED="1708284120756" MODIFIED="1708284144613">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="03-07_2_read-text-file-and-calc-in-list.py" ID="ID_998835597" CREATED="1708284129941" MODIFIED="1708284144613">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="03-07_3_read-text-file-by-inputname.py" ID="ID_1480655854" CREATED="1708284131047" MODIFIED="1708284144612">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="03-07-02 Reading Data from a CSV File" ID="ID_986924752" CREATED="1707337104714" MODIFIED="1707337112379"/>
 </node>
 <node TEXT="03-08 Programming Clallenges" FOLDED="true" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1707337122404">
