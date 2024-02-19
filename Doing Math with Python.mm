@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -611,16 +611,33 @@
 </node>
 </node>
 </node>
-<node TEXT="03-08 Programming Clallenges" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1707337122404">
-<node TEXT="1. Better Correlation Coefficient" ID="ID_414955027" CREATED="1707337122419" MODIFIED="1707337136529"/>
-<node TEXT="2. Statistics Calculator" ID="ID_1277904679" CREATED="1707337136702" MODIFIED="1707337141862"/>
-<node TEXT="3. Experiment with other CSV Data" ID="ID_728041182" CREATED="1707337142012" MODIFIED="1707337151605">
+<node TEXT="03-08 Programming Clallenges" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1708313559126" VGAP_QUANTITY="3 pt">
+<node TEXT="1. Better Correlation Coefficient" FOLDED="true" ID="ID_414955027" CREATED="1707337122419" MODIFIED="1707337136529">
+<node TEXT="03-08_1_better_finding-correlation.py" ID="ID_288514783" CREATED="1708308636016" MODIFIED="1708308656597">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="2. Statistics Calculator" FOLDED="true" ID="ID_1277904679" CREATED="1707337136702" MODIFIED="1707337141862">
+<node TEXT="03-08_2_statistics-calculator.py" ID="ID_105763767" CREATED="1708308637411" MODIFIED="1708308656596">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="3. Experiment with other CSV Data" FOLDED="true" ID="ID_728041182" CREATED="1707337142012" MODIFIED="1707337151605">
 <node TEXT="US Population Data" ID="ID_1321004105" CREATED="1708306000894" MODIFIED="1708306091013" LINK="https://www.macrotrends.net/countries/USA/united-states/population">
 <icon BUILTIN="links/file/csv"/>
 </node>
+<node TEXT="03-08_3_US-population-trends.py" ID="ID_1762979396" CREATED="1708311643023" MODIFIED="1708311655778">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="4. Finding the Percentile" ID="ID_1162438316" CREATED="1707337151955" MODIFIED="1707337157095"/>
-<node TEXT="5. Creating a Grouped Frequency Table" ID="ID_1516458103" CREATED="1707337157262" MODIFIED="1707337167062"/>
+</node>
+<node TEXT="4. Finding the Percentile (百分位数)" FOLDED="true" ID="ID_1162438316" CREATED="1707337151955" MODIFIED="1708311774658">
+<node TEXT="03-08_4_find-percentile-score.py" POSITION="bottom_or_right" ID="ID_1196541945" CREATED="1708313543444" MODIFIED="1708313555954">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="5. Creating a Grouped Frequency Table" ID="ID_1516458103" CREATED="1707337157262" MODIFIED="1708313559126">
+<node TEXT="" POSITION="bottom_or_right" ID="ID_293681261" CREATED="1708313539764" MODIFIED="1708313539764"/>
+</node>
 </node>
 </node>
 <node TEXT="04 Algebra and Symbolic Math with Sympy" FOLDED="true" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1707337182067">
