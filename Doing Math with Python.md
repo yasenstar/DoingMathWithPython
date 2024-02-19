@@ -410,7 +410,39 @@ The coefficient can be either positive or negative, and its magnitude can range 
 
 # 04 Algebra and Symbolic Math with Sympy
 
+We learn how to write programs that can solve symbolic math problems.
+
+We will use SymPy - a Python library that lets you write expressions containing symbols and perform operations on them.
+
+
+## 04-00 Installing SymPy
+
+### Prerequisite: pip3 install mpmath
+
+### pip3 install sympy
+
+#### Verify of Installation: from sympy import *
+
+### Usage
+
+#### import sys
+import mpmath
+from sympy import *
+
+### Testing
+
+#### After import sympy, execute below:
+>>> x = Symbol('x')
+>>> limit(sin(x)/x, x, 0)
+1
+>>> integrate(1/x, x)
+log(x)
+
+### SymPy Introductory Tutorial
+
 ## 04-01 Defining Symbols and Symbolic Operations
+
+### Symbols form the building blocks of symbolic math (符号数学).
 
 ## 04-02 Working with Expressions
 
@@ -549,6 +581,18 @@ The coefficient can be either positive or negative, and its magnitude can range 
 ### 3. Area Between Two Curves
 
 ### 4. Finding the Length of a Curve
+
+# Appendix A: Software Installation
+
+## Anaconda
+
+## SymPy
+ (see:04-00 Installing SymPy)
+### conda install sympy=0.7.6
+
+## Installing matplotlib-venn
+
+## Starting the Python Shell
 
 # Appendix B: Overview of Python Topics
 

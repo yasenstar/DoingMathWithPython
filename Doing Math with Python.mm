@@ -383,7 +383,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03 Describing Data with Statistics" POSITION="bottom_or_right" ID="ID_1940174178" CREATED="1707336933126" MODIFIED="1708007906407"><richcontent TYPE="NOTE">
+<node TEXT="03 Describing Data with Statistics" FOLDED="true" POSITION="bottom_or_right" ID="ID_1940174178" CREATED="1707336933126" MODIFIED="1708007906407"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -643,24 +643,53 @@
 </node>
 </node>
 </node>
-<node TEXT="04 Algebra and Symbolic Math with Sympy" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1707337182067">
-<node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150"/>
-<node TEXT="04-02 Working with Expressions" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
+<node TEXT="04 Algebra and Symbolic Math with Sympy" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1708366021762"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      We learn how to write programs that can solve symbolic math problems.
+    </p>
+    <p>
+      We will use SymPy - a Python library that lets you write expressions containing symbols and perform operations on them.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="04-00 Installing SymPy" ID="ID_567514185" CREATED="1708366037402" MODIFIED="1708366495705" LINK="https://www.sympy.org/en/index.html">
+<node TEXT="Prerequisite: pip3 install mpmath" ID="ID_288399852" CREATED="1708366296858" MODIFIED="1708366310576"/>
+<node TEXT="pip3 install sympy" ID="ID_1923763200" CREATED="1708366070886" MODIFIED="1708366173056">
+<node TEXT="Verify of Installation: from sympy import *" ID="ID_1199030365" CREATED="1708366377178" MODIFIED="1708366389605"/>
+</node>
+<node TEXT="Usage" ID="ID_1270740901" CREATED="1708366313136" MODIFIED="1708366398989">
+<node TEXT="import sys&#xa;import mpmath&#xa;from sympy import *" ID="ID_1202873283" CREATED="1708366398990" MODIFIED="1708366403921"/>
+</node>
+<node TEXT="Testing" ID="ID_596977680" CREATED="1708366405025" MODIFIED="1708366409577">
+<node TEXT="After import sympy, execute below:&#xa;&gt;&gt;&gt; x = Symbol(&apos;x&apos;)&#xa;&gt;&gt;&gt; limit(sin(x)/x, x, 0)&#xa;1&#xa;&gt;&gt;&gt; integrate(1/x, x)&#xa;log(x)" ID="ID_1177725816" CREATED="1708366409579" MODIFIED="1708366465778"/>
+</node>
+<node TEXT="SymPy Introductory Tutorial" ID="ID_220718626" CREATED="1708366504123" MODIFIED="1708366516607" LINK="https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html#intro-tutorial"/>
+</node>
+<node TEXT="04-01 Defining Symbols and Symbolic Operations" FOLDED="true" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
+<node TEXT="Symbols form the building blocks of symbolic math (符号数学)." ID="ID_419419845" CREATED="1708366563490" MODIFIED="1708366589697"/>
+</node>
+<node TEXT="04-02 Working with Expressions" FOLDED="true" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
 <node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421"/>
 <node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015"/>
 <node TEXT="04-02-03 Substituting in Values" ID="ID_321933664" CREATED="1707337242178" MODIFIED="1707337253180"/>
 <node TEXT="04-02-04 Converting Strings to Mathematical Expressions" ID="ID_670728652" CREATED="1707337384075" MODIFIED="1707337397208"/>
 </node>
-<node TEXT="04-03 Solving Equations" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
+<node TEXT="04-03 Solving Equations" FOLDED="true" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
 <node TEXT="04-03-01 Solving Quadratic Equations" ID="ID_454230137" CREATED="1707337407012" MODIFIED="1707337415812"/>
 <node TEXT="04-03-02 Solving for One Variable in Terms of Others" ID="ID_604525145" CREATED="1707337416134" MODIFIED="1707337428372"/>
 <node TEXT="04-03-03 Solving a System of Linear Equations" ID="ID_1391411533" CREATED="1707337428765" MODIFIED="1707337440976"/>
 </node>
-<node TEXT="04-04 Plotting Using Sympy" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1707337449937">
+<node TEXT="04-04 Plotting Using Sympy" FOLDED="true" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1707337449937">
 <node TEXT="04-04-01 Plotting Expressions Input by the User" ID="ID_857843621" CREATED="1707337449937" MODIFIED="1707337460998"/>
 <node TEXT="04-04-02 Plotting Multiple Functions" ID="ID_1592203726" CREATED="1707337461179" MODIFIED="1707337474279"/>
 </node>
-<node TEXT="04-05 Programming Challenges" ID="ID_1428846956" CREATED="1707337476269" MODIFIED="1707337481896">
+<node TEXT="04-05 Programming Challenges" FOLDED="true" ID="ID_1428846956" CREATED="1707337476269" MODIFIED="1707337481896">
 <node TEXT="1. Factor Finder" ID="ID_1088610239" CREATED="1707337481900" MODIFIED="1707337492479"/>
 <node TEXT="2. Graphical Equation Solver" ID="ID_1620516248" CREATED="1707337492665" MODIFIED="1707337500446"/>
 <node TEXT="3. Summing a Series" ID="ID_886090500" CREATED="1707337500629" MODIFIED="1707337504496"/>
@@ -732,6 +761,15 @@
 <node TEXT="3. Area Between Two Curves" ID="ID_744265456" CREATED="1707342710908" MODIFIED="1707342720041"/>
 <node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400"/>
 </node>
+</node>
+<node TEXT="Appendix A: Software Installation" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
+<node TEXT="Anaconda" POSITION="bottom_or_right" ID="ID_551991767" CREATED="1708366084997" MODIFIED="1708366088837"/>
+<node TEXT="SymPy" POSITION="bottom_or_right" ID="ID_1673650150" CREATED="1708366093840" MODIFIED="1708366801154">
+<arrowlink DESTINATION="ID_567514185"/>
+<node TEXT="conda install sympy=0.7.6" ID="ID_1553582147" CREATED="1708366098434" MODIFIED="1708366107045"/>
+</node>
+<node TEXT="Installing matplotlib-venn" POSITION="bottom_or_right" ID="ID_1461614166" CREATED="1708366114453" MODIFIED="1708366123883"/>
+<node TEXT="Starting the Python Shell" POSITION="bottom_or_right" ID="ID_1324958013" CREATED="1708366124080" MODIFIED="1708366131791"/>
 </node>
 <node TEXT="Appendix B: Overview of Python Topics" FOLDED="true" POSITION="bottom_or_right" ID="ID_965850652" CREATED="1708283701367" MODIFIED="1708283711969">
 <node TEXT="B-01 if __name__ == &apos;__main__&apos;" ID="ID_856140176" CREATED="1708283711973" MODIFIED="1708283731976"/>
