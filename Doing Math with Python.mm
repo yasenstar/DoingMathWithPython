@@ -658,7 +658,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="04-00 Installing SymPy" ID="ID_567514185" CREATED="1708366037402" MODIFIED="1708366495705" LINK="https://www.sympy.org/en/index.html">
+<node TEXT="04-00 Installing SymPy" FOLDED="true" ID="ID_567514185" CREATED="1708366037402" MODIFIED="1708366495705" LINK="https://www.sympy.org/en/index.html">
 <node TEXT="Prerequisite: pip3 install mpmath" ID="ID_288399852" CREATED="1708366296858" MODIFIED="1708366310576"/>
 <node TEXT="pip3 install sympy" ID="ID_1923763200" CREATED="1708366070886" MODIFIED="1708366173056">
 <node TEXT="Verify of Installation: from sympy import *" ID="ID_1199030365" CREATED="1708366377178" MODIFIED="1708366389605"/>
@@ -671,11 +671,40 @@
 </node>
 <node TEXT="SymPy Introductory Tutorial" ID="ID_220718626" CREATED="1708366504123" MODIFIED="1708366516607" LINK="https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html#intro-tutorial"/>
 </node>
-<node TEXT="04-01 Defining Symbols and Symbolic Operations" FOLDED="true" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
+<node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
 <node TEXT="Symbols form the building blocks of symbolic math (符号数学)." ID="ID_419419845" CREATED="1708366563490" MODIFIED="1708366589697"/>
+<node TEXT="Define single symbol" ID="ID_1535107358" CREATED="1708369330410" MODIFIED="1708369346858">
+<node TEXT="from sympy import Symbol&#xa;x = Symbol(&apos;x&apos;)" ID="ID_1532315423" CREATED="1708369346860" MODIFIED="1708369385820"/>
 </node>
-<node TEXT="04-02 Working with Expressions" FOLDED="true" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
-<node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421"/>
+<node TEXT="Define multiple symbols" ID="ID_1473860549" CREATED="1708369391650" MODIFIED="1708369398442">
+<node TEXT="from sympy import symbols&#xa;x,y,z = symbols(&apos;x,y,z&apos;)" ID="ID_1751528026" CREATED="1708369398443" MODIFIED="1708369419538"/>
+</node>
+<node TEXT="SymPy automatically simplifies only the most basic of expressions and leaves it to the programmer to explicitly require simplification in cases such as the one e.g. (x+2)*(x-3)" ID="ID_1874729123" CREATED="1708369430435" MODIFIED="1708369505323"/>
+<node ID="ID_312311296" CREATED="1708369514892" MODIFIED="1708369543505"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If you want to multiply out the expression to get the expanded version, you'll have to use the <span style="font-weight: bold;">expand()</span><span style="font-weight: normal;">&#xa0;&#xa0;function</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="04-02 Working with Expressions" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
+<node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421">
+<node TEXT="factorize: 因式分解" ID="ID_1474383479" CREATED="1708369688711" MODIFIED="1708369999302">
+<node TEXT="from sympy import factor&#xa;expr = x**2 - y**2&#xa;factor(expr)  # (x-y)*(x+y)" POSITION="bottom_or_right" ID="ID_289110013" CREATED="1708369604114" MODIFIED="1708369638961"/>
+</node>
+<node TEXT="expand: 多项式展开" ID="ID_1889536809" CREATED="1708369785179" MODIFIED="1708369806148">
+<node TEXT="from sympy import expand&#xa;factors = factor(expr)&#xa;expand(factors)" ID="ID_218087638" CREATED="1708369809772" MODIFIED="1708369878542"/>
+</node>
+</node>
 <node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015"/>
 <node TEXT="04-02-03 Substituting in Values" ID="ID_321933664" CREATED="1707337242178" MODIFIED="1707337253180"/>
 <node TEXT="04-02-04 Converting Strings to Mathematical Expressions" ID="ID_670728652" CREATED="1707337384075" MODIFIED="1707337397208"/>
