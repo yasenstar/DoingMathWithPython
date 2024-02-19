@@ -43,7 +43,7 @@ def variance_sd(numbers):
     squared_diff = []
     for d in diff:
         squared_diff.append(d**2)
-    print(squared_diff)
+    # print(squared_diff)
     sum_squared_diff = sum(squared_diff)
     print("Summary of Squared Difference is {0:.2f}".format(sum_squared_diff))
     variance = sum_squared_diff / len(numbers)
