@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -544,7 +544,9 @@
 </node>
 </node>
 </node>
-<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" FOLDED="true" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1708190976405"><richcontent TYPE="NOTE">
+<node TEXT="03-05 Calculating the Correlation Between Two Data Sets" FOLDED="true" ID="ID_567765778" CREATED="1707337025501" MODIFIED="1708292828658">
+<arrowlink DESTINATION="ID_414955027"/>
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -568,7 +570,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="03-05-01 Calculating the Correlation Coefficient" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
+<node TEXT="03-05-01 Calculating the Correlation Coefficient" FOLDED="true" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
 <hook URI="img/correlation.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="03-05_1_finding-correlation.py" ID="ID_1981066000" CREATED="1708284188800" MODIFIED="1708284198402">
 <icon BUILTIN="launch"/>
@@ -587,7 +589,8 @@
 </node>
 </node>
 <node TEXT="03-07 Reading Data from Files" FOLDED="true" ID="ID_1499947652" CREATED="1707337088729" MODIFIED="1707337096462">
-<node TEXT="03-07-01 Reading Data from a Text File" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1707337104562">
+<node TEXT="03-07-01 Reading Data from a Text File" FOLDED="true" ID="ID_250079380" CREATED="1707337096468" MODIFIED="1708292947766">
+<arrowlink DESTINATION="ID_1277904679"/>
 <node TEXT="03-07_1_read-text-file-and-sum.py" ID="ID_162058650" CREATED="1708284120756" MODIFIED="1708284144613">
 <icon BUILTIN="launch"/>
 </node>
@@ -598,7 +601,8 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="03-07-02 Reading Data from a CSV File" ID="ID_986924752" CREATED="1707337104714" MODIFIED="1707337112379">
+<node TEXT="03-07-02 Reading Data from a CSV File" FOLDED="true" ID="ID_986924752" CREATED="1707337104714" MODIFIED="1708293015095">
+<arrowlink DESTINATION="ID_728041182"/>
 <node TEXT="03-07_4_read-csv-and-plot.py" ID="ID_1765839169" CREATED="1708291096023" MODIFIED="1708291110115">
 <icon BUILTIN="launch"/>
 </node>
@@ -610,7 +614,11 @@
 <node TEXT="03-08 Programming Clallenges" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1707337122404">
 <node TEXT="1. Better Correlation Coefficient" ID="ID_414955027" CREATED="1707337122419" MODIFIED="1707337136529"/>
 <node TEXT="2. Statistics Calculator" ID="ID_1277904679" CREATED="1707337136702" MODIFIED="1707337141862"/>
-<node TEXT="3. Experiment with other CSV Data" ID="ID_728041182" CREATED="1707337142012" MODIFIED="1707337151605"/>
+<node TEXT="3. Experiment with other CSV Data" ID="ID_728041182" CREATED="1707337142012" MODIFIED="1707337151605">
+<node TEXT="US Population Data" ID="ID_1321004105" CREATED="1708306000894" MODIFIED="1708306091013" LINK="https://www.macrotrends.net/countries/USA/united-states/population">
+<icon BUILTIN="links/file/csv"/>
+</node>
+</node>
 <node TEXT="4. Finding the Percentile" ID="ID_1162438316" CREATED="1707337151955" MODIFIED="1707337157095"/>
 <node TEXT="5. Creating a Grouped Frequency Table" ID="ID_1516458103" CREATED="1707337157262" MODIFIED="1707337167062"/>
 </node>
@@ -705,7 +713,7 @@
 <node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400"/>
 </node>
 </node>
-<node TEXT="Appendix B: Overview of Python Topics" POSITION="bottom_or_right" ID="ID_965850652" CREATED="1708283701367" MODIFIED="1708283711969">
+<node TEXT="Appendix B: Overview of Python Topics" FOLDED="true" POSITION="bottom_or_right" ID="ID_965850652" CREATED="1708283701367" MODIFIED="1708283711969">
 <node TEXT="B-01 if __name__ == &apos;__main__&apos;" ID="ID_856140176" CREATED="1708283711973" MODIFIED="1708283731976"/>
 <node TEXT="B-02 List Comprehensions" ID="ID_430657736" CREATED="1708283732547" MODIFIED="1708283739493"/>
 <node TEXT="B-03 Dictionary Data Structure" ID="ID_387496478" CREATED="1708283739664" MODIFIED="1708283750143"/>
