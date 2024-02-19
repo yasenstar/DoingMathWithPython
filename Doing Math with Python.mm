@@ -630,17 +630,20 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="4. Finding the Percentile (百分位数)" FOLDED="true" ID="ID_1162438316" CREATED="1707337151955" MODIFIED="1708311774658">
-<node TEXT="03-08_4_find-percentile-score.py" POSITION="bottom_or_right" ID="ID_1196541945" CREATED="1708313543444" MODIFIED="1708313555954">
+<node TEXT="4. Finding the Percentile (百分位数)" ID="ID_1162438316" CREATED="1707337151955" MODIFIED="1708311774658">
+<node TEXT="03-08_4_1-find-percentile-score.py" POSITION="bottom_or_right" ID="ID_1196541945" CREATED="1708313543444" MODIFIED="1708314130955">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="03-08_4_2-find-percentile-score.py" POSITION="bottom_or_right" ID="ID_293681261" CREATED="1708313539764" MODIFIED="1708314138119" LINK="https://en.wikipedia.org/wiki/Percentile#Microsoft_Excel_method"/>
+</node>
+<node TEXT="5. Creating a Grouped Frequency Table" ID="ID_1516458103" CREATED="1707337157262" MODIFIED="1708313559126">
+<node TEXT="03-08_5_grouped-frequency-table.py" ID="ID_146624924" CREATED="1708317317826" MODIFIED="1708317324763">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="5. Creating a Grouped Frequency Table" ID="ID_1516458103" CREATED="1707337157262" MODIFIED="1708313559126">
-<node TEXT="" POSITION="bottom_or_right" ID="ID_293681261" CREATED="1708313539764" MODIFIED="1708313539764"/>
 </node>
 </node>
-</node>
-<node TEXT="04 Algebra and Symbolic Math with Sympy" FOLDED="true" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1707337182067">
+<node TEXT="04 Algebra and Symbolic Math with Sympy" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1707337182067">
 <node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150"/>
 <node TEXT="04-02 Working with Expressions" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
 <node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421"/>

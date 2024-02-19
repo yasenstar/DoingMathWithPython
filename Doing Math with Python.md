@@ -353,7 +353,7 @@ The coefficient can be either positive or negative, and its magnitude can range 
 
 "Correlation 相关性 doesn't imply causation 因果关系."
 
-
+ (see:1. Better Correlation Coefficient)
 ### 03-05-01 Calculating the Correlation Coefficient
 
 #### 03-05_1_finding-correlation.py
@@ -369,7 +369,7 @@ The coefficient can be either positive or negative, and its magnitude can range 
 ## 03-07 Reading Data from Files
 
 ### 03-07-01 Reading Data from a Text File
-
+ (see:2. Statistics Calculator)
 #### 03-07_1_read-text-file-and-sum.py
 
 #### 03-07_2_read-text-file-and-calc-in-list.py
@@ -377,7 +377,7 @@ The coefficient can be either positive or negative, and its magnitude can range 
 #### 03-07_3_read-text-file-by-inputname.py
 
 ### 03-07-02 Reading Data from a CSV File
-
+ (see:3. Experiment with other CSV Data)
 #### 03-07_4_read-csv-and-plot.py
 
 #### 03-07_5_read-trend-csv-and-plot.py
@@ -386,13 +386,27 @@ The coefficient can be either positive or negative, and its magnitude can range 
 
 ### 1. Better Correlation Coefficient
 
+#### 03-08_1_better_finding-correlation.py
+
 ### 2. Statistics Calculator
+
+#### 03-08_2_statistics-calculator.py
 
 ### 3. Experiment with other CSV Data
 
-### 4. Finding the Percentile
+#### US Population Data
+
+#### 03-08_3_US-population-trends.py
+
+### 4. Finding the Percentile (百分位数)
+
+#### 03-08_4_1-find-percentile-score.py
+
+#### 03-08_4_2-find-percentile-score.py
 
 ### 5. Creating a Grouped Frequency Table
+
+#### 03-08_5_grouped-frequency-table.py
 
 # 04 Algebra and Symbolic Math with Sympy
 
