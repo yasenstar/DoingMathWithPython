@@ -533,7 +533,11 @@ solve(expr) # assuming the expr is equal to zero
 
 ### 04-04-01 Plotting Expressions Input by the User
 
+#### 04-04_1_plotting-exression.py
+
 ### 04-04-02 Plotting Multiple Functions
+
+#### 04-04_2_two-line-plotting.py
 
 ## 04-05 Programming Challenges
 
