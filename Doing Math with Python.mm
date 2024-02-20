@@ -710,7 +710,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="04-02 Working with Expressions" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
+<node TEXT="04-02 Working with Expressions" FOLDED="true" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
 <node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421">
 <node TEXT="factorize: 因式分解" ID="ID_1474383479" CREATED="1708369688711" MODIFIED="1708369999302">
 <node TEXT="from sympy import factor&#xa;expr = x**2 - y**2&#xa;factor(expr)  # (x-y)*(x+y)" POSITION="bottom_or_right" ID="ID_289110013" CREATED="1708369604114" MODIFIED="1708369638961"/>
@@ -751,13 +751,13 @@
 </node>
 </node>
 </node>
-<node TEXT="04-03 Solving Equations" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
+<node TEXT="04-03 Solving Equations" FOLDED="true" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
 <node TEXT="from sympy import Symbol, solve&#xa;x = Symbol(&apos;x&apos;)&#xa;expr = x - 5 - 7&#xa;solve(expr) # assuming the expr is equal to zero" ID="ID_268618535" CREATED="1708378895999" MODIFIED="1708378995088"/>
 <node TEXT="04-03-01 Solving Quadratic Equations (二次方程)" ID="ID_454230137" CREATED="1707337407012" MODIFIED="1708379162263"/>
 <node TEXT="04-03-02 Solving for One Variable in Terms of Others" ID="ID_604525145" CREATED="1707337416134" MODIFIED="1707337428372"/>
 <node TEXT="04-03-03 Solving a System of Linear Equations" ID="ID_1391411533" CREATED="1707337428765" MODIFIED="1707337440976"/>
 </node>
-<node TEXT="04-04 Plotting Using SymPy" FOLDED="true" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1708380363268">
+<node TEXT="04-04 Plotting Using SymPy" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1708380363268">
 <node TEXT="from sympy.plotting import plot" ID="ID_1812248849" CREATED="1708379765755" MODIFIED="1708379776011"/>
 <node TEXT="04-04-01 Plotting Expressions Input by the User" ID="ID_857843621" CREATED="1707337449937" MODIFIED="1707337460998"/>
 <node TEXT="04-04-02 Plotting Multiple Functions" ID="ID_1592203726" CREATED="1707337461179" MODIFIED="1707337474279"/>
