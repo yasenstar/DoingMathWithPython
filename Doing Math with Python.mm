@@ -705,16 +705,29 @@
 <node TEXT="from sympy import expand&#xa;factors = factor(expr)&#xa;expand(factors)" ID="ID_218087638" CREATED="1708369809772" MODIFIED="1708369878542"/>
 </node>
 </node>
-<node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015"/>
-<node TEXT="04-02-03 Substituting in Values" ID="ID_321933664" CREATED="1707337242178" MODIFIED="1707337253180"/>
-<node TEXT="04-02-04 Converting Strings to Mathematical Expressions" ID="ID_670728652" CREATED="1707337384075" MODIFIED="1707337397208"/>
+<node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015">
+<node TEXT="from sympy import pprint&#xa;pprint(expr)" ID="ID_1464270096" CREATED="1708370052353" MODIFIED="1708370065616"/>
 </node>
-<node TEXT="04-03 Solving Equations" FOLDED="true" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
-<node TEXT="04-03-01 Solving Quadratic Equations" ID="ID_454230137" CREATED="1707337407012" MODIFIED="1707337415812"/>
+<node TEXT="04-02-03 Substituting (替代) in Values" ID="ID_321933664" CREATED="1707337242178" MODIFIED="1708376265684">
+<node TEXT="expr = x*x + 2*x*y + y*y&#xa;res = expr.subs({x:1, y:2})" ID="ID_1051827592" CREATED="1708376272994" MODIFIED="1708376309279"/>
+<node TEXT="from sympy import simplify&#xa;expr_subs = expr.subs({x:1-y})&#xa;simplify(expr_subs)" ID="ID_1009423254" CREATED="1708377582847" MODIFIED="1708377623316"/>
+<node TEXT="04-02-03-01 Calculating the Value of a Series" ID="ID_1747844713" CREATED="1708377708154" MODIFIED="1708377721725"/>
+</node>
+<node TEXT="04-02-04 Converting Strings to Mathematical Expressions" ID="ID_670728652" CREATED="1707337384075" MODIFIED="1707337397208">
+<node TEXT="sympify(): converts that string into a SymPy object that makes it possible to apply SymPy&apos;s functions to the input" ID="ID_1927579211" CREATED="1708378612317" MODIFIED="1708378644336"/>
+<node TEXT="from sympy import sympify" ID="ID_1820097379" CREATED="1708378653088" MODIFIED="1708378663325"/>
+<node TEXT="from sympy.core.sympify import SympifyError&#xa;try:&#xa;except SimpifyError:" ID="ID_191331076" CREATED="1708378735618" MODIFIED="1708378778113"/>
+<node TEXT="04-02-04-01 Expression Multiplier" ID="ID_868976708" CREATED="1708378795190" MODIFIED="1708378806371"/>
+</node>
+</node>
+<node TEXT="04-03 Solving Equations" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
+<node TEXT="from sympy import Symbol, solve&#xa;x = Symbol(&apos;x&apos;)&#xa;expr = x - 5 - 7&#xa;solve(expr) # assuming the expr is equal to zero" ID="ID_268618535" CREATED="1708378895999" MODIFIED="1708378995088"/>
+<node TEXT="04-03-01 Solving Quadratic Equations (二次方程)" ID="ID_454230137" CREATED="1707337407012" MODIFIED="1708379162263"/>
 <node TEXT="04-03-02 Solving for One Variable in Terms of Others" ID="ID_604525145" CREATED="1707337416134" MODIFIED="1707337428372"/>
 <node TEXT="04-03-03 Solving a System of Linear Equations" ID="ID_1391411533" CREATED="1707337428765" MODIFIED="1707337440976"/>
 </node>
-<node TEXT="04-04 Plotting Using Sympy" FOLDED="true" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1707337449937">
+<node TEXT="04-04 Plotting Using Sympy" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1707337449937">
+<node TEXT="from sympy.plotting import plot" ID="ID_1812248849" CREATED="1708379765755" MODIFIED="1708379776011"/>
 <node TEXT="04-04-01 Plotting Expressions Input by the User" ID="ID_857843621" CREATED="1707337449937" MODIFIED="1707337460998"/>
 <node TEXT="04-04-02 Plotting Multiple Functions" ID="ID_1592203726" CREATED="1707337461179" MODIFIED="1707337474279"/>
 </node>

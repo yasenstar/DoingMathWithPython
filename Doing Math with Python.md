@@ -444,25 +444,81 @@ log(x)
 
 ### Symbols form the building blocks of symbolic math (符号数学).
 
+### Define single symbol
+
+#### from sympy import Symbol
+x = Symbol('x')
+
+### Define multiple symbols
+
+#### from sympy import symbols
+x,y,z = symbols('x,y,z')
+
+### SymPy automatically simplifies only the most basic of expressions and leaves it to the programmer to explicitly require simplification in cases such as the one e.g. (x+2)*(x-3)
+ 
+If you want to multiply out the expression to get the expanded version, you'll have to use theexpand()  function
+
+
 ## 04-02 Working with Expressions
 
 ### 04-02-01 Fractorizing and Expanding Expressions
 
+#### factorize: 因式分解
+
+##### from sympy import factor
+expr = x**2 - y**2
+factor(expr)  # (x-y)*(x+y)
+
+#### expand: 多项式展开
+
+##### from sympy import expand
+factors = factor(expr)
+expand(factors)
+
 ### 04-02-02 Pretty Printing
 
-### 04-02-03 Substituting in Values
+#### from sympy import pprint
+pprint(expr)
+
+### 04-02-03 Substituting (替代) in Values
+
+#### expr = x*x + 2*x*y + y*y
+res = expr.subs({x:1, y:2})
+
+#### from sympy import simplify
+expr_subs = expr.subs({x:1-y})
+simplify(expr_subs)
+
+#### 04-02-03-01 Calculating the Value of a Series
 
 ### 04-02-04 Converting Strings to Mathematical Expressions
 
+#### sympify(): converts that string into a SymPy object that makes it possible to apply SymPy's functions to the input
+
+#### from sympy import sympify
+
+#### from sympy.core.sympify import SympifyError
+try:
+except SimpifyError:
+
+#### 04-02-04-01 Expression Multiplier
+
 ## 04-03 Solving Equations
 
-### 04-03-01 Solving Quadratic Equations
+### from sympy import Symbol, solve
+x = Symbol('x')
+expr = x - 5 - 7
+solve(expr) # assuming the expr is equal to zero
+
+### 04-03-01 Solving Quadratic Equations (二次方程)
 
 ### 04-03-02 Solving for One Variable in Terms of Others
 
 ### 04-03-03 Solving a System of Linear Equations
 
 ## 04-04 Plotting Using Sympy
+
+### from sympy.plotting import plot
 
 ### 04-04-01 Plotting Expressions Input by the User
 
