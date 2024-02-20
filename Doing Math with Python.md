@@ -453,8 +453,9 @@ x = Symbol('x')
 
 #### from sympy import symbols
 x,y,z = symbols('x,y,z')
+ 
+SymPy automatically simplifies only themost basic of expressions and leaves it to the programmer to explicitly require simplification in cases such as the one e.g. (x+2)*(x-3)
 
-### SymPy automatically simplifies only the most basic of expressions and leaves it to the programmer to explicitly require simplification in cases such as the one e.g. (x+2)*(x-3)
  
 If you want to multiply out the expression to get the expanded version, you'll have to use theexpand()  function
 
@@ -480,6 +481,10 @@ expand(factors)
 #### from sympy import pprint
 pprint(expr)
 
+#### 04-02-02-01 Printing a Series
+
+##### 04-02_1_printing-series.py
+
 ### 04-02-03 Substituting (替代) in Values
 
 #### expr = x*x + 2*x*y + y*y
@@ -491,6 +496,8 @@ simplify(expr_subs)
 
 #### 04-02-03-01 Calculating the Value of a Series
 
+##### 04-02_2_culculate-value-of-series.py
+
 ### 04-02-04 Converting Strings to Mathematical Expressions
 
 #### sympify(): converts that string into a SymPy object that makes it possible to apply SymPy's functions to the input
@@ -501,7 +508,11 @@ simplify(expr_subs)
 try:
 except SimpifyError:
 
+##### 04-02_3_simpify-error-handling.py
+
 #### 04-02-04-01 Expression Multiplier
+
+##### 04-02_4_expression-multiplier.py
 
 ## 04-03 Solving Equations
 
@@ -516,7 +527,7 @@ solve(expr) # assuming the expr is equal to zero
 
 ### 04-03-03 Solving a System of Linear Equations
 
-## 04-04 Plotting Using Sympy
+## 04-04 Plotting Using SymPy
 
 ### from sympy.plotting import plot
 

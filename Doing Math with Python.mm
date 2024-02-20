@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.072">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -671,7 +671,7 @@
 </node>
 <node TEXT="SymPy Introductory Tutorial" ID="ID_220718626" CREATED="1708366504123" MODIFIED="1708366516607" LINK="https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html#intro-tutorial"/>
 </node>
-<node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
+<node TEXT="04-01 Defining Symbols and Symbolic Operations" FOLDED="true" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
 <node TEXT="Symbols form the building blocks of symbolic math (符号数学)." ID="ID_419419845" CREATED="1708366563490" MODIFIED="1708366589697"/>
 <node TEXT="Define single symbol" ID="ID_1535107358" CREATED="1708369330410" MODIFIED="1708369346858">
 <node TEXT="from sympy import Symbol&#xa;x = Symbol(&apos;x&apos;)" ID="ID_1532315423" CREATED="1708369346860" MODIFIED="1708369385820"/>
@@ -679,7 +679,21 @@
 <node TEXT="Define multiple symbols" ID="ID_1473860549" CREATED="1708369391650" MODIFIED="1708369398442">
 <node TEXT="from sympy import symbols&#xa;x,y,z = symbols(&apos;x,y,z&apos;)" ID="ID_1751528026" CREATED="1708369398443" MODIFIED="1708369419538"/>
 </node>
-<node TEXT="SymPy automatically simplifies only the most basic of expressions and leaves it to the programmer to explicitly require simplification in cases such as the one e.g. (x+2)*(x-3)" ID="ID_1874729123" CREATED="1708369430435" MODIFIED="1708369505323"/>
+<node ID="ID_1874729123" CREATED="1708369430435" MODIFIED="1708381180524"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      SymPy automatically simplifies only the <span style="font-weight: bold; text-decoration: underline;">most basic</span>&#xa0;of expressions and leaves it to the programmer to explicitly require simplification in cases such as the one e.g. (x+2)*(x-3)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node ID="ID_312311296" CREATED="1708369514892" MODIFIED="1708369543505"><richcontent TYPE="NODE">
 
 <html>
@@ -707,17 +721,34 @@
 </node>
 <node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015">
 <node TEXT="from sympy import pprint&#xa;pprint(expr)" ID="ID_1464270096" CREATED="1708370052353" MODIFIED="1708370065616"/>
+<node TEXT="04-02-02-01 Printing a Series" ID="ID_371510733" CREATED="1708391241923" MODIFIED="1708391251627">
+<node TEXT="04-02_1_printing-series.py" ID="ID_96440509" CREATED="1708391252658" MODIFIED="1708391262728">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 <node TEXT="04-02-03 Substituting (替代) in Values" ID="ID_321933664" CREATED="1707337242178" MODIFIED="1708376265684">
 <node TEXT="expr = x*x + 2*x*y + y*y&#xa;res = expr.subs({x:1, y:2})" ID="ID_1051827592" CREATED="1708376272994" MODIFIED="1708376309279"/>
 <node TEXT="from sympy import simplify&#xa;expr_subs = expr.subs({x:1-y})&#xa;simplify(expr_subs)" ID="ID_1009423254" CREATED="1708377582847" MODIFIED="1708377623316"/>
-<node TEXT="04-02-03-01 Calculating the Value of a Series" ID="ID_1747844713" CREATED="1708377708154" MODIFIED="1708377721725"/>
+<node TEXT="04-02-03-01 Calculating the Value of a Series" ID="ID_1747844713" CREATED="1708377708154" MODIFIED="1708377721725">
+<node TEXT="04-02_2_culculate-value-of-series.py" ID="ID_977315029" CREATED="1708391271853" MODIFIED="1708391281073">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 <node TEXT="04-02-04 Converting Strings to Mathematical Expressions" ID="ID_670728652" CREATED="1707337384075" MODIFIED="1707337397208">
 <node TEXT="sympify(): converts that string into a SymPy object that makes it possible to apply SymPy&apos;s functions to the input" ID="ID_1927579211" CREATED="1708378612317" MODIFIED="1708378644336"/>
 <node TEXT="from sympy import sympify" ID="ID_1820097379" CREATED="1708378653088" MODIFIED="1708378663325"/>
-<node TEXT="from sympy.core.sympify import SympifyError&#xa;try:&#xa;except SimpifyError:" ID="ID_191331076" CREATED="1708378735618" MODIFIED="1708378778113"/>
-<node TEXT="04-02-04-01 Expression Multiplier" ID="ID_868976708" CREATED="1708378795190" MODIFIED="1708378806371"/>
+<node TEXT="from sympy.core.sympify import SympifyError&#xa;try:&#xa;except SimpifyError:" ID="ID_191331076" CREATED="1708378735618" MODIFIED="1708378778113">
+<node TEXT="04-02_3_simpify-error-handling.py" ID="ID_1380143911" CREATED="1708391293123" MODIFIED="1708391310854">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="04-02-04-01 Expression Multiplier" ID="ID_868976708" CREATED="1708378795190" MODIFIED="1708378806371">
+<node TEXT="04-02_4_expression-multiplier.py" ID="ID_882712886" CREATED="1708391301310" MODIFIED="1708391310854">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="04-03 Solving Equations" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
@@ -726,7 +757,7 @@
 <node TEXT="04-03-02 Solving for One Variable in Terms of Others" ID="ID_604525145" CREATED="1707337416134" MODIFIED="1707337428372"/>
 <node TEXT="04-03-03 Solving a System of Linear Equations" ID="ID_1391411533" CREATED="1707337428765" MODIFIED="1707337440976"/>
 </node>
-<node TEXT="04-04 Plotting Using Sympy" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1707337449937">
+<node TEXT="04-04 Plotting Using SymPy" FOLDED="true" ID="ID_1981120448" CREATED="1707337444205" MODIFIED="1708380363268">
 <node TEXT="from sympy.plotting import plot" ID="ID_1812248849" CREATED="1708379765755" MODIFIED="1708379776011"/>
 <node TEXT="04-04-01 Plotting Expressions Input by the User" ID="ID_857843621" CREATED="1707337449937" MODIFIED="1707337460998"/>
 <node TEXT="04-04-02 Plotting Multiple Functions" ID="ID_1592203726" CREATED="1707337461179" MODIFIED="1707337474279"/>
@@ -804,7 +835,7 @@
 <node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400"/>
 </node>
 </node>
-<node TEXT="Appendix A: Software Installation" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
+<node TEXT="Appendix A: Software Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
 <node TEXT="Anaconda" POSITION="bottom_or_right" ID="ID_551991767" CREATED="1708366084997" MODIFIED="1708366088837"/>
 <node TEXT="SymPy" POSITION="bottom_or_right" ID="ID_1673650150" CREATED="1708366093840" MODIFIED="1708366801154">
 <arrowlink DESTINATION="ID_567514185"/>
