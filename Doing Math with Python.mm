@@ -776,14 +776,39 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="2. Graphical Equation Solver" ID="ID_1620516248" CREATED="1707337492665" MODIFIED="1707337500446"/>
+<node TEXT="2. Graphical Equation Solver" ID="ID_1620516248" CREATED="1707337492665" MODIFIED="1707337500446">
+<node TEXT="04-05_2_graphical-equation-solver.py" ID="ID_1510159402" CREATED="1708554172363" MODIFIED="1708554181472">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="3. Summing a Series" ID="ID_886090500" CREATED="1707337500629" MODIFIED="1707337504496"/>
 <node TEXT="4. Solving Single-Variable Inequalities" ID="ID_134911866" CREATED="1707337504667" MODIFIED="1707337512757"/>
 </node>
 </node>
-<node TEXT="05 Playing with Sets and Probability" FOLDED="true" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1707337523426">
+<node TEXT="05 Playing with Sets and Probability" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1708469608664"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        We will start by learning how we can make our programs understand and manipulate sets of numbers.
+      </li>
+      <li>
+        We'll see how sets can help us understand basic concepts in probability.
+      </li>
+      <li>
+        We'll learn about generating random numbers to simulate random events.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 <node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1707337569245">
-<node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712"/>
+<node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712">
+<node TEXT="from sympy import FiniteSet" ID="ID_1092733068" CREATED="1708469706207" MODIFIED="1708469713081"/>
+</node>
 <node TEXT="05-01-02 Subsets, Supersets, and Power Sets" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1707337584917"/>
 <node TEXT="05-01-03 Set Operations" ID="ID_1489090646" CREATED="1707337585112" MODIFIED="1707337589988"/>
 </node>
