@@ -482,7 +482,7 @@ expand(factors)
 pprint(expr)
 
 #### 04-02-02-01 Printing a Series
-
+ (see:3. Summing a Series)
 ##### 04-02_1_printing-series.py
 
 ### 04-02-03 Substituting (替代) in Values
@@ -543,21 +543,98 @@ solve(expr) # assuming the expr is equal to zero
 
 ### 1. Factor Finder
 
+#### 04-05_1_factor-finder.py
+
 ### 2. Graphical Equation Solver
+
+#### 04-05_2_graphical-equation-solver.py
 
 ### 3. Summing a Series
 
+#### from sympy import summation
+s = summation(x**n/n, (n,1,5))
+
+#### 04-05_3_summing-a-series.py
+
 ### 4. Solving Single-Variable Inequalities
+
+#### inequality-solving function
+(from sympy import Poly)
+
+##### polynomial function
+ 
+Apolynomial (多项式) is an algebraic expression consisting of a variable and coefficients and involving only the operations of addition, subtraction, and multiplication, and only positive powers of the variable. e.g. x**2 + 4 < 0
+
+
+###### from sympy import solve_poly_inequality
+
+##### retional function
+ 
+Arational expression is an algebraic expression in which the numerator and denominator are both polynomials. e.g. ((x-1)/(x+2)) > 0
+
+
+###### from sympy import solve_rational_inequalities
+
+##### all other inequalities
+
+###### e.g. sinx - 0.6 > 0
+
+###### from sympy import solve_univariate_inequality, sin
 
 # 05 Playing with Sets and Probability
 
+- We will start by learning how we can make our programs understand and manipulate sets of numbers.
+- We'll see how sets can help us understand basic concepts in probability.
+- We'll learn about generating random numbers to simulate random events.
+
+
 ## 05-01 What's a Set?
+ 
+A set is a collection ofdistinct objects, often calledelementsormembers.
+
+
+#### The set is "well defined", meaning the question "Is a particular object in this collections?" always has a clear Yes or No answer, usually based on a rule or some given criteria.
+
+#### No two members of a set are the same!
 
 ### 05-01-01 Set Construction
 
+#### from sympy import FiniteSet
+
+#### 05-01-01-01 Checking Whether a Number Is in a Set
+
+#### 05-01-01-02 Creating an Empty Set
+
+#### 05-01-01-03 Creating Sets from Lists or Tuples
+
+#### 05-01-01-04 Set Repetition and Order
+
+##### FiniteSet(*members)
+
 ### 05-01-02 Subsets, Supersets, and Power Sets
+ 
+A set,s, is asubset  of another set,t, if all the members ofsare also members oft. --> is_subset()
+
+ 
+A set,t, is said to be asuperset  of another set,s, ift  contains all of the members contained ins. --> is_superset()
+
+ 
+Thepower set of a set,s, is the set of all possible subsets ofs. --> powerset()
+
+
+#### Using len() to find set's cardinality.
+
+#### is_proper_subset(), is_proper_superset()
 
 ### 05-01-03 Set Operations
+
+#### Union and Intersection
+
+#### Cartesian Product (笛卡尔积)
+
+#### Applying a Formula to Multiple Sets of Variables
+
+#### Different Gravity, Different Results
 
 ## 05-02 Probability
 

@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.825">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.072">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -838,8 +838,8 @@
     </ul>
   </body>
 </html></richcontent>
-<node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1707337569245">
-<node ID="ID_986118979" CREATED="1708619562108" MODIFIED="1708619607326"><richcontent TYPE="NODE">
+<node TEXT="05-01 What&apos;s a Set?" FOLDED="true" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1708627031719" LINK="https://en.wikipedia.org/wiki/Set_theory">
+<node FOLDED="true" ID="ID_986118979" CREATED="1708619562108" MODIFIED="1708619607326"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -856,19 +856,78 @@
 <node TEXT="The set is &quot;well defined&quot;, meaning the question &quot;Is a particular object in this collections?&quot; always has a clear Yes or No answer, usually based on a rule or some given criteria." ID="ID_828304885" CREATED="1708619634846" MODIFIED="1708619678881"/>
 <node TEXT="No two members of a set are the same!" ID="ID_672182118" CREATED="1708619679521" MODIFIED="1708619693542"/>
 </node>
-<node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712">
+<node TEXT="05-01-01 Set Construction" FOLDED="true" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712">
 <node TEXT="from sympy import FiniteSet" ID="ID_1092733068" CREATED="1708469706207" MODIFIED="1708469713081"/>
+<node TEXT="05-01-01-01 Checking Whether a Number Is in a Set" ID="ID_1255435035" CREATED="1708619720907" MODIFIED="1708619734703"/>
+<node TEXT="05-01-01-02 Creating an Empty Set" ID="ID_835548037" CREATED="1708619744280" MODIFIED="1708619753970"/>
+<node TEXT="05-01-01-03 Creating Sets from Lists or Tuples" ID="ID_1570764201" CREATED="1708619758930" MODIFIED="1708619769283"/>
+<node TEXT="05-01-01-04 Set Repetition and Order" ID="ID_207532480" CREATED="1708619769697" MODIFIED="1708619779205">
+<node TEXT="FiniteSet(*members)" ID="ID_672383897" CREATED="1708619786422" MODIFIED="1708619802423"/>
 </node>
-<node TEXT="05-01-02 Subsets, Supersets, and Power Sets" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1707337584917"/>
-<node TEXT="05-01-03 Set Operations" ID="ID_1489090646" CREATED="1707337585112" MODIFIED="1707337589988"/>
 </node>
-<node TEXT="05-02 Probability" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
+<node TEXT="05-01-02 Subsets, Supersets, and Power Sets" FOLDED="true" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1707337584917">
+<node ID="ID_648303683" CREATED="1708619862025" MODIFIED="1708619948029"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A set, <span style="font-style: italic;">s</span>, is a <span style="font-style: italic;">subset</span>&#xa0;&#xa0;of another set, <span style="font-style: italic;">t</span>, if all the members of <span style="font-style: italic;">s </span>are also members of <span style="font-style: italic;">t</span>. --&gt; is_subset()
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1137742582" CREATED="1708619899884" MODIFIED="1708619955330"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A set, <span style="font-style: italic;">t</span>, is said to be a <span style="font-style: italic;">superset</span>&#xa0;&#xa0;of another set, <span style="font-style: italic;">s</span>, if <span style="font-style: italic;">t</span>&#xa0;&#xa0;contains all of the members contained in <span style="font-style: italic;">s</span>. --&gt; is_superset()
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1813869987" CREATED="1708619957977" MODIFIED="1708620039065"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-style: italic;">power set</span>&#xa0;of a set, <span style="font-style: italic;">s</span>, is the set of all possible subsets of <span style="font-style: italic;">s</span>. --&gt; powerset()
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Using len() to find set&apos;s cardinality." ID="ID_1360869027" CREATED="1708620039928" MODIFIED="1708620055739"/>
+<node TEXT="is_proper_subset(), is_proper_superset()" ID="ID_1528162165" CREATED="1708625906421" MODIFIED="1708625925992"/>
+</node>
+<node TEXT="05-01-03 Set Operations" FOLDED="true" ID="ID_1489090646" CREATED="1707337585112" MODIFIED="1707337589988">
+<node TEXT="Union and Intersection" ID="ID_1597457658" CREATED="1708625895020" MODIFIED="1708625934585"/>
+<node TEXT="Cartesian Product (笛卡尔积)" ID="ID_1565109560" CREATED="1708625938178" MODIFIED="1708625957970"/>
+<node TEXT="Applying a Formula to Multiple Sets of Variables" ID="ID_993777547" CREATED="1708625973413" MODIFIED="1708625984433"/>
+<node TEXT="Different Gravity, Different Results" ID="ID_1530504750" CREATED="1708625993151" MODIFIED="1708626000291"/>
+</node>
+</node>
+<node TEXT="05-02 Probability" FOLDED="true" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
 <node TEXT="05-02-01 Probability of Event A or Event B" ID="ID_1427292859" CREATED="1707337596530" MODIFIED="1707337605328"/>
 <node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036"/>
 <node TEXT="05-02-03 Generating Random Numbers" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283"/>
 <node TEXT="05-02-04 Nonuniform Random Numbers" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162"/>
 </node>
-<node TEXT="05-03 Programming Challenges" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
+<node TEXT="05-03 Programming Challenges" FOLDED="true" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
 <node TEXT="1. Using Venn Diagrams to Visualize Relations" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197"/>
 <node TEXT="2. Law of Large Numbers" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631"/>
 <node TEXT="3. How Many Tosses Before you Run Out" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616"/>
