@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.072">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="0.825">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -643,7 +643,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 Algebra and Symbolic Math with Sympy" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1708366021762"><richcontent TYPE="NOTE">
+<node TEXT="04 Algebra and Symbolic Math with Sympy" FOLDED="true" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1708366021762"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -671,7 +671,7 @@
 </node>
 <node TEXT="SymPy Introductory Tutorial" ID="ID_220718626" CREATED="1708366504123" MODIFIED="1708366516607" LINK="https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html#intro-tutorial"/>
 </node>
-<node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
+<node TEXT="04-01 Defining Symbols and Symbolic Operations" FOLDED="true" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
 <node TEXT="Symbols form the building blocks of symbolic math (符号数学)." ID="ID_419419845" CREATED="1708366563490" MODIFIED="1708366589697"/>
 <node TEXT="Define single symbol" ID="ID_1535107358" CREATED="1708369330410" MODIFIED="1708369346858">
 <node TEXT="from sympy import Symbol&#xa;x = Symbol(&apos;x&apos;)" ID="ID_1532315423" CREATED="1708369346860" MODIFIED="1708369385820"/>
@@ -710,7 +710,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="04-02 Working with Expressions" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
+<node TEXT="04-02 Working with Expressions" FOLDED="true" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
 <node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421">
 <node TEXT="factorize: 因式分解" ID="ID_1474383479" CREATED="1708369688711" MODIFIED="1708369999302">
 <node TEXT="from sympy import factor&#xa;expr = x**2 - y**2&#xa;factor(expr)  # (x-y)*(x+y)" POSITION="bottom_or_right" ID="ID_289110013" CREATED="1708369604114" MODIFIED="1708369638961"/>
@@ -771,7 +771,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04-05 Programming Challenges" ID="ID_1428846956" CREATED="1707337476269" MODIFIED="1707337481896">
+<node TEXT="04-05 Programming Challenges" FOLDED="true" ID="ID_1428846956" CREATED="1707337476269" MODIFIED="1707337481896">
 <node TEXT="1. Factor Finder" ID="ID_1088610239" CREATED="1707337481900" MODIFIED="1707337492479">
 <node TEXT="04-05_1_factor-finder.py" ID="ID_1506490567" CREATED="1708460002117" MODIFIED="1708460010442">
 <icon BUILTIN="launch"/>
