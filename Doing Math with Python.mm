@@ -710,7 +710,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="04-02 Working with Expressions" FOLDED="true" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
+<node TEXT="04-02 Working with Expressions" ID="ID_430122515" CREATED="1707337216658" MODIFIED="1707337223412">
 <node TEXT="04-02-01 Fractorizing and Expanding Expressions" ID="ID_1271943773" CREATED="1707337223412" MODIFIED="1707337232421">
 <node TEXT="factorize: 因式分解" ID="ID_1474383479" CREATED="1708369688711" MODIFIED="1708369999302">
 <node TEXT="from sympy import factor&#xa;expr = x**2 - y**2&#xa;factor(expr)  # (x-y)*(x+y)" POSITION="bottom_or_right" ID="ID_289110013" CREATED="1708369604114" MODIFIED="1708369638961"/>
@@ -721,8 +721,9 @@
 </node>
 <node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015">
 <node TEXT="from sympy import pprint&#xa;pprint(expr)" ID="ID_1464270096" CREATED="1708370052353" MODIFIED="1708370065616"/>
-<node TEXT="04-02-02-01 Printing a Series" ID="ID_371510733" CREATED="1708391241923" MODIFIED="1708391251627">
-<node TEXT="04-02_1_printing-series.py" ID="ID_96440509" CREATED="1708391252658" MODIFIED="1708391262728">
+<node TEXT="04-02-02-01 Printing a Series" ID="ID_371510733" CREATED="1708391241923" MODIFIED="1708562601186">
+<arrowlink DESTINATION="ID_886090500"/>
+<node TEXT="04-02_1_printing-series.py" ID="ID_96440509" CREATED="1708391252658" MODIFIED="1708562640231" LINK="https://github.com/yasenstar/DoingMathWithPython/blob/main/ch04/04-02_1_printing-series.py">
 <icon BUILTIN="launch"/>
 </node>
 </node>
