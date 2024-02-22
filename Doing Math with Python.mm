@@ -93,8 +93,7 @@
       Sample solutions of program challenges: <a>https://nostarch.com/doingmathwithpython</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="00 Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_905542766" CREATED="1707336182778" MODIFIED="1707336193477">
 <node TEXT="Tip: how to clear screen" ID="ID_918470336" CREATED="1707602436728" MODIFIED="1707602667593">
 <node TEXT="Terminal in VS Code" POSITION="bottom_or_right" ID="ID_1708340710" CREATED="1707602650265" MODIFIED="1707602663187">
@@ -123,8 +122,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="01-01 Basic Mathematical Operations" FOLDED="true" ID="ID_930758566" CREATED="1707336199601" MODIFIED="1707336219258">
 <node TEXT="addition (+)" ID="ID_379538316" CREATED="1707596305926" MODIFIED="1707596317110"/>
 <node TEXT="subtraction (-)" ID="ID_498886239" CREATED="1707596317485" MODIFIED="1707596322492"/>
@@ -261,8 +259,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="02-01 Understanding the Cartesian Coordinate Plane" ID="ID_787215279" CREATED="1707336472032" MODIFIED="1707772281171">
 <arrowlink DESTINATION="ID_144141483"/>
 </node>
@@ -410,8 +407,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="03-01 Finding the Mean" FOLDED="true" ID="ID_1020492818" CREATED="1707336941684" MODIFIED="1707336946195">
 <node TEXT="The &quot;average&quot; number; found by adding all data points and dividing by the number of data points" ID="ID_1481107867" CREATED="1708009795306" MODIFIED="1708009822360"/>
 <node ID="ID_1194190343" CREATED="1708009898705" MODIFIED="1708009925594"><richcontent TYPE="NODE">
@@ -426,7 +422,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="03-01_finding-mean.py" ID="ID_1345938533" CREATED="1708014783905" MODIFIED="1708014803202">
@@ -475,8 +470,7 @@
       The <span style="font-style: italic;">dispersion</span>&#xa0;tells us how far away the numbers int he set of data are from the mean of the data set.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="03-04-01 Finding the Range of a Set of Numbers" ID="ID_1686950901" CREATED="1707337004199" MODIFIED="1707337014604">
 <node ID="ID_247373761" CREATED="1708036957109" MODIFIED="1708037820448"><richcontent TYPE="NODE">
 
@@ -490,7 +484,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="You could have two groups of numbers with the exact same mean but with vastly different ranges, so knowing the range fills in more information about a set of numbers" ID="ID_1698517418" CREATED="1708037826439" MODIFIED="1708046359004">
@@ -513,7 +506,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_1031119856"/>
 <node TEXT="A high variance means that values are far from the mean." ID="ID_1417462437" CREATED="1708037988610" MODIFIED="1708038004036"/>
@@ -533,7 +525,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_1823658851" MIDDLE_LABEL="Outliers" STARTINCLINATION="99 pt;0 pt;" ENDINCLINATION="99.75 pt;0 pt;"/>
 <arrowlink DESTINATION="ID_1194190343" MIDDLE_LABEL="Outliers"/>
@@ -568,8 +559,7 @@
       <span style="font-weight: normal;">&quot;Correlation 相关性 doesn't imply causation 因果关系.&quot;</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="03-05-01 Calculating the Correlation Coefficient" FOLDED="true" ID="ID_1381685814" CREATED="1707337039000" MODIFIED="1708190984989">
 <hook URI="img/correlation.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="03-05_1_finding-correlation.py" ID="ID_1981066000" CREATED="1708284188800" MODIFIED="1708284198402">
@@ -656,8 +646,7 @@
       We will use SymPy - a Python library that lets you write expressions containing symbols and perform operations on them.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="04-00 Installing SymPy" FOLDED="true" ID="ID_567514185" CREATED="1708366037402" MODIFIED="1708366495705" LINK="https://www.sympy.org/en/index.html">
 <node TEXT="Prerequisite: pip3 install mpmath" ID="ID_288399852" CREATED="1708366296858" MODIFIED="1708366310576"/>
 <node TEXT="pip3 install sympy" ID="ID_1923763200" CREATED="1708366070886" MODIFIED="1708366173056">
@@ -691,7 +680,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_312311296" CREATED="1708369514892" MODIFIED="1708369543505"><richcontent TYPE="NODE">
@@ -706,7 +694,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -803,7 +790,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="from sympy import solve_poly_inequality" ID="ID_433183906" CREATED="1708567109966" MODIFIED="1708567125752"/>
@@ -821,7 +807,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="from sympy import solve_rational_inequalities" ID="ID_1370231202" CREATED="1708567129885" MODIFIED="1708567140996"/>
@@ -852,9 +837,25 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1707337569245">
+<node ID="ID_986118979" CREATED="1708619562108" MODIFIED="1708619607326"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A set is a collection of <span style="font-weight: bold;">distinct</span>&#xa0;objects, often called <span style="font-style: italic;">elements </span>or <span style="font-style: italic;">members</span>.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="The set is &quot;well defined&quot;, meaning the question &quot;Is a particular object in this collections?&quot; always has a clear Yes or No answer, usually based on a rule or some given criteria." ID="ID_828304885" CREATED="1708619634846" MODIFIED="1708619678881"/>
+<node TEXT="No two members of a set are the same!" ID="ID_672182118" CREATED="1708619679521" MODIFIED="1708619693542"/>
+</node>
 <node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712">
 <node TEXT="from sympy import FiniteSet" ID="ID_1092733068" CREATED="1708469706207" MODIFIED="1708469713081"/>
 </node>
