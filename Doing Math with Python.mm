@@ -671,7 +671,7 @@
 </node>
 <node TEXT="SymPy Introductory Tutorial" ID="ID_220718626" CREATED="1708366504123" MODIFIED="1708366516607" LINK="https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html#intro-tutorial"/>
 </node>
-<node TEXT="04-01 Defining Symbols and Symbolic Operations" FOLDED="true" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
+<node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
 <node TEXT="Symbols form the building blocks of symbolic math (符号数学)." ID="ID_419419845" CREATED="1708366563490" MODIFIED="1708366589697"/>
 <node TEXT="Define single symbol" ID="ID_1535107358" CREATED="1708369330410" MODIFIED="1708369346858">
 <node TEXT="from sympy import Symbol&#xa;x = Symbol(&apos;x&apos;)" ID="ID_1532315423" CREATED="1708369346860" MODIFIED="1708369385820"/>
@@ -721,7 +721,7 @@
 </node>
 <node TEXT="04-02-02 Pretty Printing" ID="ID_1337830424" CREATED="1707337232614" MODIFIED="1707337242015">
 <node TEXT="from sympy import pprint&#xa;pprint(expr)" ID="ID_1464270096" CREATED="1708370052353" MODIFIED="1708370065616"/>
-<node TEXT="04-02-02-01 Printing a Series" ID="ID_371510733" CREATED="1708391241923" MODIFIED="1708562601186">
+<node TEXT="04-02-02-01 Printing a Series" ID="ID_371510733" CREATED="1708391241923" MODIFIED="1708564222587">
 <arrowlink DESTINATION="ID_886090500"/>
 <node TEXT="04-02_1_printing-series.py" ID="ID_96440509" CREATED="1708391252658" MODIFIED="1708562640231" LINK="https://github.com/yasenstar/DoingMathWithPython/blob/main/ch04/04-02_1_printing-series.py">
 <icon BUILTIN="launch"/>
@@ -782,8 +782,56 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="3. Summing a Series" ID="ID_886090500" CREATED="1707337500629" MODIFIED="1707337504496"/>
-<node TEXT="4. Solving Single-Variable Inequalities" ID="ID_134911866" CREATED="1707337504667" MODIFIED="1707337512757"/>
+<node TEXT="3. Summing a Series" ID="ID_886090500" CREATED="1707337500629" MODIFIED="1707337504496">
+<node TEXT="from sympy import summation&#xa;s = summation(x**n/n, (n,1,5))" ID="ID_909822444" CREATED="1708566609932" MODIFIED="1708566642190"/>
+<node TEXT="04-05_3_summing-a-series.py" ID="ID_1829290930" CREATED="1708566606328" MODIFIED="1708568388738">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="4. Solving Single-Variable Inequalities" ID="ID_134911866" CREATED="1707337504667" MODIFIED="1707337512757">
+<node TEXT="inequality-solving function&#xa;(from sympy import Poly)" ID="ID_181165229" CREATED="1708566865927" MODIFIED="1708567104395">
+<node TEXT="polynomial function" ID="ID_534965409" CREATED="1708566879080" MODIFIED="1708566886815">
+<node ID="ID_1347203543" CREATED="1708566903551" MODIFIED="1708567083845"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <span style="font-style: italic;">polynomial</span>&#xa0;(多项式) is an algebraic expression consisting of a variable and coefficients and involving only the operations of addition, subtraction, and multiplication, and only positive powers of the variable. e.g. x**2 + 4 &lt; 0
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="from sympy import solve_poly_inequality" ID="ID_433183906" CREATED="1708567109966" MODIFIED="1708567125752"/>
+</node>
+<node TEXT="retional function" ID="ID_464590665" CREATED="1708566887089" MODIFIED="1708566892246">
+<node ID="ID_1731494101" CREATED="1708566961851" MODIFIED="1708567165039"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <span style="font-style: italic;">rational expression</span>&#xa0;is an algebraic expression in which the numerator and denominator are both polynomials. e.g. ((x-1)/(x+2)) &gt; 0
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="from sympy import solve_rational_inequalities" ID="ID_1370231202" CREATED="1708567129885" MODIFIED="1708567140996"/>
+</node>
+<node TEXT="all other inequalities" ID="ID_1682073923" CREATED="1708566893295" MODIFIED="1708566897154">
+<node TEXT="e.g. sinx - 0.6 &gt; 0" ID="ID_870783131" CREATED="1708567941940" MODIFIED="1708567952001"/>
+<node TEXT="from sympy import solve_univariate_inequality, sin" ID="ID_1214382882" CREATED="1708567959455" MODIFIED="1708567980581"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="05 Playing with Sets and Probability" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1708469608664"><richcontent TYPE="NOTE">
