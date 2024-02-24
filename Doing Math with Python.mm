@@ -838,7 +838,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1708627031719" LINK="https://en.wikipedia.org/wiki/Set_theory">
+<node TEXT="05-01 What&apos;s a Set?" FOLDED="true" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1708627031719" LINK="https://en.wikipedia.org/wiki/Set_theory">
 <node FOLDED="true" ID="ID_986118979" CREATED="1708619562108" MODIFIED="1708619607326"><richcontent TYPE="NODE">
 
 <html>
@@ -932,23 +932,52 @@
 </node>
 <node TEXT="Sets allows us to reason about the basic concepts of probability" ID="ID_194985973" CREATED="1708741075838" MODIFIED="1708741098511"/>
 </node>
-<node TEXT="05-02 Probability" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
-<node TEXT="Some Probability Definitions" ID="ID_405126761" CREATED="1708741104191" MODIFIED="1708741123459">
+<node TEXT="05-02 Probability" FOLDED="true" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
+<node TEXT="Some Probability Definitions" FOLDED="true" ID="ID_405126761" CREATED="1708741104191" MODIFIED="1708741123459">
 <node TEXT="Experiment: is simply the test we want to perform. We perform the test because we are interested in the probability of each possible outcome." ID="ID_129433162" CREATED="1708741123467" MODIFIED="1708741167121"/>
 <node TEXT="Sample Space: all possible outcomes of an experiment form a set known as the sample space, whcih we&apos;ll usually call S in our formulas." ID="ID_1413455980" CREATED="1708741168104" MODIFIED="1708741201385"/>
 <node TEXT="Event: a set of outcomes that we want to calculate the probability of and that from a subset of the sample space." ID="ID_574713510" CREATED="1708744959986" MODIFIED="1708744985303"/>
+<node TEXT="Uniform Distribution: each outcomes in the sample space is equally likely to occur, formula is P(E) = n(E) / n(S), P(E) is the probability of an event, n(E) is the cardinality of the sets E (event), n(S) is the cardinality of the sets S (sample space)" ID="ID_344670410" CREATED="1708783225068" MODIFIED="1708783351165">
+<node TEXT="def probability(space, event):&#xa;    return len(event)/len(space)" ID="ID_836836537" CREATED="1708783497550" MODIFIED="1708783528345"/>
 </node>
-<node TEXT="05-02-01 Probability of Event A or Event B" ID="ID_1427292859" CREATED="1707337596530" MODIFIED="1707337605328"/>
-<node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036"/>
-<node TEXT="05-02-03 Generating Random Numbers" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283"/>
+<node TEXT="05-02_1_prime-in-20-side-die.py" ID="ID_1759580903" CREATED="1708805292933" MODIFIED="1708805353061">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="05-02_2_prime-in-n-sided-die.py" ID="ID_984768224" CREATED="1708805305335" MODIFIED="1708805353061">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="05-02-01 Probability of Event A or Event B" FOLDED="true" ID="ID_1427292859" CREATED="1707337596530" MODIFIED="1707337605328">
+<node TEXT="len(a union b) / len(s)" ID="ID_1833825122" CREATED="1708783745537" MODIFIED="1708783783135"/>
+</node>
+<node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036">
+<node TEXT="len (a intersect b) / len(s)" ID="ID_1182143035" CREATED="1708783788544" MODIFIED="1708783799197"/>
+</node>
+<node TEXT="05-02-03 Generating Random Numbers" FOLDED="true" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283">
+<node TEXT="05-02-03-01 Simulating a Die Roll" ID="ID_963483465" CREATED="1708783811344" MODIFIED="1708783821733">
+<node TEXT="import random&#xa;random.randint(1,6)" ID="ID_78936667" CREATED="1708783829377" MODIFIED="1708783841418"/>
+</node>
+<node TEXT="05-02-03-02 Can You Roll That Score?" ID="ID_184098576" CREATED="1708783846490" MODIFIED="1708783855276">
+<node TEXT="05-02_3_roll-die-till-a-score.py" ID="ID_982532095" CREATED="1708805333169" MODIFIED="1708805353061">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="05-02-03-03 Is the Target Score Possible?" ID="ID_1348839088" CREATED="1708783909458" MODIFIED="1708783920515">
+<node TEXT="05-02_4_roll-till-target-score.py" ID="ID_1171797145" CREATED="1708805342056" MODIFIED="1708805353059">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+</node>
 <node TEXT="05-02-04 Nonuniform Random Numbers" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162"/>
 </node>
-<node TEXT="05-03 Programming Challenges" FOLDED="true" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
+<node TEXT="05-03 Programming Challenges" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
 <node TEXT="1. Using Venn Diagrams to Visualize Relations" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197"/>
 <node TEXT="2. Law of Large Numbers" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631"/>
 <node TEXT="3. How Many Tosses Before you Run Out" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616"/>
 <node TEXT="4. Shuffling a Deck of Cards" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1707337677964"/>
-<node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929"/>
+<node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
+<node TEXT="" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708807963583"/>
+</node>
 </node>
 </node>
 <node TEXT="06 Drawing Geometric Shapes and Fractals" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1707342334099">
