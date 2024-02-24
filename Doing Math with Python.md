@@ -611,7 +611,7 @@ A set is a collection ofdistinct objects, often calledelementsormembers.
 
 ##### FiniteSet(*members)
 
-### 05-01-02 Subsets, Supersets, and Power Sets
+### 05-01-02 Subsets, Supersets, and PowerSets
  
 A set,s, is asubset  of another set,t, if all the members ofsare also members oft. --> is_subset()
 
@@ -619,7 +619,7 @@ A set,s, is asubset  of another set,t, if all the members ofsare also members of
 A set,t, is said to be asuperset  of another set,s, ift  contains all of the members contained ins. --> is_superset()
 
  
-Thepower set of a set,s, is the set of all possible subsets ofs. --> powerset()
+Thepowerset of a set,s, is the set of all possible subsets ofs. --> powerset()
 
 
 #### Using len() to find set's cardinality.
@@ -630,13 +630,31 @@ Thepower set of a set,s, is the set of all possible subsets ofs. --> powerset()
 
 #### Union and Intersection
 
+##### set1.union(set2)
+
+##### set1.intersect(set2)
+
 #### Cartesian Product (笛卡尔积)
+
+##### product=set1 * set2
 
 #### Applying a Formula to Multiple Sets of Variables
 
+##### 05-01_1_pendulum-single-set.py
+
 #### Different Gravity, Different Results
 
+##### 05-01_2_pendulum-multi-set.py
+
+### Sets allows us to reason about the basic concepts of probability
+
 ## 05-02 Probability
+
+### Some Probability Definitions
+
+#### Experiment: is simply the test we want to perform. We perform the test because we are interested in the probability of each possible outcome.
+
+#### Sample Space: all possible outcomes of an experiment form a set known as the sample space, whcih we'll usually call S in our formulas.
 
 ### 05-02-01 Probability of Event A or Event B
 

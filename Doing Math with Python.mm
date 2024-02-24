@@ -855,7 +855,7 @@
 <node TEXT="The set is &quot;well defined&quot;, meaning the question &quot;Is a particular object in this collections?&quot; always has a clear Yes or No answer, usually based on a rule or some given criteria." ID="ID_828304885" CREATED="1708619634846" MODIFIED="1708619678881"/>
 <node TEXT="No two members of a set are the same!" ID="ID_672182118" CREATED="1708619679521" MODIFIED="1708619693542"/>
 </node>
-<node TEXT="05-01-01 Set Construction" FOLDED="true" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712">
+<node TEXT="05-01-01 Set Construction" ID="ID_1807534710" CREATED="1707337569245" MODIFIED="1707337575712">
 <node TEXT="from sympy import FiniteSet" ID="ID_1092733068" CREATED="1708469706207" MODIFIED="1708469713081"/>
 <node TEXT="05-01-01-01 Checking Whether a Number Is in a Set" ID="ID_1255435035" CREATED="1708619720907" MODIFIED="1708619734703"/>
 <node TEXT="05-01-01-02 Creating an Empty Set" ID="ID_835548037" CREATED="1708619744280" MODIFIED="1708619753970"/>
@@ -864,7 +864,7 @@
 <node TEXT="FiniteSet(*members)" ID="ID_672383897" CREATED="1708619786422" MODIFIED="1708619802423"/>
 </node>
 </node>
-<node TEXT="05-01-02 Subsets, Supersets, and PowerSets" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1708627586067">
+<node TEXT="05-01-02 Subsets, Supersets, and PowerSets" FOLDED="true" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1708627586067">
 <node ID="ID_648303683" CREATED="1708619862025" MODIFIED="1708619948029"><richcontent TYPE="NODE">
 
 <html>
@@ -893,7 +893,7 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_1813869987" CREATED="1708619957977" MODIFIED="1708620039065"><richcontent TYPE="NODE">
+<node ID="ID_1813869987" CREATED="1708619957977" MODIFIED="1708649947229"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -901,23 +901,42 @@
   </head>
   <body>
     <p>
-      The <span style="font-style: italic;">power set</span>&#xa0;of a set, <span style="font-style: italic;">s</span>, is the set of all possible subsets of <span style="font-style: italic;">s</span>. --&gt; powerset()
+      The <span style="font-style: italic;">powerset</span>&#xa0;of a set, <span style="font-style: italic;">s</span>, is the set of all possible subsets of <span style="font-style: italic;">s</span>. --&gt; powerset()
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="Using len() to find set&apos;s cardinality." ID="ID_1360869027" CREATED="1708620039928" MODIFIED="1708620055739"/>
 <node TEXT="is_proper_subset(), is_proper_superset()" ID="ID_1528162165" CREATED="1708625906421" MODIFIED="1708625925992"/>
 </node>
-<node TEXT="05-01-03 Set Operations" FOLDED="true" ID="ID_1489090646" CREATED="1707337585112" MODIFIED="1707337589988">
-<node TEXT="Union and Intersection" ID="ID_1597457658" CREATED="1708625895020" MODIFIED="1708625934585"/>
-<node TEXT="Cartesian Product (笛卡尔积)" ID="ID_1565109560" CREATED="1708625938178" MODIFIED="1708625957970"/>
-<node TEXT="Applying a Formula to Multiple Sets of Variables" ID="ID_993777547" CREATED="1708625973413" MODIFIED="1708625984433"/>
-<node TEXT="Different Gravity, Different Results" ID="ID_1530504750" CREATED="1708625993151" MODIFIED="1708626000291"/>
+<node TEXT="05-01-03 Set Operations" ID="ID_1489090646" CREATED="1707337585112" MODIFIED="1707337589988">
+<node TEXT="Union and Intersection" ID="ID_1597457658" CREATED="1708625895020" MODIFIED="1708625934585">
+<node TEXT="set1.union(set2)" ID="ID_133570550" CREATED="1708702294109" MODIFIED="1708702316434"/>
+<node TEXT="set1.intersect(set2)" ID="ID_49969698" CREATED="1708702317158" MODIFIED="1708702326404"/>
+</node>
+<node TEXT="Cartesian Product (笛卡尔积)" ID="ID_1565109560" CREATED="1708625938178" MODIFIED="1708625957970">
+<node TEXT="product=set1 * set2" ID="ID_468485936" CREATED="1708702351301" MODIFIED="1708702361651"/>
+</node>
+<node TEXT="Applying a Formula to Multiple Sets of Variables" ID="ID_993777547" CREATED="1708625973413" MODIFIED="1708625984433">
+<node TEXT="05-01_1_pendulum-single-set.py" ID="ID_1311416867" CREATED="1708740866203" MODIFIED="1708740885362">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="05-02 Probability" FOLDED="true" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
+<node TEXT="Different Gravity, Different Results" ID="ID_1530504750" CREATED="1708625993151" MODIFIED="1708626000291">
+<node TEXT="05-01_2_pendulum-multi-set.py" ID="ID_664951611" CREATED="1708740875507" MODIFIED="1708740885360">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+</node>
+<node TEXT="Sets allows us to reason about the basic concepts of probability" ID="ID_194985973" CREATED="1708741075838" MODIFIED="1708741098511"/>
+</node>
+<node TEXT="05-02 Probability" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
+<node TEXT="Some Probability Definitions" ID="ID_405126761" CREATED="1708741104191" MODIFIED="1708741123459">
+<node TEXT="Experiment: is simply the test we want to perform. We perform the test because we are interested in the probability of each possible outcome." ID="ID_129433162" CREATED="1708741123467" MODIFIED="1708741167121"/>
+<node TEXT="Sample Space: all possible outcomes of an experiment form a set known as the sample space, whcih we&apos;ll usually call S in our formulas." ID="ID_1413455980" CREATED="1708741168104" MODIFIED="1708741201385"/>
+</node>
 <node TEXT="05-02-01 Probability of Event A or Event B" ID="ID_1427292859" CREATED="1707337596530" MODIFIED="1707337605328"/>
 <node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036"/>
 <node TEXT="05-02-03 Generating Random Numbers" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283"/>
