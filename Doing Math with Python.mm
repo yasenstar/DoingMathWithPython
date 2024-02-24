@@ -936,6 +936,7 @@
 <node TEXT="Some Probability Definitions" ID="ID_405126761" CREATED="1708741104191" MODIFIED="1708741123459">
 <node TEXT="Experiment: is simply the test we want to perform. We perform the test because we are interested in the probability of each possible outcome." ID="ID_129433162" CREATED="1708741123467" MODIFIED="1708741167121"/>
 <node TEXT="Sample Space: all possible outcomes of an experiment form a set known as the sample space, whcih we&apos;ll usually call S in our formulas." ID="ID_1413455980" CREATED="1708741168104" MODIFIED="1708741201385"/>
+<node TEXT="Event: a set of outcomes that we want to calculate the probability of and that from a subset of the sample space." ID="ID_574713510" CREATED="1708744959986" MODIFIED="1708744985303"/>
 </node>
 <node TEXT="05-02-01 Probability of Event A or Event B" ID="ID_1427292859" CREATED="1707337596530" MODIFIED="1707337605328"/>
 <node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036"/>
