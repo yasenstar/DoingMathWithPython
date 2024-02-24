@@ -971,12 +971,14 @@
 <node TEXT="05-02-04 Nonuniform Random Numbers" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162"/>
 </node>
 <node TEXT="05-03 Programming Challenges" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
-<node TEXT="1. Using Venn Diagrams to Visualize Relations" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197"/>
+<node TEXT="1. Using Venn Diagrams to Visualize Relations" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197">
+<node TEXT="Venn Diagram (wikipedia), also called set diagram or logic diagram, shows all possible logical relations between a finite collection of different sets." ID="ID_404668823" CREATED="1708808581002" MODIFIED="1708808703675" LINK="https://en.wikipedia.org/wiki/Venn_diagram"/>
+</node>
 <node TEXT="2. Law of Large Numbers" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631"/>
 <node TEXT="3. How Many Tosses Before you Run Out" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616"/>
 <node TEXT="4. Shuffling a Deck of Cards" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1707337677964"/>
 <node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
-<node TEXT="" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708807963583"/>
+<node TEXT="5.1 Estimating the Value of Pi" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708808580466"/>
 </node>
 </node>
 </node>
@@ -1026,13 +1028,16 @@
 <node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400"/>
 </node>
 </node>
-<node TEXT="Appendix A: Software Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
+<node TEXT="Appendix A: Software Installation" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
 <node TEXT="Anaconda" POSITION="bottom_or_right" ID="ID_551991767" CREATED="1708366084997" MODIFIED="1708366088837"/>
 <node TEXT="SymPy" POSITION="bottom_or_right" ID="ID_1673650150" CREATED="1708366093840" MODIFIED="1708366801154">
 <arrowlink DESTINATION="ID_567514185"/>
 <node TEXT="conda install sympy=0.7.6" ID="ID_1553582147" CREATED="1708366098434" MODIFIED="1708366107045"/>
 </node>
-<node TEXT="Installing matplotlib-venn" POSITION="bottom_or_right" ID="ID_1461614166" CREATED="1708366114453" MODIFIED="1708366123883"/>
+<node TEXT="Installing matplotlib-venn" POSITION="bottom_or_right" ID="ID_1461614166" CREATED="1708366114453" MODIFIED="1708808786033">
+<arrowlink DESTINATION="ID_1484182614"/>
+<node TEXT="$ pip install matplotlib-venn" ID="ID_987238005" CREATED="1708808815746" MODIFIED="1708808825534"/>
+</node>
 <node TEXT="Starting the Python Shell" POSITION="bottom_or_right" ID="ID_1324958013" CREATED="1708366124080" MODIFIED="1708366131791"/>
 </node>
 <node TEXT="Appendix B: Overview of Python Topics" FOLDED="true" POSITION="bottom_or_right" ID="ID_965850652" CREATED="1708283701367" MODIFIED="1708283711969">
