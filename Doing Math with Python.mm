@@ -838,7 +838,7 @@
     </ul>
   </body>
 </html></richcontent>
-<node TEXT="05-01 What&apos;s a Set?" FOLDED="true" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1708627031719" LINK="https://en.wikipedia.org/wiki/Set_theory">
+<node TEXT="05-01 What&apos;s a Set?" ID="ID_144141483" CREATED="1707337523665" MODIFIED="1708627031719" LINK="https://en.wikipedia.org/wiki/Set_theory">
 <node FOLDED="true" ID="ID_986118979" CREATED="1708619562108" MODIFIED="1708619607326"><richcontent TYPE="NODE">
 
 <html>
@@ -851,7 +851,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="The set is &quot;well defined&quot;, meaning the question &quot;Is a particular object in this collections?&quot; always has a clear Yes or No answer, usually based on a rule or some given criteria." ID="ID_828304885" CREATED="1708619634846" MODIFIED="1708619678881"/>
 <node TEXT="No two members of a set are the same!" ID="ID_672182118" CREATED="1708619679521" MODIFIED="1708619693542"/>
@@ -865,7 +864,7 @@
 <node TEXT="FiniteSet(*members)" ID="ID_672383897" CREATED="1708619786422" MODIFIED="1708619802423"/>
 </node>
 </node>
-<node TEXT="05-01-02 Subsets, Supersets, and Power Sets" FOLDED="true" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1707337584917">
+<node TEXT="05-01-02 Subsets, Supersets, and PowerSets" ID="ID_743968474" CREATED="1707337575879" MODIFIED="1708627586067">
 <node ID="ID_648303683" CREATED="1708619862025" MODIFIED="1708619948029"><richcontent TYPE="NODE">
 
 <html>
@@ -878,7 +877,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1137742582" CREATED="1708619899884" MODIFIED="1708619955330"><richcontent TYPE="NODE">
@@ -893,7 +891,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1813869987" CREATED="1708619957977" MODIFIED="1708620039065"><richcontent TYPE="NODE">
@@ -908,7 +905,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Using len() to find set&apos;s cardinality." ID="ID_1360869027" CREATED="1708620039928" MODIFIED="1708620055739"/>
