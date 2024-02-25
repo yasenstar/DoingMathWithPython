@@ -656,25 +656,69 @@ Thepowerset of a set,s, is the set of all possible subsets ofs. --> powerset()
 
 #### Sample Space: all possible outcomes of an experiment form a set known as the sample space, whcih we'll usually call S in our formulas.
 
+#### Event: a set of outcomes that we want to calculate the probability of and that from a subset of the sample space.
+
+#### Uniform Distribution: each outcomes in the sample space is equally likely to occur, formula is P(E) = n(E) / n(S), P(E) is the probability of an event, n(E) is the cardinality of the sets E (event), n(S) is the cardinality of the sets S (sample space)
+
+##### def probability(space, event):
+    return len(event)/len(space)
+
+#### 05-02_1_prime-in-20-side-die.py
+
+#### 05-02_2_prime-in-n-sided-die.py
+
 ### 05-02-01 Probability of Event A or Event B
+
+#### len(a union b) / len(s)
 
 ### 05-02-02 Probability of Event A and Event B
 
+#### len (a intersect b) / len(s)
+
 ### 05-02-03 Generating Random Numbers
 
+#### 05-02-03-01 Simulating a Die Roll
+
+##### import random
+random.randint(1,6)
+
+#### 05-02-03-02 Can You Roll That Score?
+
+##### 05-02_3_roll-die-till-a-score.py
+
+#### 05-02-03-03 Is the Target Score Possible?
+
+##### 05-02_4_roll-till-target-score.py
+
 ### 05-02-04 Nonuniform Random Numbers
+
+#### 05-02_5_unequal-coin-rolling.py
+
+#### 05-02_6_fictional-ATM.py
 
 ## 05-03 Programming Challenges
 
 ### 1. Using Venn Diagrams to Visualize Relations
 
+#### Venn Diagram (wikipedia), also called set diagram or logic diagram, shows all possible logical relations between a finite collection of different sets.
+
+#### 05-03_1_1_basic-venn-diagram.py
+
+#### 05-03_1_2_student-sports.py
+
 ### 2. Law of Large Numbers
+
+#### 05-03_2_1_law-of-large-number.py
+
+#### 05-03_2_2_law-of-large-number-plotting.py
 
 ### 3. How Many Tosses Before you Run Out
 
 ### 4. Shuffling a Deck of Cards
 
 ### 5. Estimating the Area of a Circle
+
+#### 5.1 Estimating the Value of Pi
 
 # 06 Drawing Geometric Shapes and Fractals
 
@@ -757,6 +801,8 @@ Thepowerset of a set,s, is the set of all possible subsets ofs. --> powerset()
 ### conda install sympy=0.7.6
 
 ## Installing matplotlib-venn
+ (see:1. Using Venn Diagrams to Visualize Relations)
+### $ pip install matplotlib-venn
 
 ## Starting the Python Shell
 

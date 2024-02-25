@@ -601,7 +601,7 @@
 </node>
 </node>
 </node>
-<node TEXT="03-08 Programming Clallenges" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1708313559126" VGAP_QUANTITY="3 pt">
+<node TEXT="03-08 Programming Clallenges" FOLDED="true" ID="ID_1062407428" CREATED="1707337113592" MODIFIED="1708313559126" VGAP_QUANTITY="3 pt">
 <node TEXT="1. Better Correlation Coefficient" FOLDED="true" ID="ID_414955027" CREATED="1707337122419" MODIFIED="1707337136529">
 <node TEXT="03-08_1_better_finding-correlation.py" ID="ID_288514783" CREATED="1708308636016" MODIFIED="1708308656597">
 <icon BUILTIN="launch"/>
@@ -953,7 +953,7 @@
 <node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036">
 <node TEXT="len (a intersect b) / len(s)" ID="ID_1182143035" CREATED="1708783788544" MODIFIED="1708783799197"/>
 </node>
-<node TEXT="05-02-03 Generating Random Numbers" FOLDED="true" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283">
+<node TEXT="05-02-03 Generating Random Numbers" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283">
 <node TEXT="05-02-03-01 Simulating a Die Roll" ID="ID_963483465" CREATED="1708783811344" MODIFIED="1708783821733">
 <node TEXT="import random&#xa;random.randint(1,6)" ID="ID_78936667" CREATED="1708783829377" MODIFIED="1708783841418"/>
 </node>
@@ -968,16 +968,36 @@
 </node>
 </node>
 </node>
-<node TEXT="05-02-04 Nonuniform Random Numbers" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162"/>
+<node TEXT="05-02-04 Nonuniform Random Numbers" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162">
+<node TEXT="05-02_5_unequal-coin-rolling.py" ID="ID_1771107449" CREATED="1708821774599" MODIFIED="1708821796411">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="05-02_6_fictional-ATM.py" ID="ID_1153249108" CREATED="1708821786936" MODIFIED="1708821796411">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 <node TEXT="05-03 Programming Challenges" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
-<node TEXT="1. Using Venn Diagrams to Visualize Relations" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197">
+<node TEXT="1. Using Venn Diagrams to Visualize Relations" FOLDED="true" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197">
 <node TEXT="Venn Diagram (wikipedia), also called set diagram or logic diagram, shows all possible logical relations between a finite collection of different sets." ID="ID_404668823" CREATED="1708808581002" MODIFIED="1708808703675" LINK="https://en.wikipedia.org/wiki/Venn_diagram"/>
+<node TEXT="05-03_1_1_basic-venn-diagram.py" ID="ID_575304873" CREATED="1708822056527" MODIFIED="1708822097279">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="2. Law of Large Numbers" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631"/>
+<node TEXT="05-03_1_2_student-sports.py" ID="ID_501673569" CREATED="1708822072045" MODIFIED="1708822097279">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="2. Law of Large Numbers" FOLDED="true" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631">
+<node TEXT="05-03_2_1_law-of-large-number.py" ID="ID_1803742317" CREATED="1708822081254" MODIFIED="1708822097278">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="05-03_2_2_law-of-large-number-plotting.py" ID="ID_1517519782" CREATED="1708822086951" MODIFIED="1708822097279">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="3. How Many Tosses Before you Run Out" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616"/>
 <node TEXT="4. Shuffling a Deck of Cards" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1707337677964"/>
-<node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
+<node TEXT="5. Estimating the Area of a Circle" FOLDED="true" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
 <node TEXT="5.1 Estimating the Value of Pi" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708808580466"/>
 </node>
 </node>
