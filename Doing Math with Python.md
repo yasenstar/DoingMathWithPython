@@ -716,11 +716,25 @@ random.randint(1,6)
 
 #### 05-03_3_coin-toss-game.py
 
-### 4. Shuffling a Deck of Cards
+### 4. Shuffling (洗牌) a Deck of Cards
+
+#### random.shuffle(list): The shuffle() is an inbuilt method of the random module. It is used to shuffle a sequence (list). Shuffling a list of objects means changing the position of the elements of the sequence using Python.
+
+#### 05-03_4_1_shuffle-numbers.py
+
+#### 05-03_4_2_shuffle-deck-of-cards.py
+
+#### 05-03_4_3_shuffle-deck-of-cards-using-set.py
 
 ### 5. Estimating the Area of a Circle
 
+#### 05-03_5_1_estimate-area-of-circle.py
+
+#### 05-03_5_2_estimate-area-of-circle-plot.py
+
 #### 5.1 Estimating the Value of Pi
+
+##### 05-03_5_3_estimate-pi.py
 
 # 06 Drawing Geometric Shapes and Fractals
 

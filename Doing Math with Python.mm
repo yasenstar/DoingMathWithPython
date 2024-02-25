@@ -995,29 +995,39 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="3. How Many Tosses Before you Run Out" FOLDED="true" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616">
+<node TEXT="3. How Many Tosses Before you Run Out" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616">
 <node TEXT="05-03_3_coin-toss-game.py" ID="ID_1445068014" CREATED="1708823584891" MODIFIED="1708823591303">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="4. Shuffling (洗牌) a Deck of Cards" FOLDED="true" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1708873879158">
+<node TEXT="4. Shuffling (洗牌) a Deck of Cards" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1708873879158">
 <node TEXT="random.shuffle(list): The shuffle() is an inbuilt method of the random module. It is used to shuffle a sequence (list). Shuffling a list of objects means changing the position of the elements of the sequence using Python." ID="ID_313749999" CREATED="1708874515322" MODIFIED="1708874638731" LINK="https://www.geeksforgeeks.org/random-shuffle-function-in-python/"/>
-<node TEXT="05-04_1_shuffle-numbers.py" ID="ID_912389342" CREATED="1708878377647" MODIFIED="1708878398721">
+<node TEXT="05-03_4_1_shuffle-numbers.py" ID="ID_912389342" CREATED="1708878377647" MODIFIED="1708887280908">
 <icon BUILTIN="launch"/>
 </node>
-<node TEXT="05-04_2_shuffle-deck-of-cards.py" ID="ID_1991794618" CREATED="1708878384124" MODIFIED="1708878398722">
+<node TEXT="05-03_4_2_shuffle-deck-of-cards.py" ID="ID_1991794618" CREATED="1708878384124" MODIFIED="1708887287168">
 <icon BUILTIN="launch"/>
 </node>
-<node TEXT="05-04_3_shuffle-deck-of-cards-using-set.py" ID="ID_1816539916" CREATED="1708878391215" MODIFIED="1708878398722">
+<node TEXT="05-03_4_3_shuffle-deck-of-cards-using-set.py" ID="ID_1816539916" CREATED="1708878391215" MODIFIED="1708887290326">
 <icon BUILTIN="launch"/>
 </node>
 </node>
 <node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
-<node TEXT="5.1 Estimating the Value of Pi" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708808580466"/>
+<node TEXT="05-03_5_1_estimate-area-of-circle.py" ID="ID_799579276" CREATED="1708887298013" MODIFIED="1708887319745">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="05-03_5_2_estimate-area-of-circle-plot.py" ID="ID_988880793" CREATED="1708887305684" MODIFIED="1708887319745">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="5.1 Estimating the Value of Pi" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708808580466">
+<node TEXT="05-03_5_3_estimate-pi.py" ID="ID_755242615" CREATED="1708887310837" MODIFIED="1708887319745">
+<icon BUILTIN="launch"/>
 </node>
 </node>
 </node>
-<node TEXT="06 Drawing Geometric Shapes and Fractals" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1707342334099">
+</node>
+</node>
+<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1707342334099">
 <node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943"/>
 <node TEXT="06-01-02 Creating Animated Figures" ID="ID_1913552530" CREATED="1707342357104" MODIFIED="1707342365862"/>
@@ -1034,7 +1044,7 @@
 <node TEXT="4. Drawing the Mandelbrot Set" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1707342457694"/>
 </node>
 </node>
-<node TEXT="07 Solving Calculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1707446107237">
+<node TEXT="07 Solving Calculus Problems" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1707446107237">
 <node TEXT="07-01 What is a Function?" ID="ID_1649014144" CREATED="1707342490040" MODIFIED="1707342497084">
 <node TEXT="07-01-01 Domain and Range of a Function" ID="ID_806465946" CREATED="1707342497088" MODIFIED="1707342507013"/>
 <node TEXT="07-01-02 An Overview of Common Mathematical Functions" ID="ID_562852895" CREATED="1707342509650" MODIFIED="1707342523479"/>
@@ -1063,7 +1073,7 @@
 <node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400"/>
 </node>
 </node>
-<node TEXT="Appendix A: Software Installation" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
+<node TEXT="Appendix A: Software Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_730153429" CREATED="1708366050209" MODIFIED="1708366070875">
 <node TEXT="Anaconda" POSITION="bottom_or_right" ID="ID_551991767" CREATED="1708366084997" MODIFIED="1708366088837"/>
 <node TEXT="SymPy" POSITION="bottom_or_right" ID="ID_1673650150" CREATED="1708366093840" MODIFIED="1708366801154">
 <arrowlink DESTINATION="ID_567514185"/>
