@@ -714,6 +714,8 @@ random.randint(1,6)
 
 ### 3. How Many Tosses Before you Run Out
 
+#### 05-03_3_coin-toss-game.py
+
 ### 4. Shuffling a Deck of Cards
 
 ### 5. Estimating the Area of a Circle
