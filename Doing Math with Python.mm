@@ -932,7 +932,7 @@
 </node>
 <node TEXT="Sets allows us to reason about the basic concepts of probability" ID="ID_194985973" CREATED="1708741075838" MODIFIED="1708741098511"/>
 </node>
-<node TEXT="05-02 Probability" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
+<node TEXT="05-02 Probability" FOLDED="true" ID="ID_67269885" CREATED="1707337590824" MODIFIED="1707337596530">
 <node TEXT="Some Probability Definitions" FOLDED="true" ID="ID_405126761" CREATED="1708741104191" MODIFIED="1708741123459">
 <node TEXT="Experiment: is simply the test we want to perform. We perform the test because we are interested in the probability of each possible outcome." ID="ID_129433162" CREATED="1708741123467" MODIFIED="1708741167121"/>
 <node TEXT="Sample Space: all possible outcomes of an experiment form a set known as the sample space, whcih we&apos;ll usually call S in our formulas." ID="ID_1413455980" CREATED="1708741168104" MODIFIED="1708741201385"/>
@@ -950,7 +950,7 @@
 <node TEXT="05-02-01 Probability of Event A or Event B" FOLDED="true" ID="ID_1427292859" CREATED="1707337596530" MODIFIED="1707337605328">
 <node TEXT="len(a union b) / len(s)" ID="ID_1833825122" CREATED="1708783745537" MODIFIED="1708783783135"/>
 </node>
-<node TEXT="05-02-02 Probability of Event A and Event B" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036">
+<node TEXT="05-02-02 Probability of Event A and Event B" FOLDED="true" ID="ID_1242283631" CREATED="1707337605529" MODIFIED="1707337615036">
 <node TEXT="len (a intersect b) / len(s)" ID="ID_1182143035" CREATED="1708783788544" MODIFIED="1708783799197"/>
 </node>
 <node TEXT="05-02-03 Generating Random Numbers" FOLDED="true" ID="ID_1181961908" CREATED="1707337617892" MODIFIED="1707337624283">
@@ -968,7 +968,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05-02-04 Nonuniform Random Numbers" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162">
+<node TEXT="05-02-04 Nonuniform Random Numbers" FOLDED="true" ID="ID_730171040" CREATED="1707337624462" MODIFIED="1707337633162">
 <node TEXT="05-02_5_unequal-coin-rolling.py" ID="ID_1771107449" CREATED="1708821774599" MODIFIED="1708821796411">
 <icon BUILTIN="launch"/>
 </node>
@@ -978,8 +978,8 @@
 </node>
 </node>
 <node TEXT="05-03 Programming Challenges" ID="ID_1772409267" CREATED="1707337634843" MODIFIED="1707337640135">
-<node TEXT="1. Using Venn Diagrams to Visualize Relations" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1707337656197">
-<node TEXT="Venn Diagram (wikipedia), also called set diagram or logic diagram, shows all possible logical relations between a finite collection of different sets." ID="ID_404668823" CREATED="1708808581002" MODIFIED="1708808703675" LINK="https://en.wikipedia.org/wiki/Venn_diagram"/>
+<node TEXT="1. Using Venn Diagrams to Visualize Relations" FOLDED="true" ID="ID_1484182614" CREATED="1707337640135" MODIFIED="1708873835070" VGAP_QUANTITY="3 pt">
+<node TEXT="Venn Diagram (wikipedia), also called set diagram or logic diagram, shows all possible logical relations between a finite collection of different sets." ID="ID_404668823" CREATED="1708808581002" MODIFIED="1708873835068" LINK="https://en.wikipedia.org/wiki/Venn_diagram"/>
 <node TEXT="05-03_1_1_basic-venn-diagram.py" ID="ID_575304873" CREATED="1708822056527" MODIFIED="1708822097279">
 <icon BUILTIN="launch"/>
 </node>
@@ -987,7 +987,7 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="2. Law of Large Numbers" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631">
+<node TEXT="2. Law of Large Numbers" FOLDED="true" ID="ID_1275350625" CREATED="1707337656528" MODIFIED="1707337661631">
 <node TEXT="05-03_2_1_law-of-large-number.py" ID="ID_1803742317" CREATED="1708822081254" MODIFIED="1708822097278">
 <icon BUILTIN="launch"/>
 </node>
@@ -995,13 +995,24 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="3. How Many Tosses Before you Run Out" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616">
+<node TEXT="3. How Many Tosses Before you Run Out" FOLDED="true" ID="ID_1909562081" CREATED="1707337661829" MODIFIED="1707337671616">
 <node TEXT="05-03_3_coin-toss-game.py" ID="ID_1445068014" CREATED="1708823584891" MODIFIED="1708823591303">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="4. Shuffling a Deck of Cards" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1707337677964"/>
-<node TEXT="5. Estimating the Area of a Circle" FOLDED="true" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
+<node TEXT="4. Shuffling (洗牌) a Deck of Cards" FOLDED="true" ID="ID_1316643047" CREATED="1707337671779" MODIFIED="1708873879158">
+<node TEXT="random.shuffle(list): The shuffle() is an inbuilt method of the random module. It is used to shuffle a sequence (list). Shuffling a list of objects means changing the position of the elements of the sequence using Python." ID="ID_313749999" CREATED="1708874515322" MODIFIED="1708874638731" LINK="https://www.geeksforgeeks.org/random-shuffle-function-in-python/"/>
+<node TEXT="05-04_1_shuffle-numbers.py" ID="ID_912389342" CREATED="1708878377647" MODIFIED="1708878398721">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="05-04_2_shuffle-deck-of-cards.py" ID="ID_1991794618" CREATED="1708878384124" MODIFIED="1708878398722">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="05-04_3_shuffle-deck-of-cards-using-set.py" ID="ID_1816539916" CREATED="1708878391215" MODIFIED="1708878398722">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="5. Estimating the Area of a Circle" ID="ID_1224866982" CREATED="1707337678129" MODIFIED="1707337684929">
 <node TEXT="5.1 Estimating the Value of Pi" POSITION="bottom_or_right" ID="ID_19632437" CREATED="1708807963583" MODIFIED="1708808580466"/>
 </node>
 </node>
