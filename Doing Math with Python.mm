@@ -819,7 +819,7 @@
 </node>
 </node>
 </node>
-<node TEXT="05 Playing with Sets and Probability" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1708469608664"><richcontent TYPE="NOTE">
+<node TEXT="05 Playing with Sets and Probability" FOLDED="true" POSITION="bottom_or_right" ID="ID_869590333" CREATED="1707337514281" MODIFIED="1708469608664"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1027,7 +1027,26 @@
 </node>
 </node>
 </node>
-<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1707342334099">
+<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        We'll learn about patches in matplotlib that allow us to draw geometric shapes, e.g. circles, triangles, and polygons.
+      </li>
+      <li>
+        We'll learn about matplotlib's animation support and write a program to animate a projectile's trajectory
+      </li>
+      <li>
+        We'll learn how to draw <span style="font-style: italic;">fractals</span>&#xa0;-- complex geometric shapes created by the repeated applications of simple geometric transformations.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 <node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943"/>
 <node TEXT="06-01-02 Creating Animated Figures" ID="ID_1913552530" CREATED="1707342357104" MODIFIED="1707342365862"/>
