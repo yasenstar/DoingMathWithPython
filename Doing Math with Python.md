@@ -759,6 +759,8 @@ random.randint(1,6)
 
 ### 06-10-03 Animating a Projectile's Trajectory
 
+#### 06-01_3_animating-projectile-trajectory.py
+
 ## 06-02 Drawing Fractals
 
 ### 06-02-01 Transformations of Points in a Plane

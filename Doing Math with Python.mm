@@ -633,7 +633,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04 Algebra and Symbolic Math with Sympy" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1708366021762"><richcontent TYPE="NOTE">
+<node TEXT="04 Algebra and Symbolic Math with Sympy" FOLDED="true" POSITION="bottom_or_right" ID="ID_1601285861" CREATED="1707337171182" MODIFIED="1708366021762"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -739,7 +739,7 @@
 </node>
 </node>
 </node>
-<node TEXT="04-03 Solving Equations" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
+<node TEXT="04-03 Solving Equations" FOLDED="true" ID="ID_1426786478" CREATED="1707337399771" MODIFIED="1707337407012">
 <node TEXT="from sympy import Symbol, solve&#xa;x = Symbol(&apos;x&apos;)&#xa;expr = x - 5 - 7&#xa;solve(expr) # assuming the expr is equal to zero" ID="ID_268618535" CREATED="1708378895999" MODIFIED="1708378995088"/>
 <node TEXT="04-03-01 Solving Quadratic Equations (二次方程)" ID="ID_454230137" CREATED="1707337407012" MODIFIED="1708379162263"/>
 <node TEXT="04-03-02 Solving for One Variable in Terms of Others" ID="ID_604525145" CREATED="1707337416134" MODIFIED="1707337428372"/>
@@ -1047,7 +1047,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
+<node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" FOLDED="true" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943">
 <node TEXT="06-01_1_draw-circle.py" ID="ID_938191141" CREATED="1708906811098" MODIFIED="1708906817107">
 <icon BUILTIN="launch"/>
@@ -1060,9 +1060,13 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="06-10-03 Animating a Projectile&apos;s Trajectory" ID="ID_1359149344" CREATED="1707342366023" MODIFIED="1707342377476"/>
+<node TEXT="06-10-03 Animating a Projectile&apos;s Trajectory" ID="ID_1359149344" CREATED="1707342366023" MODIFIED="1707342377476">
+<node TEXT="06-01_3_animating-projectile-trajectory.py" ID="ID_1474659654" CREATED="1708915256741" MODIFIED="1708915265607">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="06-02 Drawing Fractals" FOLDED="true" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1707342387738">
+</node>
+</node>
+<node TEXT="06-02 Drawing Fractals" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1707342387738">
 <node TEXT="06-02-01 Transformations of Points in a Plane" ID="ID_972857105" CREATED="1707342387738" MODIFIED="1707342399504"/>
 <node TEXT="06-02-02 Drawing the Barnsley Fern" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1707342411988"/>
 </node>
