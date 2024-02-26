@@ -738,11 +738,24 @@ random.randint(1,6)
 
 # 06 Drawing Geometric Shapes and Fractals
 
+- We'll learn about patches in matplotlib that allow us to draw geometric shapes, e.g. circles, triangles, and polygons.
+- We'll learn about matplotlib's animation support and write a program to animate a projectile's trajectory
+- We'll learn how to drawfractals -- complex geometric shapes created by the repeated applications of simple geometric transformations.
+
+
 ## 06-01 Drawing Geometric Shapes with Matplotlib's Patches
 
 ### 06-01-01 Drawing a Circle
 
+#### 06-01_1_draw-circle.py
+
 ### 06-01-02 Creating Animated Figures
+
+#### matplotlib.animation.FuncAnimation
+
+#### Animations & Object Persistence #1656
+
+#### 06-01_2_create-animated-figure.py
 
 ### 06-10-03 Animating a Projectile's Trajectory
 

@@ -1054,8 +1054,11 @@
 </node>
 </node>
 <node TEXT="06-01-02 Creating Animated Figures" ID="ID_1913552530" CREATED="1707342357104" MODIFIED="1707342365862">
+<node TEXT="matplotlib.animation.FuncAnimation" ID="ID_590087236" CREATED="1708909266226" MODIFIED="1708909280759" LINK="https://matplotlib.org/stable/api/_as_gen/matplotlib.animation.FuncAnimation.html"/>
 <node TEXT="Animations &amp; Object Persistence #1656" ID="ID_1684974428" CREATED="1708907606902" MODIFIED="1708907626427" LINK="https://github.com/matplotlib/matplotlib/issues/1656"/>
-<node TEXT="" ID="ID_1865134503" CREATED="1708907627524" MODIFIED="1708907627524"/>
+<node TEXT="06-01_2_create-animated-figure.py" ID="ID_1865134503" CREATED="1708907627524" MODIFIED="1708909710370">
+<icon BUILTIN="launch"/>
+</node>
 </node>
 <node TEXT="06-10-03 Animating a Projectile&apos;s Trajectory" ID="ID_1359149344" CREATED="1707342366023" MODIFIED="1707342377476"/>
 </node>
