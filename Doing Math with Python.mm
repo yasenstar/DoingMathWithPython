@@ -1066,15 +1066,19 @@
 </node>
 </node>
 </node>
-<node TEXT="06-02 Drawing Fractals" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1707342387738">
-<node TEXT="06-02-01 Transformations of Points in a Plane" ID="ID_972857105" CREATED="1707342387738" MODIFIED="1707342399504"/>
-<node TEXT="06-02-02 Drawing the Barnsley Fern" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1707342411988"/>
+<node TEXT="06-02 Drawing Fractals (分形)" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
+<node TEXT="06-02-01 Transformations of Points in a Plane" ID="ID_972857105" CREATED="1707342387738" MODIFIED="1707342399504">
+<node TEXT="06-02_1_zigzag-path.py" ID="ID_802325472" CREATED="1709059004612" MODIFIED="1709059010297">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="06-03 Programming Challenges" FOLDED="true" ID="ID_1376370676" CREATED="1707342413130" MODIFIED="1707342419478">
+</node>
+<node TEXT="06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1709056519834" LINK="https://en.wikipedia.org/wiki/Barnsley_fern#Construction"/>
+</node>
+<node TEXT="06-03 Programming Challenges" ID="ID_1376370676" CREATED="1707342413130" MODIFIED="1707342419478">
 <node TEXT="1. Packing Circles into a Square" ID="ID_1532132334" CREATED="1707342419478" MODIFIED="1707342433021"/>
-<node TEXT="2. Drawing the Sierpinski Triangle" ID="ID_500071937" CREATED="1707342433221" MODIFIED="1707342443880"/>
-<node TEXT="3. Exploring Henon&apos;s Function" ID="ID_438591096" CREATED="1707342444038" MODIFIED="1707342451138"/>
-<node TEXT="4. Drawing the Mandelbrot Set" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1707342457694"/>
+<node TEXT="2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)" ID="ID_500071937" CREATED="1707342433221" MODIFIED="1709055637850"/>
+<node TEXT="3. Exploring Henon&apos;s (海农函数)" ID="ID_438591096" CREATED="1707342444038" MODIFIED="1709055657602"/>
+<node TEXT="4. Drawing the Mandelbrot Set (曼德尔布罗特集)" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1709055609522"/>
 </node>
 </node>
 <node TEXT="07 Solving Calculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1707446107237">

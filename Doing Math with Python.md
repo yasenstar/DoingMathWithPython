@@ -761,21 +761,23 @@ random.randint(1,6)
 
 #### 06-01_3_animating-projectile-trajectory.py
 
-## 06-02 Drawing Fractals
+## 06-02 Drawing Fractals (分形)
 
 ### 06-02-01 Transformations of Points in a Plane
 
-### 06-02-02 Drawing the Barnsley Fern
+#### 06-02_1_zigzag-path.py
+
+### 06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)
 
 ## 06-03 Programming Challenges
 
 ### 1. Packing Circles into a Square
 
-### 2. Drawing the Sierpinski Triangle
+### 2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)
 
-### 3. Exploring Henon's Function
+### 3. Exploring Henon's (海农函数)
 
-### 4. Drawing the Mandelbrot Set
+### 4. Drawing the Mandelbrot Set (曼德尔布罗特集)
 
 # 07 Solving Calculus Problems
 
