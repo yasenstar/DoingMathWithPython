@@ -1047,7 +1047,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" FOLDED="true" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
+<node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943">
 <node TEXT="06-01_1_draw-circle.py" ID="ID_938191141" CREATED="1708906811098" MODIFIED="1708906817107">
 <icon BUILTIN="launch"/>
@@ -1071,8 +1071,15 @@
 <node TEXT="06-02_1_zigzag-path.py" ID="ID_802325472" CREATED="1709059004612" MODIFIED="1709059010297">
 <icon BUILTIN="launch"/>
 </node>
+<node TEXT="06-02_2_zigzag-path-enhanced.py" ID="ID_669236585" CREATED="1709070129116" MODIFIED="1709070138839">
+<icon BUILTIN="launch"/>
 </node>
-<node TEXT="06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1709056519834" LINK="https://en.wikipedia.org/wiki/Barnsley_fern#Construction"/>
+</node>
+<node TEXT="06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1709056519834" LINK="https://en.wikipedia.org/wiki/Barnsley_fern#Construction">
+<node TEXT="06-02_3_Barnsley-Fern.py" ID="ID_1101253936" CREATED="1709070133093" MODIFIED="1709070138838">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 <node TEXT="06-03 Programming Challenges" ID="ID_1376370676" CREATED="1707342413130" MODIFIED="1707342419478">
 <node TEXT="1. Packing Circles into a Square" ID="ID_1532132334" CREATED="1707342419478" MODIFIED="1707342433021"/>
