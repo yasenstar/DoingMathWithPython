@@ -767,23 +767,47 @@ random.randint(1,6)
 
 #### 06-02_1_zigzag-path.py
 
+#### 06-02_2_zigzag-path-enhanced.py
+
 ### 06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)
+ (see:2. Drawing the Sierpinski Triangle (谢尔宾斯基三角))
+#### 06-02_3_Barnsley-Fern.py
 
 ## 06-03 Programming Challenges
 
 ### 1. Packing Circles into a Square
 
+#### 06-03_1_1_draw-square.py
+
+#### 06-03_1_2_packing-circles-in-a-square.py
+
 ### 2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)
 
-### 3. Exploring Henon's (海农函数)
+#### 06-03_2_Sierpinski-Triangle.py
+
+### 3. Exploring Henon's Function (海农函数)
 
 ### 4. Drawing the Mandelbrot Set (曼德尔布罗特集)
 
 # 07 Solving Calculus Problems
 
+- We'll learn to solve calculus problems.
+- We'll first learn about mathematical functions, followed by a quick overview of the common mathematical functions available in Python's standard library and SymPy.
+- We'll then learn how we can find the limits of functions and calculate derivatives and integrals.
+
+
 ## 07-01 What is a Function?
+ 
+A function is amapping between an input set and an output set.
+
 
 ### 07-01-01 Domain and Range of a Function
+ 
+Thedomain of a function is the set of input values that the independent vairable can validly assume.
+
+ 
+The output set of a function is called therange.
+
 
 ### 07-01-02 An Overview of Common Mathematical Functions
 

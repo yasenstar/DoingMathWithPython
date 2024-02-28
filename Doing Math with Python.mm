@@ -1066,7 +1066,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06-02 Drawing Fractals (分形)" FOLDED="true" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
+<node TEXT="06-02 Drawing Fractals (分形)" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
 <node TEXT="06-02-01 Transformations of Points in a Plane" ID="ID_972857105" CREATED="1707342387738" MODIFIED="1707342399504">
 <node TEXT="06-02_1_zigzag-path.py" ID="ID_802325472" CREATED="1709059004612" MODIFIED="1709059010297">
 <icon BUILTIN="launch"/>
@@ -1075,7 +1075,8 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1709056519834" LINK="https://en.wikipedia.org/wiki/Barnsley_fern#Construction">
+<node TEXT="06-02-02 Drawing the Barnsley Fern (巴恩斯利蕨)" ID="ID_1641213185" CREATED="1707342399671" MODIFIED="1709087881686" LINK="https://en.wikipedia.org/wiki/Barnsley_fern#Construction">
+<arrowlink DESTINATION="ID_500071937"/>
 <node TEXT="06-02_3_Barnsley-Fern.py" ID="ID_1101253936" CREATED="1709070133093" MODIFIED="1709070138838">
 <icon BUILTIN="launch"/>
 </node>
@@ -1090,12 +1091,16 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)" ID="ID_500071937" CREATED="1707342433221" MODIFIED="1709070421511" LINK="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"/>
+<node TEXT="2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)" ID="ID_500071937" CREATED="1707342433221" MODIFIED="1709070421511" LINK="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle">
+<node TEXT="06-03_2_Sierpinski-Triangle.py" ID="ID_1173648918" CREATED="1709088646337" MODIFIED="1709088653966">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="3. Exploring Henon&apos;s Function (海农函数)" ID="ID_438591096" CREATED="1707342444038" MODIFIED="1709070551714" LINK="https://en.wikipedia.org/wiki/H%C3%A9non_map"/>
 <node TEXT="4. Drawing the Mandelbrot Set (曼德尔布罗特集)" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1709070684364" LINK="https://en.wikipedia.org/wiki/Mandelbrot_set"/>
 </node>
 </node>
-<node TEXT="07 Solving Calculus Problems" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
+<node TEXT="07 Solving Calculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
 <html>
   <head>
     
