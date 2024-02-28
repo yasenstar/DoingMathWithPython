@@ -660,7 +660,7 @@
 </node>
 <node TEXT="SymPy Introductory Tutorial" ID="ID_220718626" CREATED="1708366504123" MODIFIED="1708366516607" LINK="https://docs.sympy.org/latest/tutorials/intro-tutorial/index.html#intro-tutorial"/>
 </node>
-<node TEXT="04-01 Defining Symbols and Symbolic Operations" FOLDED="true" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
+<node TEXT="04-01 Defining Symbols and Symbolic Operations" ID="ID_1355043656" CREATED="1707337187193" MODIFIED="1707337216150">
 <node TEXT="Symbols form the building blocks of symbolic math (符号数学)." ID="ID_419419845" CREATED="1708366563490" MODIFIED="1708366589697"/>
 <node TEXT="Define single symbol" ID="ID_1535107358" CREATED="1708369330410" MODIFIED="1708369346858">
 <node TEXT="from sympy import Symbol&#xa;x = Symbol(&apos;x&apos;)" ID="ID_1532315423" CREATED="1708369346860" MODIFIED="1708369385820"/>
@@ -1047,7 +1047,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
+<node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" FOLDED="true" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943">
 <node TEXT="06-01_1_draw-circle.py" ID="ID_938191141" CREATED="1708906811098" MODIFIED="1708906817107">
 <icon BUILTIN="launch"/>
@@ -1066,7 +1066,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06-02 Drawing Fractals (分形)" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
+<node TEXT="06-02 Drawing Fractals (分形)" FOLDED="true" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
 <node TEXT="06-02-01 Transformations of Points in a Plane" ID="ID_972857105" CREATED="1707342387738" MODIFIED="1707342399504">
 <node TEXT="06-02_1_zigzag-path.py" ID="ID_802325472" CREATED="1709059004612" MODIFIED="1709059010297">
 <icon BUILTIN="launch"/>
@@ -1082,15 +1082,87 @@
 </node>
 </node>
 <node TEXT="06-03 Programming Challenges" ID="ID_1376370676" CREATED="1707342413130" MODIFIED="1707342419478">
-<node TEXT="1. Packing Circles into a Square" ID="ID_1532132334" CREATED="1707342419478" MODIFIED="1707342433021"/>
-<node TEXT="2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)" ID="ID_500071937" CREATED="1707342433221" MODIFIED="1709055637850"/>
-<node TEXT="3. Exploring Henon&apos;s (海农函数)" ID="ID_438591096" CREATED="1707342444038" MODIFIED="1709055657602"/>
-<node TEXT="4. Drawing the Mandelbrot Set (曼德尔布罗特集)" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1709055609522"/>
+<node TEXT="1. Packing Circles into a Square" ID="ID_1532132334" CREATED="1707342419478" MODIFIED="1707342433021">
+<node TEXT="06-03_1_1_draw-square.py" ID="ID_1305333808" CREATED="1709087613766" MODIFIED="1709087626226">
+<icon BUILTIN="launch"/>
+</node>
+<node TEXT="06-03_1_2_packing-circles-in-a-square.py" ID="ID_827051957" CREATED="1709087618516" MODIFIED="1709087626226">
+<icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="07 Solving Calculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1707446107237">
+<node TEXT="2. Drawing the Sierpinski Triangle (谢尔宾斯基三角)" ID="ID_500071937" CREATED="1707342433221" MODIFIED="1709070421511" LINK="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"/>
+<node TEXT="3. Exploring Henon&apos;s Function (海农函数)" ID="ID_438591096" CREATED="1707342444038" MODIFIED="1709070551714" LINK="https://en.wikipedia.org/wiki/H%C3%A9non_map"/>
+<node TEXT="4. Drawing the Mandelbrot Set (曼德尔布罗特集)" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1709070684364" LINK="https://en.wikipedia.org/wiki/Mandelbrot_set"/>
+</node>
+</node>
+<node TEXT="07 Solving Calculus Problems" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        We'll learn to solve calculus problems.
+      </li>
+      <li>
+        We'll first learn about mathematical functions, followed by a quick overview of the common mathematical functions available in Python's standard library and SymPy.
+      </li>
+      <li>
+        We'll then learn how we can find the limits of functions and calculate derivatives and integrals.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 <node TEXT="07-01 What is a Function?" ID="ID_1649014144" CREATED="1707342490040" MODIFIED="1707342497084">
-<node TEXT="07-01-01 Domain and Range of a Function" ID="ID_806465946" CREATED="1707342497088" MODIFIED="1707342507013"/>
+<node ID="ID_266911521" CREATED="1709083950779" MODIFIED="1709084012788"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A function is a <span style="font-style: italic;">mapping</span>&#xa0;between an input set and an output set.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="07-01-01 Domain and Range of a Function" ID="ID_806465946" CREATED="1707342497088" MODIFIED="1707342507013">
+<node ID="ID_391865631" CREATED="1709084013646" MODIFIED="1709084047173"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <span style="font-style: italic;">domain</span>&#xa0;of a function is the set of input values that the independent vairable can validly assume.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1587952763" CREATED="1709084048761" MODIFIED="1709084063662"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The output set of a function is called the <span style="font-style: italic;">range.</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
 <node TEXT="07-01-02 An Overview of Common Mathematical Functions" ID="ID_562852895" CREATED="1707342509650" MODIFIED="1707342523479"/>
 </node>
 <node TEXT="07-02 Assumptions in SymPy" ID="ID_496349448" CREATED="1707342524135" MODIFIED="1707342533083"/>
