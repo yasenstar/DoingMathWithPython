@@ -789,6 +789,22 @@ random.randint(1,6)
 
 ### 4. Drawing the Mandelbrot Set (曼德尔布罗特集)
 
+#### 4.1 The imshow() Function
+
+##### Display data as an image, i.e., on a 2D regular raster (常规光栅).
+
+##### imshow documentation in matplotlib.org
+
+##### matplotlib.pyplot.imshow(X, cmap=None, norm=None, *, aspect=None, interpolation=None, alpha=None, vmin=None, vmax=None, origin=None, extent=None, interpolation_stage=None, filternorm=True, filterrad=4.0, resample=None, url=None, data=None, **kwargs)
+
+#### 4.2 Creating a List of Lists
+
+##### 06-03_4_1_gray-level-headmap.py
+
+#### 4.3 Drawing the Mandelbrot Set
+
+##### 06-03_4_2_mandelbrot-set.py
+
 # 07 Solving Calculus Problems
 
 - We'll learn to solve calculus problems.

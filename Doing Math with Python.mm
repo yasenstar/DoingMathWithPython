@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.394">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="0.825">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1066,7 +1066,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06-02 Drawing Fractals (分形)" FOLDED="true" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
+<node TEXT="06-02 Drawing Fractals (分形)" ID="ID_959578323" CREATED="1707342381894" MODIFIED="1709055992838" LINK="https://en.wikipedia.org/wiki/Fractal">
 <node TEXT="06-02-01 Transformations of Points in a Plane" ID="ID_972857105" CREATED="1707342387738" MODIFIED="1707342399504">
 <node TEXT="06-02_1_zigzag-path.py" ID="ID_802325472" CREATED="1709059004612" MODIFIED="1709059010297">
 <icon BUILTIN="launch"/>
@@ -1108,7 +1108,11 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="4.3 Drawing the Mandelbrot Set" ID="ID_635765162" CREATED="1709231325797" MODIFIED="1709231333506"/>
+<node TEXT="4.3 Drawing the Mandelbrot Set" ID="ID_635765162" CREATED="1709231325797" MODIFIED="1709231333506">
+<node TEXT="06-03_4_2_mandelbrot-set.py" ID="ID_167911020" CREATED="1709236051184" MODIFIED="1709236057395">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -1132,7 +1136,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="07-01 What is a Function?" ID="ID_1649014144" CREATED="1707342490040" MODIFIED="1707342497084">
+<node TEXT="07-01 What is a Function?" FOLDED="true" ID="ID_1649014144" CREATED="1707342490040" MODIFIED="1707342497084">
 <node ID="ID_266911521" CREATED="1709083950779" MODIFIED="1709084012788"><richcontent TYPE="NODE">
 
 <html>
@@ -1183,23 +1187,23 @@
 <node TEXT="07-01-02 An Overview of Common Mathematical Functions" ID="ID_562852895" CREATED="1707342509650" MODIFIED="1707342523479"/>
 </node>
 <node TEXT="07-02 Assumptions in SymPy" ID="ID_496349448" CREATED="1707342524135" MODIFIED="1707342533083"/>
-<node TEXT="07-03 Finding the Limit of Functions" ID="ID_293510088" CREATED="1707342534018" MODIFIED="1707342540722">
+<node TEXT="07-03 Finding the Limit of Functions" FOLDED="true" ID="ID_293510088" CREATED="1707342534018" MODIFIED="1707342540722">
 <node TEXT="07-03-01 Continuous Compound Interest" ID="ID_194359020" CREATED="1707342540738" MODIFIED="1707342554697"/>
 <node TEXT="07-03-02 Instantaneous Rate of Change" ID="ID_1502014444" CREATED="1707342554856" MODIFIED="1707342563406"/>
 </node>
-<node TEXT="07-04 Finding the Derivative of Functions" ID="ID_123403302" CREATED="1707342564308" MODIFIED="1707342572108">
+<node TEXT="07-04 Finding the Derivative of Functions" FOLDED="true" ID="ID_123403302" CREATED="1707342564308" MODIFIED="1707342572108">
 <node TEXT="07-04-01 A Derivative Calculator" ID="ID_63053312" CREATED="1707342572110" MODIFIED="1707342579692"/>
 <node TEXT="07-04-02 Calculating Partial Derivatives" ID="ID_1948594748" CREATED="1707342579884" MODIFIED="1707342593273"/>
 </node>
 <node TEXT="07-05 Higher-Order Derivatives and Finding the Maxima" ID="ID_784040924" CREATED="1707342596174" MODIFIED="1707342614077"/>
-<node TEXT="07-06 Finding the Global Maximum Using Gradient Ascent" ID="ID_963224785" CREATED="1707342615360" MODIFIED="1707342629515">
+<node TEXT="07-06 Finding the Global Maximum Using Gradient Ascent" FOLDED="true" ID="ID_963224785" CREATED="1707342615360" MODIFIED="1707342629515">
 <node TEXT="07-06-01 A Generic Program for Gradient Ascent" ID="ID_1227064558" CREATED="1707342629530" MODIFIED="1707342640883"/>
 <node TEXT="07-06-02 A Word of Warning About the Initial Value" ID="ID_172706931" CREATED="1707342641059" MODIFIED="1707342657890"/>
 <node TEXT="07-06-03 The Role of the Step Size and Epsilon" ID="ID_585946076" CREATED="1707342660605" MODIFIED="1707342671113"/>
 </node>
 <node TEXT="07-07 Finding the Integrals of Functions" ID="ID_1031063138" CREATED="1707342671924" MODIFIED="1707342681602"/>
 <node TEXT="07-08 Probability Density Functions" ID="ID_1158648570" CREATED="1707342681767" MODIFIED="1707342688847"/>
-<node TEXT="07-09 Programming Challenges" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
+<node TEXT="07-09 Programming Challenges" FOLDED="true" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
 <node TEXT="1. Verify the Continuity of the Function" ID="ID_154033153" CREATED="1707342695556" MODIFIED="1707342703530"/>
 <node TEXT="2. Implement the Gradient Descent" ID="ID_1930096120" CREATED="1707342704054" MODIFIED="1707342710733"/>
 <node TEXT="3. Area Between Two Curves" ID="ID_744265456" CREATED="1707342710908" MODIFIED="1707342720041"/>
