@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.825">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.394">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1097,13 +1097,17 @@
 </node>
 </node>
 <node TEXT="3. Exploring Henon&apos;s Function (海农函数)" ID="ID_438591096" CREATED="1707342444038" MODIFIED="1709070551714" LINK="https://en.wikipedia.org/wiki/H%C3%A9non_map"/>
-<node TEXT="4. Drawing the Mandelbrot Set (曼德尔布罗特集)" FOLDED="true" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1709070684364" LINK="https://en.wikipedia.org/wiki/Mandelbrot_set">
+<node TEXT="4. Drawing the Mandelbrot Set (曼德尔布罗特集)" ID="ID_915507916" CREATED="1707342451306" MODIFIED="1709070684364" LINK="https://en.wikipedia.org/wiki/Mandelbrot_set">
 <node TEXT="4.1 The imshow() Function" FOLDED="true" ID="ID_705452349" CREATED="1709231299351" MODIFIED="1709231377656" LINK="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html">
 <node TEXT="Display data as an image, i.e., on a 2D regular raster (常规光栅)." ID="ID_607023195" CREATED="1709231416272" MODIFIED="1709231458999"/>
 <node TEXT="imshow documentation in matplotlib.org" ID="ID_887613009" CREATED="1709231676352" MODIFIED="1709231716193" LINK="https://matplotlib.org/stable/users/explain/artists/imshow_extent.html"/>
 <node TEXT="matplotlib.pyplot.imshow(X, cmap=None, norm=None, *, aspect=None, interpolation=None, alpha=None, vmin=None, vmax=None, origin=None, extent=None, interpolation_stage=None, filternorm=True, filterrad=4.0, resample=None, url=None, data=None, **kwargs)" ID="ID_1635314163" CREATED="1709231388399" MODIFIED="1709231392019"/>
 </node>
-<node TEXT="4.2 Creating a List of Lists" ID="ID_829789792" CREATED="1709231308899" MODIFIED="1709231320705"/>
+<node TEXT="4.2 Creating a List of Lists" ID="ID_829789792" CREATED="1709231308899" MODIFIED="1709231320705">
+<node TEXT="06-03_4_1_gray-level-headmap.py" ID="ID_895430604" CREATED="1709233904307" MODIFIED="1709233910043">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="4.3 Drawing the Mandelbrot Set" ID="ID_635765162" CREATED="1709231325797" MODIFIED="1709231333506"/>
 </node>
 </node>
