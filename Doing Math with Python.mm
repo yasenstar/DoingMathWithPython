@@ -1027,7 +1027,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
+<node TEXT="06 Drawing Geometric Shapes and Fractals" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1116,7 +1116,7 @@
 </node>
 </node>
 </node>
-<node TEXT="07 Solving Calculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
+<node TEXT="07 Solving Calculus Problems" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1191,8 +1191,12 @@
 <node TEXT="07-03-01 Continuous Compound Interest" ID="ID_194359020" CREATED="1707342540738" MODIFIED="1707342554697"/>
 <node TEXT="07-03-02 Instantaneous Rate of Change" ID="ID_1502014444" CREATED="1707342554856" MODIFIED="1707342563406"/>
 </node>
-<node TEXT="07-04 Finding the Derivative of Functions" FOLDED="true" ID="ID_123403302" CREATED="1707342564308" MODIFIED="1707342572108">
-<node TEXT="07-04-01 A Derivative Calculator" ID="ID_63053312" CREATED="1707342572110" MODIFIED="1707342579692"/>
+<node TEXT="07-04 Finding the Derivative (导数) of Functions" ID="ID_123403302" CREATED="1707342564308" MODIFIED="1709250831441">
+<node TEXT="07-04-01 A Derivative Calculator" ID="ID_63053312" CREATED="1707342572110" MODIFIED="1707342579692">
+<node TEXT="07-04_1_derivative-calculator.py" ID="ID_1479301903" CREATED="1709265725877" MODIFIED="1709265737302">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="07-04-02 Calculating Partial Derivatives" ID="ID_1948594748" CREATED="1707342579884" MODIFIED="1707342593273"/>
 </node>
 <node TEXT="07-05 Higher-Order Derivatives and Finding the Maxima" ID="ID_784040924" CREATED="1707342596174" MODIFIED="1707342614077"/>
@@ -1203,7 +1207,7 @@
 </node>
 <node TEXT="07-07 Finding the Integrals of Functions" ID="ID_1031063138" CREATED="1707342671924" MODIFIED="1707342681602"/>
 <node TEXT="07-08 Probability Density Functions" ID="ID_1158648570" CREATED="1707342681767" MODIFIED="1707342688847"/>
-<node TEXT="07-09 Programming Challenges" FOLDED="true" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
+<node TEXT="07-09 Programming Challenges" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
 <node TEXT="1. Verify the Continuity of the Function" ID="ID_154033153" CREATED="1707342695556" MODIFIED="1707342703530"/>
 <node TEXT="2. Implement the Gradient Descent" ID="ID_1930096120" CREATED="1707342704054" MODIFIED="1707342710733"/>
 <node TEXT="3. Area Between Two Curves" ID="ID_744265456" CREATED="1707342710908" MODIFIED="1707342720041"/>
