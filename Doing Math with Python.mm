@@ -3,7 +3,7 @@
 <node TEXT="Doing Math with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1707764194035">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.825">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.394">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -1191,15 +1191,39 @@
 <node TEXT="07-03-01 Continuous Compound Interest" ID="ID_194359020" CREATED="1707342540738" MODIFIED="1707342554697"/>
 <node TEXT="07-03-02 Instantaneous Rate of Change" ID="ID_1502014444" CREATED="1707342554856" MODIFIED="1707342563406"/>
 </node>
-<node TEXT="07-04 Finding the Derivative (导数) of Functions" ID="ID_123403302" CREATED="1707342564308" MODIFIED="1709250831441">
+<node TEXT="07-04 Finding the Derivative (导数) of Functions" FOLDED="true" ID="ID_123403302" CREATED="1707342564308" MODIFIED="1709250831441">
+<node ID="ID_1700214059" CREATED="1709301831247" MODIFIED="1709301913317"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      By default, creating the derivative object using <span style="font-weight: bold;">Derivative</span><span style="font-weight: normal;">&#xa0;&#xa0;class finds the first-order derivative</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<arrowlink DESTINATION="ID_211923503"/>
+<node TEXT="Derivative(f,x)" ID="ID_823692297" CREATED="1709302632279" MODIFIED="1709302643856"/>
+</node>
 <node TEXT="07-04-01 A Derivative Calculator" ID="ID_63053312" CREATED="1707342572110" MODIFIED="1707342579692">
-<node TEXT="07-04_1_derivative-calculator.py" ID="ID_1479301903" CREATED="1709265725877" MODIFIED="1709265737302">
+<node TEXT="07-04_derivative-calculator.py" ID="ID_1479301903" CREATED="1709265725877" MODIFIED="1709303159032">
 <icon BUILTIN="launch"/>
 </node>
 </node>
 <node TEXT="07-04-02 Calculating Partial Derivatives" ID="ID_1948594748" CREATED="1707342579884" MODIFIED="1707342593273"/>
 </node>
-<node TEXT="07-05 Higher-Order Derivatives and Finding the Maxima" ID="ID_784040924" CREATED="1707342596174" MODIFIED="1707342614077"/>
+<node TEXT="07-05 Higher-Order Derivatives and Finding the Maxima" ID="ID_784040924" CREATED="1707342596174" MODIFIED="1707342614077">
+<node TEXT="To find higher-order derivatives, specify the order of the derivative to calculate as the 3rd argument" ID="ID_211923503" CREATED="1709301880780" MODIFIED="1709301908965">
+<node TEXT="# order = n (n&gt;=2)&#xa;Derivative(f,x,n)" ID="ID_1980253175" CREATED="1709302667493" MODIFIED="1709302705494"/>
+</node>
+<node TEXT="07-05_find-maxima-minima.py" ID="ID_873654871" CREATED="1709303174079" MODIFIED="1709303180421">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="07-06 Finding the Global Maximum Using Gradient Ascent" FOLDED="true" ID="ID_963224785" CREATED="1707342615360" MODIFIED="1707342629515">
 <node TEXT="07-06-01 A Generic Program for Gradient Ascent" ID="ID_1227064558" CREATED="1707342629530" MODIFIED="1707342640883"/>
 <node TEXT="07-06-02 A Word of Warning About the Initial Value" ID="ID_172706931" CREATED="1707342641059" MODIFIED="1707342657890"/>
