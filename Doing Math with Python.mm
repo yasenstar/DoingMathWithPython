@@ -1116,7 +1116,7 @@
 </node>
 </node>
 </node>
-<node TEXT="07 Solving Calculus Problems" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
+<node TEXT="07 Solving Calculus Problems" FOLDED="true" POSITION="bottom_or_right" ID="ID_1793200785" CREATED="1707342480829" MODIFIED="1709083907337"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1248,25 +1248,28 @@
 <arrowlink DESTINATION="ID_744265456"/>
 </node>
 <node TEXT="07-08 Probability Density Functions" ID="ID_1158648570" CREATED="1707342681767" MODIFIED="1707342688847"/>
-<node TEXT="07-09 Programming Challenges" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
-<node TEXT="1. Verify the Continuity of the Function" ID="ID_154033153" CREATED="1707342695556" MODIFIED="1707342703530">
+<node TEXT="07-09 Programming Challenges" FOLDED="true" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
+<node TEXT="1. Verify the Continuity of the Function" FOLDED="true" ID="ID_154033153" CREATED="1707342695556" MODIFIED="1707342703530">
 <node TEXT="Learning: Continuity at a Point" ID="ID_784362389" CREATED="1709348814062" MODIFIED="1709348858388" LINK="https://courses.lumenlearning.com/calculus1/chapter/continuity-at-a-point/#:~:text=A%20function%20f%20%28x%29%20f%20%28x%29%20is%20continuous,it%20fails%20to%20be%20continuous%20at%20a%20a."/>
 <node TEXT="07-09_1_vefiry-continuity.py" ID="ID_173132438" CREATED="1709349970744" MODIFIED="1709349977711">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="2. Implement the Gradient Descent" ID="ID_1930096120" CREATED="1707342704054" MODIFIED="1707342710733">
+<node TEXT="2. Implement the Gradient Descent" FOLDED="true" ID="ID_1930096120" CREATED="1707342704054" MODIFIED="1707342710733">
 <node TEXT="07-09_2_implement-gradient-function.py" ID="ID_1971790951" CREATED="1709400129356" MODIFIED="1709400136949">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="3. Area Between Two Curves" ID="ID_744265456" CREATED="1707342710908" MODIFIED="1707342720041">
+<node TEXT="3. Area Between Two Curves" FOLDED="true" ID="ID_744265456" CREATED="1707342710908" MODIFIED="1707342720041">
 <node TEXT="07-09_3_area-between-two-curves.py" ID="ID_785718346" CREATED="1709400119900" MODIFIED="1709400136949">
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400">
+<node TEXT="4. Finding the Length of a Curve" FOLDED="true" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400">
 <node TEXT="Learn: Length of Curve" ID="ID_1031284073" CREATED="1709400095126" MODIFIED="1709400108010" LINK="https://math.libretexts.org/Bookshelves/Calculus/Calculus_(OpenStax)/06%3A_Applications_of_Integration/6.04%3A_Arc_Length_of_a_Curve_and_Surface_Area"/>
+<node TEXT="07-09_4_length-of-a-curve.py" ID="ID_1694656603" CREATED="1709401144515" MODIFIED="1709401151605">
+<icon BUILTIN="launch"/>
+</node>
 </node>
 </node>
 </node>
