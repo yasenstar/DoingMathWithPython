@@ -1187,7 +1187,8 @@
 <node TEXT="07-01-02 An Overview of Common Mathematical Functions" ID="ID_562852895" CREATED="1707342509650" MODIFIED="1707342523479"/>
 </node>
 <node TEXT="07-02 Assumptions in SymPy" ID="ID_496349448" CREATED="1707342524135" MODIFIED="1707342533083"/>
-<node TEXT="07-03 Finding the Limit of Functions" FOLDED="true" ID="ID_293510088" CREATED="1707342534018" MODIFIED="1707342540722">
+<node TEXT="07-03 Finding the Limit of Functions" FOLDED="true" ID="ID_293510088" CREATED="1707342534018" MODIFIED="1709349918507">
+<arrowlink DESTINATION="ID_154033153"/>
 <node TEXT="07-03-01 Continuous Compound Interest" ID="ID_194359020" CREATED="1707342540738" MODIFIED="1707342554697"/>
 <node TEXT="07-03-02 Instantaneous Rate of Change" ID="ID_1502014444" CREATED="1707342554856" MODIFIED="1707342563406"/>
 </node>
@@ -1216,7 +1217,7 @@
 </node>
 <node TEXT="07-04-02 Calculating Partial Derivatives" ID="ID_1948594748" CREATED="1707342579884" MODIFIED="1707342593273"/>
 </node>
-<node TEXT="07-05 Higher-Order Derivatives and Finding the Maxima" ID="ID_784040924" CREATED="1707342596174" MODIFIED="1707342614077">
+<node TEXT="07-05 Higher-Order Derivatives and Finding the Maxima" FOLDED="true" ID="ID_784040924" CREATED="1707342596174" MODIFIED="1707342614077">
 <node TEXT="To find higher-order derivatives, specify the order of the derivative to calculate as the 3rd argument" ID="ID_211923503" CREATED="1709301880780" MODIFIED="1709301908965">
 <node TEXT="# order = n (n&gt;=2)&#xa;Derivative(f,x,n)" ID="ID_1980253175" CREATED="1709302667493" MODIFIED="1709302705494"/>
 </node>
@@ -1224,15 +1225,34 @@
 <icon BUILTIN="launch"/>
 </node>
 </node>
-<node TEXT="07-06 Finding the Global Maximum Using Gradient Ascent" FOLDED="true" ID="ID_963224785" CREATED="1707342615360" MODIFIED="1707342629515">
-<node TEXT="07-06-01 A Generic Program for Gradient Ascent" ID="ID_1227064558" CREATED="1707342629530" MODIFIED="1707342640883"/>
+<node TEXT="07-06 Finding the Global Maximum Using Gradient Ascent (梯度上升法)" FOLDED="true" ID="ID_963224785" CREATED="1707342615360" MODIFIED="1709348411149">
+<arrowlink DESTINATION="ID_1930096120"/>
+<node TEXT="07-06-00 Basic grad_ascent() function" ID="ID_1901897771" CREATED="1709329813160" MODIFIED="1709329827147">
+<node TEXT="07-06_1_basic-gradient-ascent-function.py" ID="ID_283292073" CREATED="1709349987648" MODIFIED="1709350028139">
+<icon BUILTIN="launch"/>
+</node>
+</node>
+<node TEXT="07-06-01 A Generic Program for Gradient Ascent" ID="ID_1227064558" CREATED="1707342629530" MODIFIED="1707342640883">
+<node TEXT="07-06_2_generic-gradient-ascent-function.py" ID="ID_1513754308" CREATED="1709350009282" MODIFIED="1709350028139">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="07-06-02 A Word of Warning About the Initial Value" ID="ID_172706931" CREATED="1707342641059" MODIFIED="1707342657890"/>
-<node TEXT="07-06-03 The Role of the Step Size and Epsilon" ID="ID_585946076" CREATED="1707342660605" MODIFIED="1707342671113"/>
+<node TEXT="07-06-03 The Role of the Step Size and Epsilon" ID="ID_585946076" CREATED="1707342660605" MODIFIED="1707342671113">
+<node TEXT="07-06_3_enhanced-gradient-ascent-function.py" ID="ID_959166442" CREATED="1709350020778" MODIFIED="1709350028138">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 </node>
 <node TEXT="07-07 Finding the Integrals of Functions" ID="ID_1031063138" CREATED="1707342671924" MODIFIED="1707342681602"/>
 <node TEXT="07-08 Probability Density Functions" ID="ID_1158648570" CREATED="1707342681767" MODIFIED="1707342688847"/>
 <node TEXT="07-09 Programming Challenges" ID="ID_848369498" CREATED="1707342689164" MODIFIED="1707342695541">
-<node TEXT="1. Verify the Continuity of the Function" ID="ID_154033153" CREATED="1707342695556" MODIFIED="1707342703530"/>
+<node TEXT="1. Verify the Continuity of the Function" FOLDED="true" ID="ID_154033153" CREATED="1707342695556" MODIFIED="1707342703530">
+<node TEXT="Learning: Continuity at a Point" ID="ID_784362389" CREATED="1709348814062" MODIFIED="1709348858388" LINK="https://courses.lumenlearning.com/calculus1/chapter/continuity-at-a-point/#:~:text=A%20function%20f%20%28x%29%20f%20%28x%29%20is%20continuous,it%20fails%20to%20be%20continuous%20at%20a%20a."/>
+<node TEXT="07-09_1_vefiry-continuity.py" ID="ID_173132438" CREATED="1709349970744" MODIFIED="1709349977711">
+<icon BUILTIN="launch"/>
+</node>
+</node>
 <node TEXT="2. Implement the Gradient Descent" ID="ID_1930096120" CREATED="1707342704054" MODIFIED="1707342710733"/>
 <node TEXT="3. Area Between Two Curves" ID="ID_744265456" CREATED="1707342710908" MODIFIED="1707342720041"/>
 <node TEXT="4. Finding the Length of a Curve" ID="ID_1046301912" CREATED="1707342720568" MODIFIED="1707342727400"/>

@@ -830,26 +830,48 @@ The output set of a function is called therange.
 ## 07-02 Assumptions in SymPy
 
 ## 07-03 Finding the Limit of Functions
-
+ (see:1. Verify the Continuity of the Function)
 ### 07-03-01 Continuous Compound Interest
 
 ### 07-03-02 Instantaneous Rate of Change
 
-## 07-04 Finding the Derivative of Functions
+## 07-04 Finding the Derivative (导数) of Functions
+ 
+By default, creating the derivative object usingDerivative  class finds the first-order derivative
+
+ (see:To find higher-order derivatives, specify the order of the derivative to calculate as the 3rd argument)
+#### Derivative(f,x)
 
 ### 07-04-01 A Derivative Calculator
+
+#### 07-04_derivative-calculator.py
 
 ### 07-04-02 Calculating Partial Derivatives
 
 ## 07-05 Higher-Order Derivatives and Finding the Maxima
 
-## 07-06 Finding the Global Maximum Using Gradient Ascent
+### To find higher-order derivatives, specify the order of the derivative to calculate as the 3rd argument
+
+#### # order = n (n>=2)
+Derivative(f,x,n)
+
+### 07-05_find-maxima-minima.py
+
+## 07-06 Finding the Global Maximum Using Gradient Ascent (梯度上升法)
+ (see:2. Implement the Gradient Descent)
+### 07-06-00 Basic grad_ascent() function
+
+#### 07-06_1_basic-gradient-ascent-function.py
 
 ### 07-06-01 A Generic Program for Gradient Ascent
+
+#### 07-06_2_generic-gradient-ascent-function.py
 
 ### 07-06-02 A Word of Warning About the Initial Value
 
 ### 07-06-03 The Role of the Step Size and Epsilon
+
+#### 07-06_3_enhanced-gradient-ascent-function.py
 
 ## 07-07 Finding the Integrals of Functions
 
@@ -858,6 +880,10 @@ The output set of a function is called therange.
 ## 07-09 Programming Challenges
 
 ### 1. Verify the Continuity of the Function
+
+#### Learning: Continuity at a Point
+
+#### 07-09_1_vefiry-continuity.py
 
 ### 2. Implement the Gradient Descent
 
