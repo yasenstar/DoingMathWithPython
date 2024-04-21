@@ -905,7 +905,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Using len() to find set&apos;s cardinality." ID="ID_1360869027" CREATED="1708620039928" MODIFIED="1708620055739"/>
@@ -1027,7 +1026,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06 Drawing Geometric Shapes and Fractals" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
+<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1045,8 +1044,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="06-01 Drawing Geometric Shapes with Matplotlib&apos;s Patches" FOLDED="true" ID="ID_1494065540" CREATED="1707342334115" MODIFIED="1707342351553">
 <node TEXT="06-01-01 Drawing a Circle" ID="ID_1731306085" CREATED="1707342351571" MODIFIED="1707342356943">
 <node TEXT="06-01_1_draw-circle.py" ID="ID_938191141" CREATED="1708906811098" MODIFIED="1708906817107">
@@ -1134,8 +1132,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="07-01 What is a Function?" FOLDED="true" ID="ID_1649014144" CREATED="1707342490040" MODIFIED="1707342497084">
 <node ID="ID_266911521" CREATED="1709083950779" MODIFIED="1709084012788"><richcontent TYPE="NODE">
 
@@ -1149,7 +1146,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="07-01-01 Domain and Range of a Function" ID="ID_806465946" CREATED="1707342497088" MODIFIED="1707342507013">
@@ -1165,7 +1161,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1587952763" CREATED="1709084048761" MODIFIED="1709084063662"><richcontent TYPE="NODE">
@@ -1180,7 +1175,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1205,7 +1199,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink DESTINATION="ID_211923503"/>
 <node TEXT="Derivative(f,x)" ID="ID_823692297" CREATED="1709302632279" MODIFIED="1709302643856"/>
