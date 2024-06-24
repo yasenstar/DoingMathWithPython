@@ -104,7 +104,7 @@
 </node>
 </node>
 </node>
-<node TEXT="01 Working with Numbers" FOLDED="true" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707678638952"><richcontent TYPE="NOTE">
+<node TEXT="01 Working with Numbers" POSITION="bottom_or_right" ID="ID_1060791274" CREATED="1707336187785" MODIFIED="1707678638952"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -1026,7 +1026,7 @@
 </node>
 </node>
 </node>
-<node TEXT="06 Drawing Geometric Shapes and Fractals" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
+<node TEXT="06 Drawing Geometric Shapes and Fractals" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875619201" CREATED="1707342319461" MODIFIED="1708890293210"><richcontent TYPE="NOTE">
 <html>
   <head>
     
